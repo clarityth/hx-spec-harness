@@ -1,0 +1,23 @@
+{
+  "repository": "github/awesome-copilot",
+  "ref": "5269f7ea2d6c3a9bfda5ed878b6726cf509121fd",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "git_blob_sha1": "89bc5e962c9944cdb050887062afdaaf89be504a"
+    },
+    {
+      "path": "skills/test-gap-audit/SKILL.md",
+      "sha256": "a7747ac0b60d33ec6a44b9703ae11e8f6bf7aede251f117cc46599d182bfef21",
+      "git_blob_sha1": "31ea9fa996bf9efa3343a70f95efda34a1eb8cd7"
+    },
+    {
+      "path": "skills/test-gap-audit/scripts/coverage_map.py",
+      "sha256": "ba40f3756cf30aa499981f9ba684dabb996b239c9898fc7062fbe4186cd18e63",
+      "git_blob_sha1": "661a69b55adce35bbea9ecbf11925ab52a20afe0"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "repository": "github/awesome-copilot",
+  "ref": "5269f7ea2d6c3a9bfda5ed878b6726cf509121fd",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "git_blob_sha1": "89bc5e962c9944cdb050887062afdaaf89be504a"
+    },
+    {
+      "path": "skills/sql-code-review/SKILL.md",
+      "sha256": "3f359d49372c1635176461fd6d82b4cfc799c6e0e29539c8414e67633395a984",
+      "git_blob_sha1": "689c76eac6e6fe3801023ecb4e5bd3f8ec978fb3"
+    }
+  ]
+}

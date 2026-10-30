@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "title": "합성 HTTP API 과제",
+  "requirements": [
+    {
+      "id": "R1",
+      "description": "합계API",
+      "source": {
+        "path": "TASK.md",
+        "quote": "GET /sum?a=2&b=3 요청은 JSON으로 합계 5를 반환합니다."
+      },
+      "expected": "200상태와합계5를반환합니다.",
+      "implementation": [
+        "app.py"
+      ],
+      "checks": [
+        "C1"
+      ],
+      "verification": "behavior",
+      "mandatory": true
+    },
+    {
+      "id": "R2",
+      "description": "입력실패",
+      "source": {
+        "path": "TASK.md",
+        "quote": "입력 누락과 잘못된 정수에는 HTTP 400과 JSON 오류를 반환합니다."
+      },
+      "expected": "400상태와errorJSON을반환합니다.",
+      "implementation": [
+        "app.py"
+      ],
+      "checks": [
+        "C2"
+      ],
+      "verification": "behavior",
+      "mandatory": true
+    },
+    {
+      "id": "R3",
+      "description": "직접화면확인",
+      "source": {
+        "path": "TASK.md",
+        "quote": "첫 화면의 설명과 입력 예시는 사용자가 미리보기에서 직접 확인합니다."
+      },
+      "expected": "첫화면설명과예시가보입니다.",
+      "implementation": [
+        "app.py"
+      ],
+      "checks": [],
+      "verification": "manual",
+      "mandatory": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "C1",
+      "kind": "unittest",
+      "tests": [
+        "test_api.ApiTests.test_sum"
+      ],
+      "test_dir": "tests",
+      "tracked_paths": [
+        "app.py",
+        "tests"
+      ],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C2",
+      "kind": "unittest",
+      "tests": [
+        "test_api.ApiTests.test_invalid"
+      ],
+      "test_dir": "tests",
+      "tracked_paths": [
+        "app.py",
+        "tests"
+      ],
+      "timeout_seconds": 10
+    }
+  ],
+  "deliverables": [
+    "app.py",
+    "tests",
+    "TASK.md"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "repository": "snflkd/fluent-korean",
+  "ref": "ce8683f0eba8cddb91de4dcd151425ff73e60498",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c3c50c5f4ae1298e70c9dda150fe9b5f218e43a12205818829ce6b47163a55aa",
+      "git_blob_sha1": "b5abc5ba03751a6063236fe1ad057a8ee0da2683"
+    },
+    {
+      "path": "plugins/fluent-korean/output-styles/fluent-korean.md",
+      "sha256": "ce5aa71e58371e3fc02ff8cb165e07c9234f5166f6541423a91cc4cb40878975",
+      "git_blob_sha1": "bce347c1db5566b1fbabebb2540efa1b8ba8b256"
+    },
+    {
+      "path": "plugins/fluent-korean/output-styles/fluent-korean-not-coding.md",
+      "sha256": "2b97cc0278889eca416a4d602ed6f330291d4323eb835f1616ca26db00b52e97",
+      "git_blob_sha1": "a4b1a52be0461ec94ffb76619954a61083c8d5ac"
+    }
+  ]
+}

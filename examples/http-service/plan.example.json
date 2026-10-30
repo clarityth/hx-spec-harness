@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "goal": "합성 HTTP API 과제",
+  "scope": "이 합성 과제의 원문과 계약에 명시한 구현 및 검사 범위입니다.",
+  "acceptance": [
+    "200상태와합계5를반환합니다.",
+    "400상태와errorJSON을반환합니다.",
+    "첫화면설명과예시가보입니다."
+  ],
+  "steps": [
+    {
+      "description": "합계API",
+      "requirements": [
+        "R1"
+      ],
+      "checks": [
+        "C1"
+      ]
+    },
+    {
+      "description": "입력실패",
+      "requirements": [
+        "R2"
+      ],
+      "checks": [
+        "C2"
+      ]
+    },
+    {
+      "description": "직접화면확인",
+      "requirements": [
+        "R3"
+      ],
+      "checks": []
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "title": "합성 CSV 집계 과제",
+  "requirements": [
+    {
+      "id": "R1",
+      "description": "ID 보존과 집계",
+      "source": {
+        "path": "TASK.md",
+        "quote": "상품 ID는 원본 문자열을 유지하고 같은 ID의 수량을 합산합니다."
+      },
+      "expected": "001과1은서로다른ID이며001의합계는3입니다.",
+      "implementation": [
+        "solution.py"
+      ],
+      "checks": [
+        "C1"
+      ],
+      "verification": "behavior",
+      "mandatory": true
+    },
+    {
+      "id": "R2",
+      "description": "포함 경계와 정렬",
+      "source": {
+        "path": "TASK.md",
+        "quote": "합계가 3 이상인 상품을 ID 문자열 순으로 출력합니다."
+      },
+      "expected": "3은포함하고2는제외합니다.",
+      "implementation": [
+        "solution.py"
+      ],
+      "checks": [
+        "C2",
+        "C4"
+      ],
+      "verification": "behavior",
+      "mandatory": true
+    },
+    {
+      "id": "R3",
+      "description": "잘못된 입력",
+      "source": {
+        "path": "TASK.md",
+        "quote": "빈 ID, 정수가 아닌 수량, 음수 수량은 오류로 처리합니다."
+      },
+      "expected": "ValueError를발생시킵니다.",
+      "implementation": [
+        "solution.py"
+      ],
+      "checks": [
+        "C3"
+      ],
+      "verification": "behavior",
+      "mandatory": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "C1",
+      "kind": "unittest",
+      "tests": [
+        "test_summary.SummaryTests.test_raw_ids_and_duplicates"
+      ],
+      "test_dir": "tests",
+      "tracked_paths": [
+        "solution.py",
+        "tests",
+        "orders.csv"
+      ],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C2",
+      "kind": "unittest",
+      "tests": [
+        "test_summary.SummaryTests.test_inclusive_boundary_and_sort"
+      ],
+      "test_dir": "tests",
+      "tracked_paths": [
+        "solution.py",
+        "tests",
+        "orders.csv"
+      ],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C3",
+      "kind": "unittest",
+      "tests": [
+        "test_summary.SummaryTests.test_invalid_rows"
+      ],
+      "test_dir": "tests",
+      "tracked_paths": [
+        "solution.py",
+        "tests",
+        "orders.csv"
+      ],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C4",
+      "kind": "json",
+      "argv": [
+        "{python}",
+        "solution.py"
+      ],
+      "expected": {
+        "001": 3,
+        "1": 4
+      },
+      "tracked_paths": [
+        "solution.py",
+        "orders.csv"
+      ],
+      "timeout_seconds": 10
+    }
+  ],
+  "deliverables": [
+    "solution.py",
+    "tests",
+    "orders.csv",
+    "TASK.md"
+  ]
+}

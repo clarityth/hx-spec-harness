@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "goal": "합성 CSV 집계 과제",
+  "scope": "이 합성 과제의 원문과 계약에 명시한 구현 및 검사 범위입니다.",
+  "acceptance": [
+    "001과1은서로다른ID이며001의합계는3입니다.",
+    "3은포함하고2는제외합니다.",
+    "ValueError를발생시킵니다."
+  ],
+  "steps": [
+    {
+      "description": "ID 보존과 집계",
+      "requirements": [
+        "R1"
+      ],
+      "checks": [
+        "C1"
+      ]
+    },
+    {
+      "description": "포함 경계와 정렬",
+      "requirements": [
+        "R2"
+      ],
+      "checks": [
+        "C2",
+        "C4"
+      ]
+    },
+    {
+      "description": "잘못된 입력",
+      "requirements": [
+        "R3"
+      ],
+      "checks": [
+        "C3"
+      ]
+    }
+  ],
+  "questions": []
+}

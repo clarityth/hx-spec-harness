@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "title": "합성 과제: 지연 주문 집계",
+  "requirements": [
+    {
+      "id": "R1",
+      "description": "CSV를 읽는 CLI",
+      "source": {"path": "TASK.md", "quote": "orders.csv를 읽어 고객별 지연 주문 건수를 JSON으로 출력하는 CLI를 만드세요."},
+      "expected": "python3 solution.py가 제공 CSV에서 고객별 지연 건수를 JSON으로 출력합니다.",
+      "mandatory": true,
+      "verification": "behavior",
+      "implementation": ["solution.py"],
+      "checks": ["C4"]
+    },
+    {
+      "id": "R2",
+      "description": "원본 고객 ID와 첫 주문만 사용",
+      "source": {"path": "TASK.md", "quote": "고객 ID는 원본 문자열로 보존하며, 동일한 주문 ID는 처음 나타난 행만 사용합니다."},
+      "expected": "001과 1은 다른 고객이며 중복 주문은 먼저 나온 행만 반영합니다.",
+      "mandatory": true,
+      "verification": "behavior",
+      "implementation": ["solution.py"],
+      "checks": ["C1", "C4"]
+    },
+    {
+      "id": "R3",
+      "description": "단위 변환과 60분 경계",
+      "source": {"path": "TASK.md", "quote": "지연 시간은 minutes와 hours 단위를 지원하며 60분 이상이면 지연 주문입니다."},
+      "expected": "60분과 1시간은 포함하고 그보다 짧은 시간은 제외합니다.",
+      "mandatory": true,
+      "verification": "behavior",
+      "implementation": ["solution.py"],
+      "checks": ["C2", "C4"]
+    },
+    {
+      "id": "R4",
+      "description": "잘못된 행 제외",
+      "source": {"path": "TASK.md", "quote": "빈 고객 ID, 잘못된 숫자, 음수 지연 시간, 지원하지 않는 단위는 제외하고 excluded_rows에 건수를 기록합니다."},
+      "expected": "네 종류의 잘못된 행과 유한하지 않은 숫자는 제외 건수에 포함합니다.",
+      "mandatory": true,
+      "verification": "behavior",
+      "implementation": ["solution.py"],
+      "checks": ["C3", "C4"]
+    },
+    {
+      "id": "R5",
+      "description": "중복 건수와 JSON 구조 및 정렬",
+      "source": {"path": "TASK.md", "quote": "중복 주문으로 제외한 행은 duplicate_rows에 기록하며 excluded_rows와 중복 집계하지 않습니다.\nJSON은 counts, excluded_rows, duplicate_rows 세 필드를 포함합니다. counts는 지연 주문이 있는 고객만 고객 ID 문자열 순으로 정렬합니다."},
+      "expected": "중복과 잘못된 행의 수를 분리하고 지연 고객만 문자열 순으로 출력합니다.",
+      "mandatory": true,
+      "verification": "behavior",
+      "implementation": ["solution.py"],
+      "checks": ["C1", "C2", "C3", "C4"]
+    }
+  ],
+  "checks": [
+    {
+      "id": "C1",
+      "kind": "unittest",
+      "test_dir": "tests",
+      "tests": ["test_solution.OrderSummaryTests.test_original_customer_ids_and_first_order_win"],
+      "tracked_paths": ["solution.py", "tests", "orders.csv"],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C2",
+      "kind": "unittest",
+      "test_dir": "tests",
+      "tests": ["test_solution.OrderSummaryTests.test_threshold_in_both_units_and_only_delayed_customers"],
+      "tracked_paths": ["solution.py", "tests", "orders.csv"],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C3",
+      "kind": "unittest",
+      "test_dir": "tests",
+      "tests": ["test_solution.OrderSummaryTests.test_invalid_rows_and_duplicate_categories_do_not_overlap"],
+      "tracked_paths": ["solution.py", "tests", "orders.csv"],
+      "timeout_seconds": 10
+    },
+    {
+      "id": "C4",
+      "kind": "json",
+      "argv": ["{python}", "solution.py"],
+      "expected": {"counts": {"001": 2, "1": 1}, "excluded_rows": 4, "duplicate_rows": 1},
+      "tracked_paths": ["solution.py", "orders.csv"],
+      "timeout_seconds": 10
+    }
+  ],
+  "deliverables": ["solution.py", "tests", "README.md"]
+}
