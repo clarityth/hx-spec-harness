@@ -5,6 +5,8 @@ description: 구현 전에 계획과 선택지를 작성하고 미해결 요구�
 
 # 구현 전 계획과 질문
 
+기능 범위와 제약이 모호하면 `.harness-kit/third_party/system-design-skills/skills/requirements-scoping/SKILL.md`와 필요한 질문 참조를 읽습니다. API를 설계하면 `.harness-kit/third_party/system-design-skills/skills/api-design/SKILL.md`를 읽고 실제 요청·응답, 오류와 입력 제한을 계약에 반영합니다. 먼저 `.harness-kit/docs/upstream-policy.md`의 적용 차이를 확인합니다. 원문의 가정 진행 예시로 사용자 답변이나 승인을 대체하지 않습니다. 과제에 없는 대규모 트래픽, 클라우드와 분산 구조를 요구로 추가하지 않습니다.
+
 먼저 `.harness-kit/docs/upstream-policy.md`와 `.harness-kit/third_party/obra-superpowers/skills/writing-plans/SKILL.md`를 읽습니다. 목표, 범위, 파일별 책임, 구현 순서와 검증 명령을 구체화합니다. 계획의 길이는 작업에 맞춥니다. 원문의 별도 executor 스킬은 호출하지 않고 승인 뒤 hx-build로 진행합니다.
 
 `.harness/plan.json`에는 goal, scope, acceptance, steps와 questions를 작성합니다. steps의 requirements와 checks는 계약 ID를 참조합니다. 결과를 바꿀 모호함과 선택은 질문, 영향, 선택지와 권장안을 제시해 사용자에게 묻습니다. 답변 없이 answered로 바꾸지 않습니다. 명시적 선택 위임도 범위와 근거를 기록합니다.

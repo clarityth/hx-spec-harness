@@ -27,3 +27,9 @@
 명세 기반 작업의 개념 참고는 [GitHub Spec Kit](https://github.com/github/spec-kit), [OpenSpec](https://github.com/Fission-AI/OpenSpec)입니다. 커밋 형식은 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)를 참고합니다. 이 도구들의 CLI와 코드는 포함하지 않습니다.
 
 공개 파일은 `public-manifest.json`의 정확한 목록으로 관리합니다. 루트 Git 메타데이터와 캐시는 배포에서 제외하며 목록에 넣을 수 없습니다. 그 밖의 목록 밖 파일, 잘못된 경로와 배포 대상 심볼릭 링크를 거부합니다. 파일 내용의 공개 적합성이나 사용자의 배포 권한까지 자동 인증하지 않습니다. 공개 배포본의 URL과 판본은 저장소에서 확인합니다. ZIP 생성만으로 게시 완료를 주장하지 않습니다.
+
+## 요구와 API 설계 보강
+
+`proyecto26/system-design-skills`의 고정 커밋 `a70772efb956e8c9b78ef5b7538dee00cc3b9263`에서 requirements-scoping과 api-design 및 동봉 참조를 포함했습니다. [MIT LICENSE](third_party/system-design-skills/LICENSE)와 [원본 해시](third_party/system-design-skills/SOURCE.json)를 보존했습니다. 전체 플러그인과 미포함 스킬은 설치하지 않습니다.
+
+React 상태 처리에는 `github/awesome-copilot`의 커밋 `5269f7ea2d6c3a9bfda5ed878b6726cf509121fd`에서 react19-concurrent-patterns와 react18-batching-patterns 및 참조 5개를 포함했습니다. [MIT LICENSE](third_party/react-guidance/LICENSE)와 [원본 해시](third_party/react-guidance/SOURCE.json)를 보존했습니다.

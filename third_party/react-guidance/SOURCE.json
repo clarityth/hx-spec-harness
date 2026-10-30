@@ -1,0 +1,48 @@
+{
+  "repository": "github/awesome-copilot",
+  "ref": "5269f7ea2d6c3a9bfda5ed878b6726cf509121fd",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "git_blob_sha1": "89bc5e962c9944cdb050887062afdaaf89be504a"
+    },
+    {
+      "path": "skills/react19-concurrent-patterns/SKILL.md",
+      "sha256": "f953aa23d213b4a7f7800f8f59529c3d1321e12f49ef7f7bf7ab7a5e0235fbc3",
+      "git_blob_sha1": "55f61d0f0d2b6289c262a7edcf729b77b857acb3"
+    },
+    {
+      "path": "skills/react19-concurrent-patterns/references/react19-actions.md",
+      "sha256": "7cf5f5b5aab050d2c6778976183a58775cbf1f17cdde568124171278a83a9131",
+      "git_blob_sha1": "9be93b7ab1d33eeed27da88d8913a69a0c4c5f23"
+    },
+    {
+      "path": "skills/react19-concurrent-patterns/references/react19-suspense.md",
+      "sha256": "067064664c4b924950cd5e7bb1e54ef0737a1ddcda88c587a7d89e5b539587a1",
+      "git_blob_sha1": "407b31b025f14e495bdc10b8fdccc2e77ccd8450"
+    },
+    {
+      "path": "skills/react19-concurrent-patterns/references/react19-use.md",
+      "sha256": "d3514c76d1eef0d411189b922c05d4e83c43194392cc37393a4a63209ab5cc34",
+      "git_blob_sha1": "58086a00a07a5ae15d4960a6c84fa03701d58480"
+    },
+    {
+      "path": "skills/react18-batching-patterns/SKILL.md",
+      "sha256": "f4bdb6d5b817c19b00062392ff51965d42fe185facbb5724653dd9aa39c3140e",
+      "git_blob_sha1": "28e343eff80da43895b4ccb8062442bd93dd7c86"
+    },
+    {
+      "path": "skills/react18-batching-patterns/references/batching-categories.md",
+      "sha256": "bc3b35cffc4ef226ac2bec5755eb1784fc7367b743ae152dda01d745ffc58b36",
+      "git_blob_sha1": "d8d8144c3f1daf6fcd70b9ac849e0d8ea0007106"
+    },
+    {
+      "path": "skills/react18-batching-patterns/references/flushSync-guide.md",
+      "sha256": "20730a5da79c68fe5d7d678fa569c24e3b05ce57d4b96394889591e379a447d0",
+      "git_blob_sha1": "42a3dc8b07a72374a7c7bfc295551db7e543436c"
+    }
+  ]
+}

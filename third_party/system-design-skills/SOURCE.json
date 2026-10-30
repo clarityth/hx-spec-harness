@@ -1,0 +1,54 @@
+{
+  "repository": "proyecto26/system-design-skills",
+  "repository_url": "https://github.com/proyecto26/system-design-skills",
+  "ref": "a70772efb956e8c9b78ef5b7538dee00cc3b9263",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "775ec66aca270a92ce2f0c5b24c32b8e87119e8d7a68c56f8720ad3b2fe417f3",
+      "git_blob_sha1": "9569ae2e66e009172bdb561a948f27632414654f"
+    },
+    {
+      "path": "skills/api-design/SKILL.md",
+      "sha256": "e21704b1151d8f49b51db80da3d6b6ccc78a8acfa579770debbc0e721a2b5153",
+      "git_blob_sha1": "d10cdd18f86b1235fc60d573e721fceb5c5bb97f"
+    },
+    {
+      "path": "skills/api-design/references/deep-dive.md",
+      "sha256": "2269ee437880c4adb99e28ae11b6a113a3d9fca982ff8aa7838be10f6e594564",
+      "git_blob_sha1": "a51e86a4b823a5fbd02b72ebce581fd4065978ec"
+    },
+    {
+      "path": "skills/api-design/references/providers/aws.md",
+      "sha256": "0f06075217053a56728df8f7740fc77e2dfce5235be8eca2ab1abcac4653eafb",
+      "git_blob_sha1": "034339a710fdab71518888221d2df0230ce4a2d8"
+    },
+    {
+      "path": "skills/api-design/references/providers/azure.md",
+      "sha256": "fa1762a7e60a575d473ceadf17ded9aca51928b795c7d47381a129781231aad1",
+      "git_blob_sha1": "c3f9be1e698c95f580cc0a7336aa64699dd6fc56"
+    },
+    {
+      "path": "skills/api-design/references/providers/gcp.md",
+      "sha256": "5e252148999ff821854752d297c44e08d07614be966d01a596e37b4234ac5828",
+      "git_blob_sha1": "999d6bab8f7c447196bbd430a6fa02da4c397405"
+    },
+    {
+      "path": "skills/api-design/references/providers/generic.md",
+      "sha256": "df2a58503afdb79067ac66f1a6912b9fca942e62e69839cf83b1878d27c74654",
+      "git_blob_sha1": "35001b47addff1323e15ea438f82a84eb8162471"
+    },
+    {
+      "path": "skills/requirements-scoping/SKILL.md",
+      "sha256": "3858ef3f1d5d609fdfa15f6fa380451fe4800061012d1bfeaf39787f287fb930",
+      "git_blob_sha1": "7c000e2ee38c0120bd0c9e3c3c7de043e335484c"
+    },
+    {
+      "path": "skills/requirements-scoping/references/clarifying-question-catalog.md",
+      "sha256": "9d5264355a7dcf156f47efcea11c33391330380e6362174fc02eac06dda4e879",
+      "git_blob_sha1": "9dd8bbbad144623ec838feaa0b03da7810c2c9fb"
+    }
+  ]
+}
