@@ -31,3 +31,7 @@
 `.harness/state.json`에는 `next`, `decisions`, `plan_approval`, `observations`와 최근 검사 포인터가 있습니다. `plan_approval`은 승인 당시 계획, 계약과 원문 파일의 판본을 묶습니다. 이 중 하나가 바뀌면 게이트가 `stale`이 되고 과거 검사와 수동 관찰을 현재 통과 근거로 표시하지 않습니다. 변경된 계획을 사용자에게 다시 제시하고 실제 재승인 근거를 기록한 뒤 필요한 검사를 다시 실행합니다. `check`는 각 검사 실행 전 승인 판본을 다시 확인하고 실행 후에도 계획, 계약, 원문과 추적 파일의 판본을 대조합니다. 실행 중 변경이 있으면 통과 결과로 남기지 않고 다음 검사를 중단합니다. `.harness/evidence/`의 검사 기록은 도구가 관리합니다. 승인 기록과 증거의 통과 표시를 손으로 만들지 않습니다.
 
 계약과 계획의 실제 형식은 [docs/contract.md](docs/contract.md)에 있습니다. 명령이 확인하지 못하는 것은 [docs/implementation-guide.md](docs/implementation-guide.md)에 정리했습니다.
+
+## 인계 문서 확인
+
+`freeze`는 계약에 적힌 산출물 외에도 프로젝트 루트의 `handoff.md`가 존재하고 UTF-8 내용이 비어 있지 않은지 확인합니다. 누락되거나 비어 있으면 종료 코드 1을 반환합니다. `handoff.content_accuracy`는 `not_verified`입니다. 파일 존재 검사는 설명의 정확성을 판정하지 않습니다. 인계 내용은 실제 코드와 검사 결과에 대조합니다. 이 문서는 로컬 인계 기준이며 공식 제출 파일 목록은 과제 원문을 따릅니다.

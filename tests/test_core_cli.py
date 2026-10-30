@@ -20,6 +20,7 @@ class WorkflowTests(unittest.TestCase):
         self.root = Path(self.tmp.name)
         (self.root / 'TASK.md').write_text('Return the sum. Display the result. Build successfully.')
         (self.root / 'app.py').write_text('import json\nprint(json.dumps({"sum": 5}))\n')
+        (self.root / 'handoff.md').write_text('Synthetic fixture. Run app.py to return sum 5.\n')
         code, _ = self.cli('init')
         self.assertEqual(code, 0)
         self.contract = {
@@ -77,6 +78,28 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(self.cli('status')[1]['requirements'][0]['status'], 'stale')
         self.assertEqual(self.cli('check')[0], 1)
         self.assertEqual(self.cli('freeze')[0], 1)
+
+    def test_freeze_requires_nonempty_handoff_without_claiming_content_accuracy(self):
+        self.assertEqual(self.cli('check')[0], 0)
+        path = self.root / 'handoff.md'
+        path.unlink()
+        code, report = self.cli('freeze')
+        self.assertEqual(code, 1)
+        self.assertTrue(report['automatic_checks_passed'])
+        self.assertEqual(report['handoff']['status'], 'missing')
+        path.write_text(' \n\t')
+        self.assertEqual(self.cli('freeze')[1]['handoff']['status'], 'empty')
+        self.assertEqual(self.cli('freeze')[0], 1)
+        path.write_text('Synthetic handoff: run app.py; expected sum is 5.')
+        code, report = self.cli('freeze')
+        self.assertEqual(code, 0)
+        self.assertEqual(report['handoff']['content_accuracy'], 'not_verified')
+        self.assertNotIn('handoff.md', report['submission_files'])
+        self.assertEqual(report['handoff']['sha256'], digest(path))
+        self.contract['deliverables'].append('handoff.md')
+        self.write_contract()
+        self.assertEqual(self.cli('check')[0], 0)
+        self.assertIn('handoff.md', self.cli('freeze')[1]['submission_files'])
 
     def test_exit_zero_is_not_behavior_and_false_json_fails(self):
         self.contract['checks'][0]['kind'] = 'command'

@@ -3,6 +3,7 @@
   "files": [
     ".gitignore",
     "AGENTS.md",
+    "BOOTSTRAP.md",
     "GUARDRAILS.md",
     "HARNESS.md",
     "LICENSE",
@@ -16,8 +17,10 @@
     "docs/implementation-guide.md",
     "docs/methodology.md",
     "docs/orchestration.md",
+    "docs/session-playbook.md",
     "docs/skill-catalog.md",
     "docs/upstream-policy.md",
+    "docs/validation.md",
     "docs/writing-standard.md",
     "examples/csv-summary/TASK.md",
     "examples/csv-summary/contract.example.json",

@@ -25,6 +25,7 @@ def run(hx, root, *args, expected=0, json_output=True):
 
 
 def prepare_synthetic_plan(hx, root):
+    (root / 'handoff.md').write_text('Synthetic test fixture handoff. See TASK.md and the executed check records.\n', encoding='utf-8')
     shutil.copyfile(root / 'contract.example.json', root / '.harness/contract.json')
     shutil.copyfile(root / 'plan.example.json', root / '.harness/plan.json')
     assert run(hx, root, 'plan')['plan_gate']['status'] == 'awaiting_approval'

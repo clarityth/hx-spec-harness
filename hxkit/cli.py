@@ -108,7 +108,7 @@ def install(root):
         raise ValueError(f'install interrupted; created paths: {created}; {exc}') from exc
     if existing_agents:
         agents_status = 'unchanged'
-        next_step = '기존 AGENTS 보존. 사용자가 HARNESS.md 및 .harness-kit/GUARDRAILS.md를 직접 읽도록 지시해야 함. '
+        next_step = '기존 AGENTS 보존. Codex가 HARNESS.md 및 .harness-kit/GUARDRAILS.md를 직접 읽고 진행하세요. '
     elif agents_entry is not None:
         agents_status = 'created'
         next_step = '새 AGENTS.md와 HARNESS.md를 읽으세요. '
@@ -271,11 +271,22 @@ def freeze(root, contract, state):
             manifest.update(snapshot(root, [path]))
         except (ValueError, OSError) as exc:
             missing.append(str(exc))
-    ready = gate['status'] == 'approved' and bool(report['requirements']) and not report['contract_errors'] and not missing and bool(manifest)
+    handoff = {'path': 'handoff.md', 'status': 'missing', 'content_accuracy': 'not_verified'}
+    try:
+        handoff_path = safe_path(root, 'handoff.md')
+        if not handoff_path.is_file():
+            raise ValueError('handoff.md must be a regular file')
+        handoff['status'] = 'present' if handoff_path.read_text(encoding='utf-8').strip() else 'empty'
+        if handoff['status'] == 'present':
+            handoff['sha256'] = snapshot(root, ['handoff.md'])['handoff.md']
+    except (ValueError, OSError) as exc:
+        handoff['reason'] = str(exc)
+    ready = gate['status'] == 'approved' and bool(report['requirements']) and not report['contract_errors'] and not missing and bool(manifest) and handoff['status'] == 'present'
     ready = ready and all(r['status'] == 'passed' for r in report['requirements'] if r['mandatory'])
     automatic = [r for r in report['requirements'] if r['mandatory'] and r['verification'] != 'manual']
     manual = [r['id'] for r in report['requirements'] if r['mandatory'] and r['verification'] == 'manual']
     report.update({'ready_for_candidate_review': ready, 'missing_deliverables': missing,
+                   'handoff': handoff,
                    'automatic_checks_passed': gate['status'] == 'approved' and bool(automatic) and all(r['status'] == 'passed' for r in automatic),
                    'requires_manual_review': manual,
                    'submission_files': manifest,
