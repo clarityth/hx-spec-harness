@@ -17,6 +17,7 @@
 HX_TOOLKIT_DIR=/absolute/path/to/hx-spec-harness
 HX_PROJECT_DIR=/absolute/path/to/project
 git clone https://github.com/clarityth/hx-spec-harness.git "$HX_TOOLKIT_DIR"
+python3 "$HX_TOOLKIT_DIR/hx.py" --root "$HX_PROJECT_DIR" install --dry-run
 python3 "$HX_TOOLKIT_DIR/hx.py" --root "$HX_PROJECT_DIR" install
 cd "$HX_PROJECT_DIR"
 python3 .harness-kit/hx.py --root . doctor

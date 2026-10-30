@@ -1,5 +1,5 @@
 import contextlib
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import io
 import json
 import re
@@ -90,6 +90,9 @@ class WorkflowTests(unittest.TestCase):
         path.write_text(' \n\t')
         self.assertEqual(self.cli('freeze')[1]['handoff']['status'], 'empty')
         self.assertEqual(self.cli('freeze')[0], 1)
+        path.write_text('작성 상태: 미작성 양식입니다. 아래 항목을 채우세요.')
+        self.assertEqual(self.cli('freeze')[0], 1)
+        self.assertEqual(self.cli('freeze')[1]['handoff']['status'], 'template')
         path.write_text('Synthetic handoff: run app.py; expected sum is 5.')
         code, report = self.cli('freeze')
         self.assertEqual(code, 0)
@@ -109,6 +112,43 @@ class WorkflowTests(unittest.TestCase):
         self.contract['checks'][0]['expected'] = {'sum': True}
         self.write_contract()
         self.assertEqual(self.cli('check')[0], 1)
+
+    def test_status_recommends_current_work_without_overwriting_user_next(self):
+        self.assertIn('구현', self.cli('status')[1]['recommended_action'])
+        self.assertEqual(self.cli('check')[0], 0)
+        self.assertIn('인계', self.cli('status')[1]['recommended_action'])
+        self.assertIn('인계', self.cli('status')[1]['next'])
+        self.assertEqual(self.cli('status')[1]['time_advice'], self.cli('status')[1]['recommended_action'])
+        (self.root / 'app.py').write_text('print("6")')
+        self.assertIn('다시', self.cli('status')[1]['recommended_action'])
+        self.assertEqual(self.cli('check')[0], 1)
+        self.assertIn('실패', self.cli('status')[1]['recommended_action'])
+        self.cli('next', '--text', '사용자가 지정한 다음 작업')
+        self.assertEqual(self.cli('status')[1]['next'], '사용자가 지정한 다음 작업')
+
+    def test_status_uses_remaining_time_without_changing_state(self):
+        state_path = self.root / '.harness/state.json'
+        state = read_json(state_path)
+        for minutes, message in ((9, '제출'), (25, '인계'), (-1, '마감')):
+            state['deadline'] = (datetime.now(timezone.utc) + timedelta(minutes=minutes)).isoformat()
+            atomic_json(state_path, state)
+            before = state_path.read_bytes()
+            self.assertIn(message, self.cli('status')[1]['time_advice'])
+            self.assertEqual(before, state_path.read_bytes())
+
+    def test_install_dry_run_is_read_only_and_matches_actual_install(self):
+        before = {p.relative_to(self.root).as_posix(): p.read_bytes()
+                  for p in self.root.rglob('*') if p.is_file()}
+        code, planned = self.cli('install', '--dry-run')
+        self.assertEqual(code, 0)
+        self.assertTrue(planned['dry_run'])
+        self.assertEqual(before, {p.relative_to(self.root).as_posix(): p.read_bytes()
+                                 for p in self.root.rglob('*') if p.is_file()})
+        self.assertFalse((self.root / '.harness-kit').exists())
+        code, actual = self.cli('install')
+        self.assertEqual(code, 0)
+        self.assertEqual(planned['would_create'], actual['created'])
+        self.assertEqual(self.cli('install', '--dry-run')[0], 2)
 
     def test_empty_contract_unknown_check_and_wrong_quote(self):
         self.contract['requirements'] = []
@@ -140,6 +180,25 @@ class WorkflowTests(unittest.TestCase):
         path.write_text('{}')
         self.assertEqual(self.cli('status')[1]['requirements'][0]['status'], 'stale')
 
+    def test_check_compares_only_verified_unchanged_definitions(self):
+        (self.root / 'app.py').write_text('print("6")')
+        code, report = self.cli('check')
+        self.assertEqual(code, 1)
+        self.assertEqual(report['checks'][0]['comparison']['status'], 'no_previous_run')
+        (self.root / 'app.py').write_text('print("{\\"sum\\":5}")')
+        code, report = self.cli('check')
+        self.assertEqual(code, 0)
+        compared = report['checks'][0]['comparison']
+        self.assertEqual(compared['previous_status'], 'failed')
+        self.assertEqual(compared['current_status'], 'passed')
+        self.assertEqual(compared['changed_files'], ['app.py'])
+        self.contract['checks'][0]['expected'] = {'sum': 6}
+        self.write_contract()
+        self.assertEqual(self.cli('check')[1]['checks'][0]['comparison']['status'], 'not_comparable')
+        state = read_json(self.root / '.harness/state.json')
+        (self.root / state['latest_checks']['C1']['path']).write_text('{}')
+        self.assertEqual(self.cli('check')[1]['checks'][0]['comparison']['status'], 'unavailable')
+
     def test_mutation_during_check_fails(self):
         self.contract['checks'][0]['argv'] = ['{python}', '-c',
             'from pathlib import Path; Path("app.py").write_text("changed"); print("{\\"sum\\":5}")']
@@ -165,6 +224,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(report[1]['requirements'][1]['evidence_source'], 'unverified_self_report')
         state = read_json(self.root / '.harness/state.json')
         self.assertEqual(state['observations'][0]['actor'], 'candidate-reported')
+        self.cli('observe', '--requirement', 'R2', '--result', 'failed', '--note', 'Synthetic reported blank screen')
+        self.assertIn('실패', self.cli('status')[1]['recommended_action'])
         (self.root / 'app.py').write_text('changed')
         self.assertEqual(self.cli('status')[1]['requirements'][1]['status'], 'stale')
 

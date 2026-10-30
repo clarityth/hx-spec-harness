@@ -65,7 +65,7 @@ def initialize(root, minutes):
     return 0
 
 
-def install(root):
+def install(root, dry_run=False):
     runtime = safe_path(root, '.harness-kit', must_exist=False)
     # Validate the entire explicit release boundary before creating any target.
     declared = release_files(TOOLKIT)
@@ -97,6 +97,11 @@ def install(root):
                 raise ValueError(f'install parent is not a directory: {parent.relative_to(root)}; no files copied')
         if dst.exists():
             raise ValueError(f'install collision: {dst.relative_to(root)}; no files copied')
+    if dry_run:
+        emit({'dry_run': True, 'would_create': [dst.relative_to(root).as_posix() for _, dst in targets],
+              'existing_AGENTS': 'unchanged' if existing_agents else 'would_create' if agents_entry else 'not_in_manifest',
+              'note': '읽기 전용 설치 계획입니다. 실제 설치 시 충돌과 경로를 다시 확인합니다.'})
+        return 0
     created = []
     try:
         for src, dst in targets:
@@ -133,15 +138,67 @@ def overview(root, contract, state):
     remaining = (datetime.fromisoformat(state['deadline']) - datetime.now(timezone.utc)).total_seconds()
     gate = plan_gate(root, contract, state)
     advice = ('설정한 작업 시간이 지났습니다. 현재 상태와 실제 마감 시간을 확인하세요.' if remaining <= 0
+              else '새 기능을 늘리지 말고 현재 결과, 필수 파일과 실제 제출 절차를 확인하세요.' if remaining <= 10 * 60
+              else '필수 검사를 마무리하고 인계 문서와 미확인을 정리하세요.' if remaining <= 30 * 60
               else '필수 기능과 검증을 진행하세요.' if gate['status'] == 'approved'
               else '계획과 미해결 질문을 확인하고 사용자에게 승인을 요청하세요.')
+    mandatory = [r for r in requirements if r['mandatory']]
+    statuses = {r['status'] for r in mandatory}
+    if state.get('phase') == 'closed':
+        recommended = '작업이 닫혔습니다. AI 작업을 재개하지 않습니다.'
+    elif errors or gate['status'] != 'approved':
+        recommended = '원문과 계획, 미해결 질문을 확인하고 필요한 명시적 승인을 받으세요.'
+    elif 'reported_failed' in statuses:
+        recommended = '사용자가 보고한 실패 동작과 조건을 확인하고 구현에서 원인을 조사하세요.'
+    elif statuses & {'failed', 'error'}:
+        recommended = '실패한 필수 검사의 입력과 로그를 확인하고 원인을 수정하세요.'
+    elif statuses & {'stale', 'approval_stale'}:
+        recommended = '변경된 파일과 근거를 확인하고 관련 검사를 다시 실행하세요.'
+    elif any(r['verification'] != 'manual' and r['status'] != 'passed' for r in mandatory):
+        recommended = '승인된 필수 동작을 구현하고 연결한 검사를 실행하세요.'
+    elif any(r['verification'] == 'manual' for r in mandatory):
+        recommended = '자동 검사 결과와 인계를 정리하고 사용자 직접 확인 항목을 안내하세요.'
+    else:
+        recommended = '인계 문서를 실제 코드와 대조하고 freeze로 제출 전 상태를 확인하세요.'
+    if remaining > 30 * 60:
+        advice = recommended
     return {'title': contract.get('title', ''), 'phase': state['phase'],
             'plan_gate': gate,
             'remaining_minutes': round(remaining / 60, 1),
             'time_advice': advice,
-            'next': state.get('next', ''), 'requirements': requirements,
+            'recommended_action': recommended,
+            'next': recommended if state.get('next', '') == '과제 원문을 읽고 contract.json과 plan.json을 작성합니다.' else state.get('next', ''),
+            'requirements': requirements,
             'contract_errors': errors, 'decisions': state.get('decisions', []),
             'evidence_limit': '명세 해석과 검사 연결의 타당성은 원문과 직접 대조해야 합니다.'}
+
+
+def previous_run(root, contract, state, check_definition, gate, before, stable, result):
+    pointer = state.get('latest_checks', {}).get(check_definition['id'])
+    if not pointer:
+        return {'status': 'no_previous_run'}
+    try:
+        path = safe_path(root, pointer['path'])
+        if digest(path) != pointer['sha256']:
+            raise ValueError('previous evidence hash mismatch')
+        old = read_json(path)
+        if not (stable and old.get('stable') is True
+                and old.get('contract_hash') == fingerprint(contract)
+                and old.get('plan_hash') == gate['plan_hash']
+                and old.get('check_hash') == fingerprint(check_definition)
+                and old.get('scope') == evidence_scope(contract, check_definition)):
+            return {'status': 'not_comparable', 'reason': 'definition, approval, scope or execution stability differs'}
+        previous = old['result']['status']
+        if previous not in {'passed', 'failed', 'error'}:
+            raise ValueError('invalid previous result')
+        old_snapshot = old['snapshot_after']
+        changed = sorted(p for p in set(old_snapshot) | set(before) if old_snapshot.get(p) != before.get(p))
+        return {'status': 'same_definition', 'previous_status': previous,
+                'current_status': result['status'], 'previous_manifest': pointer['path'],
+                'changed_files': changed,
+                'note': '같은 정의의 실행 결과입니다. 변경 파일에 입력과 테스트가 포함됐는지 확인하세요. 수정의 인과관계나 성능 향상을 인증하지 않습니다.'}
+    except (ValueError, OSError, TypeError, KeyError):
+        return {'status': 'unavailable', 'reason': 'previous evidence could not be verified'}
 
 
 def check(root, selected):
@@ -192,6 +249,7 @@ def check(root, selected):
                       'stable': stable, 'result': result}
             if not stable and result['status'] != 'error':
                 result['status'], result['reason'] = 'failed', 'source, contract, or plan changed during execution'
+            result['comparison'] = previous_run(root, contract, state, c, gate, before, stable, result)
             target = directory / 'manifest.json'
             atomic_json(target, record)
             state['latest_checks'][c['id']] = {'path': target.relative_to(root).as_posix(), 'sha256': digest(target)}
@@ -276,7 +334,9 @@ def freeze(root, contract, state):
         handoff_path = safe_path(root, 'handoff.md')
         if not handoff_path.is_file():
             raise ValueError('handoff.md must be a regular file')
-        handoff['status'] = 'present' if handoff_path.read_text(encoding='utf-8').strip() else 'empty'
+        handoff_text = handoff_path.read_text(encoding='utf-8').strip()
+        handoff['status'] = ('template' if '작성 상태: 미작성 양식입니다.' in handoff_text
+                             else 'present' if handoff_text else 'empty')
         if handoff['status'] == 'present':
             handoff['sha256'] = snapshot(root, ['handoff.md'])['handoff.md']
     except (ValueError, OSError) as exc:
@@ -300,7 +360,8 @@ def parser():
     ap.add_argument('--root', type=Path, default=Path.cwd())
     sub = ap.add_subparsers(dest='command', required=True)
     p = sub.add_parser('init'); p.add_argument('--minutes', type=int, default=60)
-    sub.add_parser('install'); sub.add_parser('doctor'); sub.add_parser('status'); sub.add_parser('freeze'); sub.add_parser('close')
+    p = sub.add_parser('install'); p.add_argument('--dry-run', action='store_true')
+    sub.add_parser('doctor'); sub.add_parser('status'); sub.add_parser('freeze'); sub.add_parser('close')
     sub.add_parser('spec'); sub.add_parser('brief'); sub.add_parser('git-check'); sub.add_parser('plan')
     p = sub.add_parser('plan-approve')
     p.add_argument('--actor', choices=['user'], required=True)
@@ -337,7 +398,7 @@ def main(argv=None):
         if args.command == 'init':
             return initialize(root, args.minutes)
         if args.command == 'install':
-            return install(root)
+            return install(root, dry_run=args.dry_run)
         if args.command == 'doctor':
             emit({'python': sys.version.split()[0], 'python_supported': sys.version_info >= (3, 11),
                   'tools': {x: shutil.which(x) is not None for x in ['git', 'node', 'npm', 'codex']},

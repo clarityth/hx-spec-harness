@@ -13,6 +13,7 @@
 아래 `TOOLKIT`과 `PROJECT`는 앞에서 확인한 절대경로입니다. 경로에 공백이 있을 수 있으므로 셸 인수를 인용합니다.
 
 ```sh
+python3 "TOOLKIT/hx.py" --root "PROJECT" install --dry-run
 python3 "TOOLKIT/hx.py" --root "PROJECT" install
 ```
 
