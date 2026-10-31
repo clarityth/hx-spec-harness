@@ -12,3 +12,5 @@ description: 새 프로젝트를 조사하거나 기존 작업을 재개할 때 
 반드시 `.agents/skills/hx-plan/SKILL.md`로 진행합니다. 계획과 질문이 해결되지 않거나 명시 승인이 없으면 구현을 시작하지 않습니다. 읽기 전용 데이터 조사와 계획 작성은 계속할 수 있습니다. 자동 스킬 발견이 확인되지 않으면 파일을 직접 읽습니다.
 
 과제의 입력과 기술을 확인한 뒤 `.harness-kit/docs/task-routing.md`에서 해당 절차만 읽습니다. 짧은 사용자 실행 지시는 `.harness-kit/PROMPTS.md`에 있습니다. 모든 스킬과 도구를 일괄 실행하지 않습니다.
+
+기본 선택표에 없는 기술이나 개발 작업은 `.harness-kit/docs/external-library.md`를 읽고 `python3 .harness-kit/tools/find_external_skills.py "검색어"`로 동봉 원문을 찾습니다. 사용자에게 외부 스킬 검색을 맡기지 않습니다. 반환된 적용 상태와 가드레일을 확인한 뒤 파일을 읽습니다.

@@ -35,3 +35,7 @@
 | React18 클래스 배칭 회귀임 | [react18-batching-patterns](../third_party/react-guidance/skills/react18-batching-patterns/SKILL.md) | 일반 React 개발에는 적용하지 않습니다. |
 
 하나의 작업에 표 전체를 적용하지 않습니다. 필요한 원문과 직접 참조만 읽습니다. 실제로 읽은 경로, 사용 이유와 확인한 결과를 handoff에 남깁니다. 라이선스와 고정 커밋은 각 폴더의 SOURCE.json을 확인합니다.
+
+## 추가 기술과 개발 작업
+
+기본 표에 없는 아키텍처, 언어, 프레임워크, 성능, 문서와 설계 작업은 [확장 색인](external-library.md)을 사용합니다. 검색은 동봉 파일만 읽으며 reference-only 항목을 기본으로 제외합니다.

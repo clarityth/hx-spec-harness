@@ -43,3 +43,17 @@ OpenAI의 PDF와 Jupyter Notebook은 [원본 출처](third_party/openai-task-ski
 Matt Pocock의 domain-modeling은 [MIT LICENSE](third_party/mattpocock-domain/LICENSE)와 두 동봉 서식을 포함합니다. 고정 판본과 미수정 원본 해시는 [SOURCE.json](third_party/mattpocock-domain/SOURCE.json)에 있습니다.
 
 UI UX Pro Max의 검색 스킬과 Python 스크립트, CSV 및 참조 문서는 [MIT LICENSE](third_party/ui-ux-pro-max/LICENSE)를 유지합니다. 원본 커밋과 파일별 해시는 [SOURCE.json](third_party/ui-ux-pro-max/SOURCE.json)에 있습니다. 전체 플러그인이나 갤러리를 설치한 것은 아닙니다.
+
+## 확장 라이브러리
+
+다음 자료는 고정 Git 커밋의 원문이며 원래 라이선스를 유지합니다. 파일별 출처·SHA-256·Git blob ID는 각 SOURCE.json에 있습니다.
+
+| 자료 | 포함 범위 | 고지 |
+|---|---|---|
+| Matt Pocock | engineering 전체와 직접 의존 productivity 7개 | [MIT](third_party/mattpocock-library/LICENSE), [출처](third_party/mattpocock-library/SOURCE.json) |
+| Jeffallan | skills 전체 | [MIT](third_party/jeffallan-library/LICENSE), [출처](third_party/jeffallan-library/SOURCE.json) |
+| Addy Osmani | skills와 동반 참조·문서·역할·스크립트 | [MIT](third_party/addyosmani-library/LICENSE), [출처](third_party/addyosmani-library/SOURCE.json) |
+| Impeccable | Codex용 스킬과 동반 자료 | [Apache-2.0](third_party/impeccable-library/LICENSE), [제3자 고지](third_party/impeccable-library/NOTICE.md), [출처](third_party/impeccable-library/SOURCE.json) |
+| Ponytail | 6개 스킬과 참조 문서·스크립트·벤치마크 기록 | [MIT](third_party/ponytail-library/LICENSE), [출처](third_party/ponytail-library/SOURCE.json) |
+
+플러그인과 훅을 등록하지 않으며 원문의 실행기 자동 다운로드를 허용하지 않습니다. 제3자 벤치마크는 원본 조건의 자료일 뿐 이 툴킷의 성능 수치가 아닙니다.

@@ -1,0 +1,2204 @@
+{
+  "repository": "Jeffallan/claude-skills",
+  "repository_url": "https://github.com/Jeffallan/claude-skills",
+  "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "git_blob_sha1": "b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d"
+    },
+    {
+      "path": "skills/angular-architect/SKILL.md",
+      "sha256": "a1cef4522ef9b1c26e8202879baf7d2df284e6df3dc736e90739d1fca195657a",
+      "git_blob_sha1": "42ed2f7106e96a71b9ff4d973230f2d967fb83cf"
+    },
+    {
+      "path": "skills/angular-architect/references/components.md",
+      "sha256": "94b5955fd2f85c7f0f0d75c4c5efdca214107e5cfdfe990cfb90d1bace825dba",
+      "git_blob_sha1": "4ba175bafb3e10f1395823784c4fa53d4c0c7e63"
+    },
+    {
+      "path": "skills/angular-architect/references/ngrx.md",
+      "sha256": "34d318d7e8b80c38b6a9a7c891912a4b466d9f85c8dfcc759156fdda4528258c",
+      "git_blob_sha1": "02b33dce3b9429dce84af6345d986f8d9f1ba82f"
+    },
+    {
+      "path": "skills/angular-architect/references/routing.md",
+      "sha256": "d13862ba6d622507adc0ca3b97aedec2651a052b4898d3c6d8c6e3558849ac1d",
+      "git_blob_sha1": "4568921b667ecb768e3e32fa9a7a48640f2cbf44"
+    },
+    {
+      "path": "skills/angular-architect/references/rxjs.md",
+      "sha256": "b1306089e570e555900afeee1cdfb3571e80e256eba47de6a3c29227d54e4ffa",
+      "git_blob_sha1": "d16e0cea53799f6ab9eefd2152fb4a037bc95291"
+    },
+    {
+      "path": "skills/angular-architect/references/testing.md",
+      "sha256": "3605b3ba8008117be949033da68be217eb20e45020b382865f05f742eb95c716",
+      "git_blob_sha1": "2041639e20aaf34762bc5b13e1207b71373d0486"
+    },
+    {
+      "path": "skills/api-designer/SKILL.md",
+      "sha256": "02f7480c64238595ad94b340c6fcefa1d4050dc3c562ea96de3a7be29a7b0f7a",
+      "git_blob_sha1": "63ca1216eca3cc4962caa6ca44d31bc5f1649694"
+    },
+    {
+      "path": "skills/api-designer/references/error-handling.md",
+      "sha256": "3bef30b2f2a646301d49d94210d6ae9abdf292c7e9a54e476ec434bc34db6a3f",
+      "git_blob_sha1": "c848050ab2fe91031168f1765e8972727e73eaec"
+    },
+    {
+      "path": "skills/api-designer/references/openapi.md",
+      "sha256": "cef05ac175cb3f69e3ff247fba5b05838229d3644ad7f9f4e53b1eff1750988f",
+      "git_blob_sha1": "8448e6abe280f04b57cdfd8b10c195c84201506c"
+    },
+    {
+      "path": "skills/api-designer/references/pagination.md",
+      "sha256": "a60e1adc26437d5e0e9b08be370e53e73a5aeef2aff9a88bdcd48f64b621aba8",
+      "git_blob_sha1": "6d8995c70bcf0090e66a54b962b6b091b69f33a4"
+    },
+    {
+      "path": "skills/api-designer/references/rest-patterns.md",
+      "sha256": "d1d493065f10387a5c9198ea5c0c1d45c7757daf188aff763e582f342c8ce21b",
+      "git_blob_sha1": "6f493d367cbf150311d0c79eb90e8347e370e123"
+    },
+    {
+      "path": "skills/api-designer/references/versioning.md",
+      "sha256": "7abc655037778fbf09a575f7b245a18710d49a11e340ca0eee62e97fcd76a034",
+      "git_blob_sha1": "c4840b1f3b82adead9fcdba34b219c386be49edd"
+    },
+    {
+      "path": "skills/architecture-designer/SKILL.md",
+      "sha256": "d8f3d98c54bbf35ad07e068c7ae4c9b570a3e0e51041d7669e91e8593a7655c7",
+      "git_blob_sha1": "63823d1e24b70043f424b2d910bd37968fb2f9b1"
+    },
+    {
+      "path": "skills/architecture-designer/references/adr-template.md",
+      "sha256": "cada2aa2f8fa039ba63ab95499cbe653a28110f9f406040a06966552026fea4b",
+      "git_blob_sha1": "e82652d654f84ee4be190182bd8b422d1b0f6f43"
+    },
+    {
+      "path": "skills/architecture-designer/references/architecture-patterns.md",
+      "sha256": "954bde741cffe6dec00acb63840bbb79654d2647ca8f7c9a8f99f5888b94c5f9",
+      "git_blob_sha1": "30b90f23b5b203f0dfaf4c29d2a6dd7a26efc13f"
+    },
+    {
+      "path": "skills/architecture-designer/references/database-selection.md",
+      "sha256": "6439a36138654947acb808eeff1fff5862894ef94a7210e8fd540bb2641c5a80",
+      "git_blob_sha1": "2a29216900cf9deb5418a3213dfe45808e1482fc"
+    },
+    {
+      "path": "skills/architecture-designer/references/nfr-checklist.md",
+      "sha256": "37b9b0f083bd224acccb04eec86edc09a494c693a4ad0ec32ea24f472c122d70",
+      "git_blob_sha1": "7e3389b4b532ee79771b1d95a5f12dafbe5c04d6"
+    },
+    {
+      "path": "skills/architecture-designer/references/system-design.md",
+      "sha256": "b33ff621c6461eb321d18fc9923c4bba689776e1cd0f0c00945584c2698319a1",
+      "git_blob_sha1": "c810dc54601651af0aedee5cab774ab4e45e4613"
+    },
+    {
+      "path": "skills/atlassian-mcp/SKILL.md",
+      "sha256": "78e92f4b8c1b0214ef0657f1b512a7fc183ee902eafe8966c37f178416bdf8b3",
+      "git_blob_sha1": "40cbd965c32b746b0d6368e883d6d17cdc8e81dd"
+    },
+    {
+      "path": "skills/atlassian-mcp/references/authentication-patterns.md",
+      "sha256": "4090eaff0b3d2bcb1b51f0b1924b91b2b5cfca6d9b2b309a38a161621645c727",
+      "git_blob_sha1": "b27a0506d9d8d2506afcfcffc1a382f5f0a9b410"
+    },
+    {
+      "path": "skills/atlassian-mcp/references/common-workflows.md",
+      "sha256": "45646b3624aaa628f85c117ca32613a4eeda66cfbb676807d6e82fe52b4be0db",
+      "git_blob_sha1": "b70f72a07dcebfaed00563f1661bbea08db4712a"
+    },
+    {
+      "path": "skills/atlassian-mcp/references/confluence-operations.md",
+      "sha256": "1608ee0b23233fe074a660f393a2fdf80e2ed2c14bfe8af2cb439222ce866505",
+      "git_blob_sha1": "42a7be31f5299f25b42bc0abf6bd93b266266167"
+    },
+    {
+      "path": "skills/atlassian-mcp/references/jira-queries.md",
+      "sha256": "0fca4217641a5018ced8ee82c0dd8a9bda7ee4d182d50d06bb0845a942c5a704",
+      "git_blob_sha1": "91055c1a3d59354221f9033b45166b16e44c12fa"
+    },
+    {
+      "path": "skills/atlassian-mcp/references/mcp-server-setup.md",
+      "sha256": "1afbd0bd911426555717ddaffdc8f7446c354c447d1d27103494531210d296d9",
+      "git_blob_sha1": "2ba76a8a86285f93f25afa97787ae33364ee27ed"
+    },
+    {
+      "path": "skills/chaos-engineer/SKILL.md",
+      "sha256": "97b9db30c0b8a94ec09c8fc8e06ebee6192d9b3845997d841fca8c35b8f454a3",
+      "git_blob_sha1": "bce0d3122ded6d5b9951ce6642108da4f311a8ab"
+    },
+    {
+      "path": "skills/chaos-engineer/references/chaos-tools.md",
+      "sha256": "23f070349b66e5d802ef5999b370b2c20fe97389106b31e60d0925a625c63889",
+      "git_blob_sha1": "1fef92d907b7173c803f5b58a8dceaae397de892"
+    },
+    {
+      "path": "skills/chaos-engineer/references/experiment-design.md",
+      "sha256": "308bead232d95dba4d9e27608e20c2d4a6511daa38b7b5fb033753bd1c827d83",
+      "git_blob_sha1": "406bcef3765736b711db3a671c86bbad6fb548de"
+    },
+    {
+      "path": "skills/chaos-engineer/references/game-days.md",
+      "sha256": "7a19400b365b68bd6d69255d34ebe6ce733f97b87a5d7d168a83744acd652bde",
+      "git_blob_sha1": "beb99c4c166eaf959708286dfbe3e071ae3f74c6"
+    },
+    {
+      "path": "skills/chaos-engineer/references/infrastructure-chaos.md",
+      "sha256": "26580545f0509baa464829b2ad1a7cf53408df19c6d50015fa23ec32464f29f2",
+      "git_blob_sha1": "f7a6a304f5b1b0d9878db31b46b1f1a85a0b6ad2"
+    },
+    {
+      "path": "skills/chaos-engineer/references/kubernetes-chaos.md",
+      "sha256": "2b8ae4817420a156ecbe337709336762e3d0b68d24e539af566118c39264efe6",
+      "git_blob_sha1": "a303dbb1b5d04f377ad266af43e53c94a58edb1a"
+    },
+    {
+      "path": "skills/cli-developer/SKILL.md",
+      "sha256": "af8e4b67197d6ee0955cfa1ab26f33c3497c966c02b9ec01777b6dce44ad2421",
+      "git_blob_sha1": "036e20835aec55b0fc3acb68119b88d46b8551ef"
+    },
+    {
+      "path": "skills/cli-developer/references/design-patterns.md",
+      "sha256": "5bc272f8eac73856a4ad4eb7baf0e0151227908cceeab871bd161f896e831fc7",
+      "git_blob_sha1": "889c4cd8cf8f87fd6729f0a6c560b83a128109a5"
+    },
+    {
+      "path": "skills/cli-developer/references/go-cli.md",
+      "sha256": "19f1ca6e66a92c4f25fb22d2a597a74c6a53ca8f6684ae03771fb2f70667524f",
+      "git_blob_sha1": "197bec54e4fe751aa9ecbd500aec2f15c13e9ac9"
+    },
+    {
+      "path": "skills/cli-developer/references/node-cli.md",
+      "sha256": "2a3d45cdca05c7a7ff9f072c5a9506b1ff3f092020a3bb59a67ceaca026f3a39",
+      "git_blob_sha1": "7b08c5771858f1d0a2f4a2a85e708cdd3649f702"
+    },
+    {
+      "path": "skills/cli-developer/references/python-cli.md",
+      "sha256": "8d743189666a01b8a490bba84d6c02e265ff6d07e29441ab2c15a8dc86355dd3",
+      "git_blob_sha1": "2362d1bb1a5b280f55d890abe5fa7d16b1ef49b4"
+    },
+    {
+      "path": "skills/cli-developer/references/ux-patterns.md",
+      "sha256": "5c57db089d4e4bb3d8a503e76122cdfce8aac49fb2bd10d675ca281bcb778a25",
+      "git_blob_sha1": "109c00206902b3de39c59d387b8682514a883cde"
+    },
+    {
+      "path": "skills/cloud-architect/SKILL.md",
+      "sha256": "7b695213a69c620eb85cbedffa6c9445b3ef8b1a7261b107f75c15f47c5ed92d",
+      "git_blob_sha1": "aba277fd04a882b8b9f21a9daaf84ac88bea5191"
+    },
+    {
+      "path": "skills/cloud-architect/references/aws.md",
+      "sha256": "9287e5abec7fe478a98ecc3a4e3808c91e09daa395c51e3b7cea976f15bf7c92",
+      "git_blob_sha1": "4bdb9aa3de84269c837e0aa07435c75997e4d153"
+    },
+    {
+      "path": "skills/cloud-architect/references/azure.md",
+      "sha256": "46bc118a0baf8143a291a2455d53c1fa415b9f71e2fedcc11c5093c0191e1d90",
+      "git_blob_sha1": "ef364adc5bb5efdac6952ea765fd040e93ed4cd4"
+    },
+    {
+      "path": "skills/cloud-architect/references/cost.md",
+      "sha256": "bafaaa1ea6c51648d06e1d34cdb5afdcb26dc136054f0424c0cd8a2071548abf",
+      "git_blob_sha1": "44cf898a0a88bd510d1f8ae9e09f4f37b6618f52"
+    },
+    {
+      "path": "skills/cloud-architect/references/gcp.md",
+      "sha256": "963b2cc473222b423e98b8d0bf08394847d759b6a39929c27059ca30c261b8ff",
+      "git_blob_sha1": "a14b51ced5e8ade79c6464b34e428551d53c73c5"
+    },
+    {
+      "path": "skills/cloud-architect/references/multi-cloud.md",
+      "sha256": "b60a27e9ec7e6304e1ba85af4fd1dc451527efd48b97b55209cc44f244c6baa2",
+      "git_blob_sha1": "ca7a67c554e8c45e378a6e79be3c8a43c59361e7"
+    },
+    {
+      "path": "skills/code-documenter/SKILL.md",
+      "sha256": "c317493f9b94df59ccb48a6783492bcb48e7f1c3d5299ed44718bd568eb8cdb0",
+      "git_blob_sha1": "22accd110e6e815ba37bdd086f3c822719751b28"
+    },
+    {
+      "path": "skills/code-documenter/references/api-docs-fastapi-django.md",
+      "sha256": "5506708ca897d28169ea43be038f1e4346a518bf8194d4b5b13a3779b4946413",
+      "git_blob_sha1": "d519fab62409ec3ca9f0c89a485869b5d578de5d"
+    },
+    {
+      "path": "skills/code-documenter/references/api-docs-nestjs-express.md",
+      "sha256": "fb1b07526b74edc5b3ba7e704a50a0f3aa5f542f97d80dffc90c95f585c4c9b5",
+      "git_blob_sha1": "95e03a2d4db573a5a85578e3ff57d1976b3e07e2"
+    },
+    {
+      "path": "skills/code-documenter/references/coverage-reports.md",
+      "sha256": "8688b82cbc2963f2909194a229901e2aa75231ebfc86801542380ea85e9900a6",
+      "git_blob_sha1": "c991f9bda90202699ceca56285988f768bce77cf"
+    },
+    {
+      "path": "skills/code-documenter/references/documentation-systems.md",
+      "sha256": "06fce97a79747baffb84afa8f84916066d105cc13a8ff78093ef5397718e9f0c",
+      "git_blob_sha1": "58da54745c51ffeae8a8deba0f31fd26239a0534"
+    },
+    {
+      "path": "skills/code-documenter/references/interactive-api-docs.md",
+      "sha256": "155011d6c1ff80eaf1536c8fe7f34f71f7926313d4b0fdebd38b03e05545d706",
+      "git_blob_sha1": "997c4495984d3930a8f1b9a525a2086b7a4e99f7"
+    },
+    {
+      "path": "skills/code-documenter/references/python-docstrings.md",
+      "sha256": "f852d307f2dfaa44b7ec27137933ae4ace086991454e832f59fdeaa6d0a40a25",
+      "git_blob_sha1": "b8ea5f08eb14ec4903568e75712a645c471021e5"
+    },
+    {
+      "path": "skills/code-documenter/references/typescript-jsdoc.md",
+      "sha256": "a100430b78e885b3c2070740491590578dcb3d35918755c1495e8c8b621a6b2d",
+      "git_blob_sha1": "fe961be4a10428f922d7a59e8a3213d91c17ed93"
+    },
+    {
+      "path": "skills/code-documenter/references/user-guides-tutorials.md",
+      "sha256": "cd62fdd3096cbbb038ec2186d93943ed34dd2ecf4ebaa226c503bd82dfa35faa",
+      "git_blob_sha1": "07b83ffeac114bd4a48241fb4b77878e87e375bc"
+    },
+    {
+      "path": "skills/code-reviewer/SKILL.md",
+      "sha256": "80ccd79a840d40ac8332de9e7705ef4751fea4fbb1cfa3190d94224eacaad2b9",
+      "git_blob_sha1": "18678b7f996d029233416a699cc7c75c123bcfce"
+    },
+    {
+      "path": "skills/code-reviewer/references/common-issues.md",
+      "sha256": "19de3ccd5611e82d1c94636aaf4b0a11a68a09799459285a3ab250a24c04265c",
+      "git_blob_sha1": "b1b51f38e3c7177c7943e1b1fbe452f362f07829"
+    },
+    {
+      "path": "skills/code-reviewer/references/feedback-examples.md",
+      "sha256": "e87d7a255efaa04a8ee6acfa53f642974c4b2919658671418e670d0db7d038f6",
+      "git_blob_sha1": "629f474ecb6b2bf14beebf9da104d22b787eaa03"
+    },
+    {
+      "path": "skills/code-reviewer/references/receiving-feedback.md",
+      "sha256": "62f3958b0be7f3d03cde7bbf00d3f6051a6d98081be3e97d2e7cca5501749c04",
+      "git_blob_sha1": "ac1c4f44c0a93d632cf3b0e3032e3ccdef48a311"
+    },
+    {
+      "path": "skills/code-reviewer/references/report-template.md",
+      "sha256": "2f2b63c8543b510d4dceffb9336627d02aa5f6f722a805d6fa93572d7673a885",
+      "git_blob_sha1": "7cdc5fc5fa0f19bce6c2637919abfd46d75b0c55"
+    },
+    {
+      "path": "skills/code-reviewer/references/review-checklist.md",
+      "sha256": "c0e348f3896a274c407da7bf52570377dd9b7d0d3284d8f582559d890c3dfbcc",
+      "git_blob_sha1": "1ec2bde2053e052227450be04917a03ff7b7ab15"
+    },
+    {
+      "path": "skills/code-reviewer/references/spec-compliance-review.md",
+      "sha256": "a5fcb93e7058b4c089b871ae954d8ab5cf45702e91c54242b06cf7af455f57df",
+      "git_blob_sha1": "be4cb7ecc215b39181d228168ab78422fe093729"
+    },
+    {
+      "path": "skills/cpp-pro/SKILL.md",
+      "sha256": "53017f862c526df6080210a1a00e6678c2cd5382b5d1a51026bf3b0bde7f7ed2",
+      "git_blob_sha1": "f87192133f19b9bd62247fba4f204af426219563"
+    },
+    {
+      "path": "skills/cpp-pro/references/build-tooling.md",
+      "sha256": "337ae8b622628fafae86f89d914561ee6176b8d74073db2d5580e91ddd240f30",
+      "git_blob_sha1": "3d413063ab6c70119f496ae4b1ee32182d0ba55d"
+    },
+    {
+      "path": "skills/cpp-pro/references/concurrency.md",
+      "sha256": "cb772cec134530ed7ca4af25c261d42850ce27e92133657849e09d6cb2544891",
+      "git_blob_sha1": "2eedf193a6d5a730eb87e88e531fba04b00f72a6"
+    },
+    {
+      "path": "skills/cpp-pro/references/memory-performance.md",
+      "sha256": "9bf813632158c49f3843d1b0d803aa710a5ae67a5f37df6420bee42f4f161caa",
+      "git_blob_sha1": "c60b49d36d49d4cb117c30b27705a176cd69dc0e"
+    },
+    {
+      "path": "skills/cpp-pro/references/modern-cpp.md",
+      "sha256": "7410851bb066f5e6d825fab2efe7d767ed0ca2ea44cd377ff4f6ef7f90a21736",
+      "git_blob_sha1": "1a541fbd223cb1e49369fac2597c0432442ceb0d"
+    },
+    {
+      "path": "skills/cpp-pro/references/templates.md",
+      "sha256": "d7a8e294439879126cd5df5b415eecf171d193f97368a2142607162c106a3ee8",
+      "git_blob_sha1": "1b3f2e6ebfcda0d5a9d3553dfef7becba13bbf95"
+    },
+    {
+      "path": "skills/csharp-developer/SKILL.md",
+      "sha256": "31b274ba70980b4dbf69ccfb93f96c470ebf7201e9b050af8caf516212462d7a",
+      "git_blob_sha1": "2a4f86acacf43f3e40f55f8bc30f3e7efd5fc9d5"
+    },
+    {
+      "path": "skills/csharp-developer/references/aspnet-core.md",
+      "sha256": "18ac48c42eda9dbb96f28ec9dfbcfa51e1df5836376f8235b514f8908e9e14c2",
+      "git_blob_sha1": "cd5b9100f57804cad738957948a4f80cf839eab0"
+    },
+    {
+      "path": "skills/csharp-developer/references/blazor.md",
+      "sha256": "ad157f9d1c3c648ef8eedea60c1756374a0dbeff9a60b8efd25d4f88407ffb10",
+      "git_blob_sha1": "38f04073acb50d62964520aa5b7c9164598ce721"
+    },
+    {
+      "path": "skills/csharp-developer/references/entity-framework.md",
+      "sha256": "4968dc8fa13438be577301f1a0ca144e505d245bda9f61f44d61e05b3fcdc4c3",
+      "git_blob_sha1": "300bf94220908e8678cc82e62d8481c96573f4d2"
+    },
+    {
+      "path": "skills/csharp-developer/references/modern-csharp.md",
+      "sha256": "ea6526a6932f07c45ef2bd02aba17ffff6801757c670b337c147505fa76240aa",
+      "git_blob_sha1": "905d9f8c48f8f19d3da558002ca33fa6c65cac13"
+    },
+    {
+      "path": "skills/csharp-developer/references/performance.md",
+      "sha256": "185b571daa962f342133ad6bc9289b447bf24eda7217bb02f61b082029ce3c8d",
+      "git_blob_sha1": "b103b47526dd938ee8559810c04468c24d58f446"
+    },
+    {
+      "path": "skills/database-optimizer/SKILL.md",
+      "sha256": "f36ebc7a53b1d786a8599ee63e35e142577592a6393a9953f54278ed6cab01fc",
+      "git_blob_sha1": "a489eacb58842238055280b6bd6f3433e66c897d"
+    },
+    {
+      "path": "skills/database-optimizer/references/index-strategies.md",
+      "sha256": "05f5e3f4e603ca6994016260996b3cfb6c28cf6d87ebd0b7f33621ca266840f4",
+      "git_blob_sha1": "e30dfd5b425d204dbf4d7e38e968524154b6c191"
+    },
+    {
+      "path": "skills/database-optimizer/references/monitoring-analysis.md",
+      "sha256": "95fb6e97985cb6fd5cd01739117cb4df6e286d64b94c39b2033d4b5f390b4c93",
+      "git_blob_sha1": "951903e2f589383ecb688f7923a0285f31a114f4"
+    },
+    {
+      "path": "skills/database-optimizer/references/mysql-tuning.md",
+      "sha256": "62dc54ae06a2936cb9d3497a0a9f51eace78b83bf3673364e33c81fae237dedc",
+      "git_blob_sha1": "4705a056b5dde96b6582612dd9ba21c5a0135e2f"
+    },
+    {
+      "path": "skills/database-optimizer/references/postgresql-tuning.md",
+      "sha256": "197da2b922e1f5d22cf824de8645f645e064d52b9745b125a36abee89e34da3a",
+      "git_blob_sha1": "8efed419b7a53799ee47d7c5ce9a73339fa6627e"
+    },
+    {
+      "path": "skills/database-optimizer/references/query-optimization.md",
+      "sha256": "dce3acf3b12dee597dcdbc73d2ba26b20d53f72f3718fad9ddb4b62f56a25e6e",
+      "git_blob_sha1": "1afb0b0dd5c1953ec0ebe227fe1e1e1888635b47"
+    },
+    {
+      "path": "skills/debugging-wizard/SKILL.md",
+      "sha256": "9dc712996f743d1b48e6f57aec344872fd81f6af547d753e5348d91c5b60c56c",
+      "git_blob_sha1": "849a9f682dd94146af810d0554e220c8ac468531"
+    },
+    {
+      "path": "skills/debugging-wizard/references/common-patterns.md",
+      "sha256": "34e8957fc8dd44033ce6e968c3fca55259b40ba91dc7eb81a819fd2442b08d0a",
+      "git_blob_sha1": "f8a28b12a9ab7887a41af6be3072c5ae836d531c"
+    },
+    {
+      "path": "skills/debugging-wizard/references/debugging-tools.md",
+      "sha256": "406df18ffd885ed96e8ccb541d22b0d8bcd0342cd7a89cc10b82e2675e118333",
+      "git_blob_sha1": "d3f12e622c9098a0c2c58961642a55554382ffed"
+    },
+    {
+      "path": "skills/debugging-wizard/references/quick-fixes.md",
+      "sha256": "5cb8d18dbf1d445e82af556368098b52c8fa1dc70c63ab2d0897bbc5c5744ab1",
+      "git_blob_sha1": "230f81256cd672c639515e1e15725b5c101e9f94"
+    },
+    {
+      "path": "skills/debugging-wizard/references/strategies.md",
+      "sha256": "2a28d131e430beb667db1efc5dbc2beaeb38572a76ea998ef0330ab27b2b399e",
+      "git_blob_sha1": "0c5a6b596dec95548828ea8e0d39e55751a6c519"
+    },
+    {
+      "path": "skills/debugging-wizard/references/systematic-debugging.md",
+      "sha256": "1e4a89c67ddfb8e500d95ee21d9a665c7b1a0204c97f752d03d04e96740a07f9",
+      "git_blob_sha1": "f8ae6d4e226f8977c6f3d9d2fc8e3b777c91f169"
+    },
+    {
+      "path": "skills/devops-engineer/SKILL.md",
+      "sha256": "552f6b0f31bc5d6cad3c692034407f22319424d2cdb94ade99ec108f760e4285",
+      "git_blob_sha1": "c5f36bbdc1dc8f5b2bf4a2df52ea833249780a15"
+    },
+    {
+      "path": "skills/devops-engineer/references/deployment-strategies.md",
+      "sha256": "d09fd909526bac88579c993b85294c210ca76959e38a0018f4d4181f48e2302b",
+      "git_blob_sha1": "795bdd94b1a8fbeefba95eb866c2393e9b95a455"
+    },
+    {
+      "path": "skills/devops-engineer/references/docker-patterns.md",
+      "sha256": "09f2deadb4ff260b09e09c25ad2037ea90357e04e2ba2f3fe4711adf61bc59b2",
+      "git_blob_sha1": "3c186372b16284e2f4c708640979a88ec23d4dfb"
+    },
+    {
+      "path": "skills/devops-engineer/references/github-actions.md",
+      "sha256": "04d2d1c339762948dd513c268482d3ffada30068bbea92f282bf753837cb5e4b",
+      "git_blob_sha1": "367c273d8e1c58235e83098f40234bedeb2a400b"
+    },
+    {
+      "path": "skills/devops-engineer/references/gitlab-ci.md",
+      "sha256": "8b4e6492a96ff5b94c07dcddca3a093121845a13bc4f2699844c06f42f3043e2",
+      "git_blob_sha1": "72c6e210bb1a9d535add578d1ed49462d1583ed4"
+    },
+    {
+      "path": "skills/devops-engineer/references/incident-response.md",
+      "sha256": "8410ae3e9c7295f4fda94d7fa85438292e675a4e10dc64a61aead4df162522a4",
+      "git_blob_sha1": "1ff7731743f3e800cb4b5c4979b015b6fbca449d"
+    },
+    {
+      "path": "skills/devops-engineer/references/kubernetes.md",
+      "sha256": "658ddf774b90f5eef6a97c117bb41dbcab3b3a551e3888ed7d1c53b7ce02cf28",
+      "git_blob_sha1": "f4b050429c2e32a584e4f86dfe59f602d2644818"
+    },
+    {
+      "path": "skills/devops-engineer/references/platform-engineering.md",
+      "sha256": "1256d7f015cb45c8e35ad708cf9a51ef429c95945d07705fb416bc89e3bc1bfd",
+      "git_blob_sha1": "cf9f081b1fffe1615b4d191cf2886146daf187a8"
+    },
+    {
+      "path": "skills/devops-engineer/references/release-automation.md",
+      "sha256": "bf546d38622d8f9185939d5d3bafea8859f44a7c60e85957afc39347052abc45",
+      "git_blob_sha1": "ca42519229bc67808d12c04240297d39afaa0518"
+    },
+    {
+      "path": "skills/devops-engineer/references/terraform-iac.md",
+      "sha256": "0d629d4b9826cbd97c1d5a6e826d701bacd3f057d4092cda0e5bb9da692e922b",
+      "git_blob_sha1": "62f52890c9b392534bbba40e48a30095f7af2c6b"
+    },
+    {
+      "path": "skills/django-expert/SKILL.md",
+      "sha256": "0107de33b8bfbf91ba64e09be529c9bf176883cfd89c534065eefba17cd631ae",
+      "git_blob_sha1": "2bc2e730fe663473f870509dcba23d07b6d6843e"
+    },
+    {
+      "path": "skills/django-expert/references/authentication.md",
+      "sha256": "1c8cb67744898fadca804fb262e25bf0fc3ee4e094ff920b00ae0be9ee5925a8",
+      "git_blob_sha1": "799678afe4e2454fabd9f7ea78d320ccaf40884a"
+    },
+    {
+      "path": "skills/django-expert/references/drf-serializers.md",
+      "sha256": "0642b28b45e28c367f3b897c565abc1a9dd743a67bc0330a9acbd1a3bf6ee5ff",
+      "git_blob_sha1": "defd6c0746a05f5f4ff0c0ae6afe0ee414915bd3"
+    },
+    {
+      "path": "skills/django-expert/references/models-orm.md",
+      "sha256": "82169cfe80c42aaa0a90d5ec0fc3813ba4c6e2db181eaa84562a53e4e9de17f9",
+      "git_blob_sha1": "f52c6e7f401aeb314ab2fa3fc25ca516c21c7f08"
+    },
+    {
+      "path": "skills/django-expert/references/testing-django.md",
+      "sha256": "ef2d0d2cb45d868131a47b3e8ac217630d32d1ce9852ee9d0f49fc2147f67084",
+      "git_blob_sha1": "cab19d59a4f8367923ccde58122ec154b112a0c0"
+    },
+    {
+      "path": "skills/django-expert/references/viewsets-views.md",
+      "sha256": "48ce90f17330f60b58a8f948cfcd7323f67dd446d0cc16cbce3c1313748574e7",
+      "git_blob_sha1": "7f23a1d7009f8a2aa5d4f4dd1ebf18913d3eca14"
+    },
+    {
+      "path": "skills/django-storages-s3/SKILL.md",
+      "sha256": "6c7b16290456e19a2825464f3473a3ea90905d5080551ed6601862865ead40ea",
+      "git_blob_sha1": "ed83c990f468fb06b9604d10639dbe9cc834a440"
+    },
+    {
+      "path": "skills/django-storages-s3/references/configuration.md",
+      "sha256": "313838c81cdff849f3cc0daf2ed31d13fc2a223083d515e70f798006c5ed340b",
+      "git_blob_sha1": "5dd81496725d116c7ce3ffc8b5aaf3a4a38d5731"
+    },
+    {
+      "path": "skills/django-storages-s3/references/custom-backends.md",
+      "sha256": "d3c31373d551407ba2c1f81b105ef80285f1c8aa3413e756a11119c06d871f7b",
+      "git_blob_sha1": "b41ae1f8adb9de48e65239d88a3aaa2cad1d8766"
+    },
+    {
+      "path": "skills/django-storages-s3/references/presigned-urls.md",
+      "sha256": "eda9c70c3ee495c0c3b0be89600636a96a8c15df02134c2d200b39de5421474f",
+      "git_blob_sha1": "3603a6236efb26543abc680b06f2ef76619f2a60"
+    },
+    {
+      "path": "skills/django-storages-s3/references/testing-storages.md",
+      "sha256": "fd1367bf1b8dee102712a57d10b6889b5060917b30cb6314f1da86a12c10b64f",
+      "git_blob_sha1": "28e8ee9efb2b02ab54fb9f6422ad60060a56bc6e"
+    },
+    {
+      "path": "skills/dotnet-core-expert/SKILL.md",
+      "sha256": "97dd528d8986a25812813baa5c6cc06e2d6eab0055907e41ec01411bf74fe87e",
+      "git_blob_sha1": "b5ef1377013e65e34dbe4b3a2a8ed91c72a637e5"
+    },
+    {
+      "path": "skills/dotnet-core-expert/references/authentication.md",
+      "sha256": "fe94b53714a840a93a6914da2dec749f42065a93ccd5e1739329082390aa9e40",
+      "git_blob_sha1": "33581e333d1dd915d7c8f3f9bb928f6c849060a5"
+    },
+    {
+      "path": "skills/dotnet-core-expert/references/clean-architecture.md",
+      "sha256": "4fb2c4ac29927bfc6ec9ba44e0fa8755ad7b3d3d46cc093848cc3b65f6c7c01e",
+      "git_blob_sha1": "925c0b003e43b1df1a89e3049c2bf49655ee7925"
+    },
+    {
+      "path": "skills/dotnet-core-expert/references/cloud-native.md",
+      "sha256": "200d5bf9597c834f318019240568a0001fbc649afd736ca8926679ab40c0a97e",
+      "git_blob_sha1": "4c2f9a83764711181b5626b21f0a243e1cdf516d"
+    },
+    {
+      "path": "skills/dotnet-core-expert/references/entity-framework.md",
+      "sha256": "e8b874bb091ad4439207f39ed91bd427a2cc0da0dc7df2d558ed75192569a526",
+      "git_blob_sha1": "405d7f77083f28d4c601482e617e5b78d434169d"
+    },
+    {
+      "path": "skills/dotnet-core-expert/references/minimal-apis.md",
+      "sha256": "bc5e6c24923bf54ffbd7e0669704b4084e9d19ec6037d922eca5cb9c6455bb76",
+      "git_blob_sha1": "884be658491c11d1588b36e42ef8f2ef38833cea"
+    },
+    {
+      "path": "skills/embedded-systems/SKILL.md",
+      "sha256": "26695ca78cdbbfd3657dc143b28308a293e798399df430cee6116e758cc3f4a8",
+      "git_blob_sha1": "b6a147dd9f7a03bc553942173ccf715958a6811d"
+    },
+    {
+      "path": "skills/embedded-systems/references/communication-protocols.md",
+      "sha256": "c11b9462c6bdc07aa82fe9a0d7c991e84c80416351328efb8006b33580e7da32",
+      "git_blob_sha1": "d8eb4c6a1c477c6366214a20393b1125a0bd646c"
+    },
+    {
+      "path": "skills/embedded-systems/references/memory-optimization.md",
+      "sha256": "573eb22555200e5446dbf0c69bbb9c31b0e1e8c8f5061fc3cdd7c96a7b8668a6",
+      "git_blob_sha1": "5115fbe4e2a075a88cc6d3e9263d2944af157af7"
+    },
+    {
+      "path": "skills/embedded-systems/references/microcontroller-programming.md",
+      "sha256": "d35352d4e3a0d573e2f10037895c0658dbf44a710b6c57777ce10080ec1a1ce6",
+      "git_blob_sha1": "d3cb91ea9917767048a998ef3a2cd8c45e6ed5f9"
+    },
+    {
+      "path": "skills/embedded-systems/references/power-optimization.md",
+      "sha256": "935d9bb0d93e8935479beff2eb986fac4538d965ad0dddb43bee6a48b05466a9",
+      "git_blob_sha1": "123e5881cc28b7f92d96d4553da5596f8102381f"
+    },
+    {
+      "path": "skills/embedded-systems/references/rtos-patterns.md",
+      "sha256": "feab7e2d9a8026c602ea92cb0ac4d6ad47714291d373ab18201979b7ac4f2931",
+      "git_blob_sha1": "f8aff8e6d2ee904f8c3641825e405575bf483f56"
+    },
+    {
+      "path": "skills/fastapi-expert/SKILL.md",
+      "sha256": "aec3e59f351cdbafe1260dd65bfb23480918d2df1357b7fd7a9b7a32855e08d9",
+      "git_blob_sha1": "15ea1f0b3b59a3d914723b52d98db133d6902c4e"
+    },
+    {
+      "path": "skills/fastapi-expert/references/async-sqlalchemy.md",
+      "sha256": "0369ed1d6306806afd7789efcdc48f4c50291a297940581b349dd71d07307cd7",
+      "git_blob_sha1": "d6afac154730d3219981a957be8571132a3c6ed8"
+    },
+    {
+      "path": "skills/fastapi-expert/references/authentication.md",
+      "sha256": "43f13991ebd71da80f2b8b95d49fa8fbe0f8d2b030769527a828de24ef7fbbac",
+      "git_blob_sha1": "14539fea55e357588cd86c0a950967f8be077d78"
+    },
+    {
+      "path": "skills/fastapi-expert/references/endpoints-routing.md",
+      "sha256": "352d08a0e5880708c94d291f286b01630a070c7e7c68c76cc2a472b562b12adb",
+      "git_blob_sha1": "45b5d87c551d5e18bd703379553ffde278e120da"
+    },
+    {
+      "path": "skills/fastapi-expert/references/migration-from-django.md",
+      "sha256": "fcbebd8ae96781dfb67c3752be2c4ea237aa8cadf5dc367de20bc0b62c3cb191",
+      "git_blob_sha1": "57ae1f9dab2ce399f42a72ef777b5bcb7a1472ce"
+    },
+    {
+      "path": "skills/fastapi-expert/references/pydantic-v2.md",
+      "sha256": "c0ab387018765b49238389445e8b0cd19b5ba512b8a8cc0f2b64dff41ed3783e",
+      "git_blob_sha1": "19b61915f0c835701b0cd9217c42e149359cf77d"
+    },
+    {
+      "path": "skills/fastapi-expert/references/testing-async.md",
+      "sha256": "7e748b65822431226bc0cd647a0a7b69224d0d5769c5fd88ae367067bb70811c",
+      "git_blob_sha1": "9fd4afeb252188b7928d72d4b01c2d86704d0cc4"
+    },
+    {
+      "path": "skills/feature-forge/SKILL.md",
+      "sha256": "3f3229911f603dcc128ab765cd49fae90ee57940c44e5871974a1c01c2d4264d",
+      "git_blob_sha1": "b1c7ab95cffc81e9d914f3cebe06754f737dd91e"
+    },
+    {
+      "path": "skills/feature-forge/references/acceptance-criteria.md",
+      "sha256": "4b01424260442368aa96139a31b682cd346fcb27910fb319803e3e32d99789e7",
+      "git_blob_sha1": "5eb47fa4e6441ca733efb1f7050c6a9c01278b64"
+    },
+    {
+      "path": "skills/feature-forge/references/ears-syntax.md",
+      "sha256": "a85e1f251ad7ff5222015916530ecd5817998c99dab9b3e9c4b362f1eb88038d",
+      "git_blob_sha1": "1dbe94ea88f01aeda0d614352b668ac68208a700"
+    },
+    {
+      "path": "skills/feature-forge/references/interview-questions.md",
+      "sha256": "5934ce65f215ad15cbd220f130883f66bffc9049ba7f4d9cfc906ab7ee60fc7a",
+      "git_blob_sha1": "4e40546ca9d5f0a7cbdeca7846e47210056d413d"
+    },
+    {
+      "path": "skills/feature-forge/references/pre-discovery-subagents.md",
+      "sha256": "b47a1ae4861ac654f4e5ecefc1f75b18136d515e9a10153e006a42c1f42e9589",
+      "git_blob_sha1": "3bac6b1a918b458a0061567b014272a333b76a1b"
+    },
+    {
+      "path": "skills/feature-forge/references/specification-template.md",
+      "sha256": "a2f10accbb75c835f39459765e077c6651d7eb56f5cc91f3b6e575c35e142c91",
+      "git_blob_sha1": "e5c13500b500af00efdccc8ffca47cb82f6f2be5"
+    },
+    {
+      "path": "skills/fine-tuning-expert/SKILL.md",
+      "sha256": "87ad37743797487cd1c37c23229357fc98fadf1e07a13c57b81e0c133e9cf4c3",
+      "git_blob_sha1": "e7be46af0129d9fd37fd957966259db5cbcf723c"
+    },
+    {
+      "path": "skills/fine-tuning-expert/references/dataset-preparation.md",
+      "sha256": "1e78e4416a4809eeceeb60199ed6cdab8867d201fe1efcfdb513d0ef8a36a20d",
+      "git_blob_sha1": "b86bb317d766bfd6e13688464d1377ce07e6683c"
+    },
+    {
+      "path": "skills/fine-tuning-expert/references/deployment-optimization.md",
+      "sha256": "a9fccb0bcee870eebb8dcecf24e8ad91d0af5aace8e454fedc6d343293091ad5",
+      "git_blob_sha1": "ede2fec2b44bba2a07b70141091a011824397c4a"
+    },
+    {
+      "path": "skills/fine-tuning-expert/references/evaluation-metrics.md",
+      "sha256": "a6d93ca997d78daf187eb8887d3b62ed0c438753340a3482785a392d52ec55ff",
+      "git_blob_sha1": "49ff8c111b58a662691f43e13dfff1ffd1b84660"
+    },
+    {
+      "path": "skills/fine-tuning-expert/references/hyperparameter-tuning.md",
+      "sha256": "38f931981ac90df6928e1219aef920b625cdbb11e687480aab63a2776cc8b401",
+      "git_blob_sha1": "d7349bcbbd508aa2f523bb8b20d10066dff17637"
+    },
+    {
+      "path": "skills/fine-tuning-expert/references/lora-peft.md",
+      "sha256": "dcdc48e7c1701c2da73b4a80e3b3398a0a9fea86b5a31b64845cdd3d667ce17e",
+      "git_blob_sha1": "e029af0460fc7d1ca19a586440f878b9eb2af77d"
+    },
+    {
+      "path": "skills/flutter-expert/SKILL.md",
+      "sha256": "79b80928e5220637cf0a99e070f167dd2f3a6fa6a9bc6372875d3216a5199e9c",
+      "git_blob_sha1": "1ab532c46ce1419778f1e889a4d90ed9ba3c23d8"
+    },
+    {
+      "path": "skills/flutter-expert/references/bloc-state.md",
+      "sha256": "f31710e75f1ac069c747e4c6ee25dabac73815241f40073c44884d1e997f5091",
+      "git_blob_sha1": "2c659e973eb4323257e3568af820848648f50f4a"
+    },
+    {
+      "path": "skills/flutter-expert/references/gorouter-navigation.md",
+      "sha256": "a1a37bd90ffca0b711ebec0f571c09386efa5524972300ad3625dd1f7793c900",
+      "git_blob_sha1": "82812dbbd361de108c95e56f3e93f0cf0190fc20"
+    },
+    {
+      "path": "skills/flutter-expert/references/performance.md",
+      "sha256": "a16c8c76f49213a3ed08bde55d849cba247cf1fb58e66a94e21b3f3000946eda",
+      "git_blob_sha1": "9ed2c5cc8e054b920a6da5a0d397c9b8f247f2c6"
+    },
+    {
+      "path": "skills/flutter-expert/references/project-structure.md",
+      "sha256": "0f6f2f608cb41557bcc79957c7ba3044ecb4bbeb9daae4a1f90dc10c878d5a17",
+      "git_blob_sha1": "ebd30ccfdf0fe95e08269d628b7b24cba9023b0b"
+    },
+    {
+      "path": "skills/flutter-expert/references/riverpod-state.md",
+      "sha256": "ba711b618e2a5f32649e63233b5c7f632c6932a103d98db7627ee0c71389d433",
+      "git_blob_sha1": "7cef03624b6653494d6fc7f02f663c449b210b79"
+    },
+    {
+      "path": "skills/flutter-expert/references/widget-patterns.md",
+      "sha256": "2e3737c470b7d6c41655cd2505eb4d363a0f7e30d41d1126fb9c4bd7eeaad540",
+      "git_blob_sha1": "304a451002c36587807eaba8947507d8e15a3232"
+    },
+    {
+      "path": "skills/fullstack-guardian/SKILL.md",
+      "sha256": "945776ae8195471a68750353ff2e43354652000b974e333f3ac9a0dce703c038",
+      "git_blob_sha1": "167cc1d7a3e3de08646e36819fc2034c38b0286c"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/api-design-standards.md",
+      "sha256": "7c2cb846a14c312d9042b560aea38dcb47e405a6dfb17e8eef63a24caf1b3af4",
+      "git_blob_sha1": "6b4196b84d43945181f37cec695dbb1e92ec7212"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/architecture-decisions.md",
+      "sha256": "9cc7722d6dc0cd3e5e8897dcd5206db3a71ae656b51990b76d998ad884fa0a5a",
+      "git_blob_sha1": "acf975bfe5da6e6226f7541bb650d0383bbc6f04"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/backend-patterns.md",
+      "sha256": "82264065150f04d36c2cfa5e7003698b78759cafd6213ad0beb12b5ebcd0e3ca",
+      "git_blob_sha1": "9144b2c422c2647b721a3366f3b6daf478760e17"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/common-patterns.md",
+      "sha256": "941030050a8ab34fab523b2f1ddc83dc3da24613c8b063f2342c87c9e21b80d0",
+      "git_blob_sha1": "a9577e5f0e529a5728656f671da58690311be235"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/deliverables-checklist.md",
+      "sha256": "ca70136bd97d4ac9e618589e3ca2de43f7a79b46b53aa55d7b28123eb1d39ebf",
+      "git_blob_sha1": "9e0f281f53d07c0822ab646d5ff3a14f85c5b120"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/design-template.md",
+      "sha256": "9a5a7cc58b0485c5641e49b5bc1bb01ae5a635e028521949b2a4917a8b371691",
+      "git_blob_sha1": "2a394a14993ed78ebf883b6eb7490b2533a05aba"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/error-handling.md",
+      "sha256": "41b940665960b9e55dbba72768acfa72d8a45cbe4d19b53662ca3dc7ea39c766",
+      "git_blob_sha1": "5969e1738b64e43eab0403536fc8911ef7a487bb"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/frontend-patterns.md",
+      "sha256": "fc4b8676f066f92c50ce0294903ad53f0259a418f9e587a202e5090558e04c11",
+      "git_blob_sha1": "5d87d87c41322fb8cc754eebe0a903e5b9afdf08"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/integration-patterns.md",
+      "sha256": "a4a803db18109a39fc69a99e451d0af53743f5d30ac8e723e45e0ebe69c5a861",
+      "git_blob_sha1": "47ae66c76b2bc0a1e3dcc645c623d839ee91386a"
+    },
+    {
+      "path": "skills/fullstack-guardian/references/security-checklist.md",
+      "sha256": "5d943e6a3a8f3c34dccae234be4a61b92eeac9164ca568ea013516465f7f67bf",
+      "git_blob_sha1": "ffd48f155b7afebb0cf24b8b9b3ec95dda0da487"
+    },
+    {
+      "path": "skills/game-developer/SKILL.md",
+      "sha256": "de7140309b8cc2fbd6aaa7550744f7a26e05b4e45ac0bd714a80d27408e47091",
+      "git_blob_sha1": "2c59d5b23eb8486b1d8ab834e922da37414ddc28"
+    },
+    {
+      "path": "skills/game-developer/references/ecs-patterns.md",
+      "sha256": "5ef2de275b32bcf78a215ac09e101e70c06d5bb64e2577dc61fba811950a49c6",
+      "git_blob_sha1": "f66ac24947920d1c6d099bc026f340ae8ca6c553"
+    },
+    {
+      "path": "skills/game-developer/references/multiplayer-networking.md",
+      "sha256": "10c22a22749041b99f09a4e365dadbe6e58fc1b56c90407960bb466aa2de8611",
+      "git_blob_sha1": "a1057418527245bee1b4886776c5019ce2fdc9d7"
+    },
+    {
+      "path": "skills/game-developer/references/performance-optimization.md",
+      "sha256": "57ce6a6de9b66f4ab5b2b7bd7349fa6694e5eb641e5a94bcf80e1351ad4fd4ed",
+      "git_blob_sha1": "476fd5598a08f7f1785f91102c1ecbd6ccd13665"
+    },
+    {
+      "path": "skills/game-developer/references/unity-patterns.md",
+      "sha256": "0f8b0ffada2a9e997c7db40cc472babf30c670514f01441c3dbd2f25a573fefc",
+      "git_blob_sha1": "63db9617d5977e17d4eb8cdcb840a0030f34e187"
+    },
+    {
+      "path": "skills/game-developer/references/unreal-cpp.md",
+      "sha256": "b41b68aa1dba6635924a909c4d749ae199bd6ac8fed263598163c9bbbce807e6",
+      "git_blob_sha1": "6d5d67f8757d7e9b7f15d80ecbac15f869893d5c"
+    },
+    {
+      "path": "skills/golang-pro/SKILL.md",
+      "sha256": "056e7141e481d24656202c80ca1c86c6f971b663d594dbfef17bb6e1faabdca2",
+      "git_blob_sha1": "99ef50f7eba4c884af255a061143bbcf3c7f65e7"
+    },
+    {
+      "path": "skills/golang-pro/references/concurrency.md",
+      "sha256": "2f19694806d4db4c94ec0a2e48734426d20834dba3da7a6ec2e5a9fc628df078",
+      "git_blob_sha1": "d14ef44263c7b76460150b65df980ace9c60dbb0"
+    },
+    {
+      "path": "skills/golang-pro/references/generics.md",
+      "sha256": "366d9303f68fa19258a19ed4fa9bb801dd9a01c8ee562fba440013f05957d2e2",
+      "git_blob_sha1": "4e6165937bbca2782a1b98bb346f176706fb2a18"
+    },
+    {
+      "path": "skills/golang-pro/references/interfaces.md",
+      "sha256": "0cc55637ddfc76136631293676482c3da6416f0109ff53703ba2f0e57d8c8322",
+      "git_blob_sha1": "41856f9cacc67e1648925e8cb6b75fc49ef3c41a"
+    },
+    {
+      "path": "skills/golang-pro/references/project-structure.md",
+      "sha256": "dcc0e9e4a19ee769ff7dcef26ae600982206354e0edea09b266b4b3b54a75e75",
+      "git_blob_sha1": "eb599b949a04b640100614d84ce123efafffcdb5"
+    },
+    {
+      "path": "skills/golang-pro/references/testing.md",
+      "sha256": "bbcddfc32d216711d5da60d437021d2c17bc417f5508b18a6bc4721325b575b8",
+      "git_blob_sha1": "3696a2ceab70841b17a3f836f2404c204166d3e5"
+    },
+    {
+      "path": "skills/graphql-architect/SKILL.md",
+      "sha256": "48f2b8c386de38961810bc9849fdf8cef6d82ee1f68d0f13554e4efec4c704fe",
+      "git_blob_sha1": "9e7e660fd6f81b662392969640ffef774ab1ee45"
+    },
+    {
+      "path": "skills/graphql-architect/references/federation.md",
+      "sha256": "1e6d69c8f04c5361e9a9f1734c673627fff2e243c0f444c4aa2ab467a94f1c46",
+      "git_blob_sha1": "bf07acfad1e85585097bbcb3d19e074516c9aa43"
+    },
+    {
+      "path": "skills/graphql-architect/references/migration-from-rest.md",
+      "sha256": "9945f1c60a8b8a775f02495546c855275fb7d2dfe65e17a08e439b4beeecd15d",
+      "git_blob_sha1": "e09200210686affb1a248bf16c4bd59f4ffd0b20"
+    },
+    {
+      "path": "skills/graphql-architect/references/resolvers.md",
+      "sha256": "9afe8b918261aaa9f9e06414412ea321fa387112d6245f506ae2d477e6e51d25",
+      "git_blob_sha1": "370ceca53f483b4d48345e3e824015073a98dd2e"
+    },
+    {
+      "path": "skills/graphql-architect/references/schema-design.md",
+      "sha256": "c248fc402e41bfe50f7ee78b484f8319f30441dbaba111ff5ed620c2178ac771",
+      "git_blob_sha1": "2c28a2f7c0a2393a4ad95eb669409b133060b721"
+    },
+    {
+      "path": "skills/graphql-architect/references/security.md",
+      "sha256": "385fc5a98ee18751e1ee5dd920aafb7daea9f41312c5e713612827846c8b4f25",
+      "git_blob_sha1": "32097e74eb1c5516cd38f2b73aaa98bb33a9a9a3"
+    },
+    {
+      "path": "skills/graphql-architect/references/subscriptions.md",
+      "sha256": "83f6f57a6b8692daddb319eea85e9534fa208b7c796cf9650c6042fe2dbb5ddc",
+      "git_blob_sha1": "266173f928d74cdd919fb48c27996ae7d8c03d7e"
+    },
+    {
+      "path": "skills/java-architect/SKILL.md",
+      "sha256": "6f229adf2c6042a7e762f82d372e828547cf1876e6a9a6451ee4b81a25cb468c",
+      "git_blob_sha1": "5ea0d5affae77433b4006d67d3fc7c2883ad525a"
+    },
+    {
+      "path": "skills/java-architect/references/jpa-optimization.md",
+      "sha256": "5d7255940c18ae913c220cb8f7bd8e75a1ee7884156dfd3c652a8e4a9857e310",
+      "git_blob_sha1": "b1a3df76870eb097302c3408c4d606a9b3a9e598"
+    },
+    {
+      "path": "skills/java-architect/references/reactive-webflux.md",
+      "sha256": "ec4047e6021e79024e4cbdf58605a2d183c5cc9b882205a0c350f13d8c460fac",
+      "git_blob_sha1": "d9b6ea407f70ee3d1d8ee04ef043595e1f63c3fc"
+    },
+    {
+      "path": "skills/java-architect/references/spring-boot-setup.md",
+      "sha256": "ce598dd95e1a94c23280072dbe87b2489fb4f437f0cbd196a6f12bbcd07f6d6b",
+      "git_blob_sha1": "9ddea0ef0450b526f835e48e9856a540ae35b791"
+    },
+    {
+      "path": "skills/java-architect/references/spring-security.md",
+      "sha256": "0e979f7f4d2e3b183ecb2ca6c247076f20ecd93734e17c61d8964a2519c8b2a7",
+      "git_blob_sha1": "ed3a41033dee9d7f14e064dd289595c9270367ca"
+    },
+    {
+      "path": "skills/java-architect/references/testing-patterns.md",
+      "sha256": "4f059565a7f093e5f27e2639765141b2ee9b972045d902d05b7b268d6534771d",
+      "git_blob_sha1": "bc65acb0cca2cd88187ebf7a2f70a7ceb10ce1c7"
+    },
+    {
+      "path": "skills/javascript-pro/SKILL.md",
+      "sha256": "861bcf73723a87cf3f634e3943feaf4c2d4ac3f89e4cd9eddb8289d6eaa9aabe",
+      "git_blob_sha1": "5a17d691316cf3c35bf258a268e6a25904549458"
+    },
+    {
+      "path": "skills/javascript-pro/references/async-patterns.md",
+      "sha256": "0a4e9a195d3f7f2d4e8b6c8a8c8a80c886733968e5d6aa3043900ae7975d8f52",
+      "git_blob_sha1": "4f73bf998e467c51f2313c2be05d9c1a475820de"
+    },
+    {
+      "path": "skills/javascript-pro/references/browser-apis.md",
+      "sha256": "eedab490ee41f2cec0b615a8b1d648ba5e7beaac0a12b17365d793e7042abe1c",
+      "git_blob_sha1": "4017217b2ced8b2cb157d7e08381a85aa5ff15e7"
+    },
+    {
+      "path": "skills/javascript-pro/references/modern-syntax.md",
+      "sha256": "88c6cb7b863067c364a5d4242c0a187098bdec50c4c05efb0ab9f90aedf3314f",
+      "git_blob_sha1": "416446b3b07f39ea7c48bc9c73e873f49cd98ccc"
+    },
+    {
+      "path": "skills/javascript-pro/references/modules.md",
+      "sha256": "d6fc9198f0ea7e2342d0927a524f98664ada8084a039fe70b1cc7abda0cf9af3",
+      "git_blob_sha1": "482b247bf10120f28b9dca7f989fdb1353ae05d8"
+    },
+    {
+      "path": "skills/javascript-pro/references/node-essentials.md",
+      "sha256": "d8863b3776d74816ba4855da31932198571484a295126a24bdaebeb3edf61729",
+      "git_blob_sha1": "690d4ce2c73431df9fdc05f1b557180bf1c19ff5"
+    },
+    {
+      "path": "skills/kotlin-specialist/SKILL.md",
+      "sha256": "aad72ccc56c540cfc96860267fda368b10f5fb537ff7c8899fe5701a5ae63e48",
+      "git_blob_sha1": "e0adbed570605df986e81f611bd27ef64256252f"
+    },
+    {
+      "path": "skills/kotlin-specialist/references/android-compose.md",
+      "sha256": "f420c8426772cbd981bd3a99b3c79159669a32432eec6bf705c0cf336cddc992",
+      "git_blob_sha1": "f33a2f2639fc9052077fea67de6b3ee32819dae7"
+    },
+    {
+      "path": "skills/kotlin-specialist/references/coroutines-flow.md",
+      "sha256": "f6c360c560baf7bcf00aabf62b8d37a6cb44f5336c1ccaa7ebc1791463eac980",
+      "git_blob_sha1": "5116100f3380c638c1dbf0eb765ed4041270425e"
+    },
+    {
+      "path": "skills/kotlin-specialist/references/dsl-idioms.md",
+      "sha256": "9e8ee843e66c220c53f4e0b300ff111f42810beb3500815bcbe55ccc3c837ebe",
+      "git_blob_sha1": "64e2fa066df9a4d581ef7406944cc1cac1028c50"
+    },
+    {
+      "path": "skills/kotlin-specialist/references/ktor-server.md",
+      "sha256": "6603f0d1f260e9105d70db646a221f90609f1e67ce43416b93de08bd26c74f9f",
+      "git_blob_sha1": "c1a581da2e0cbf504deb32ca9b1e854c908c9144"
+    },
+    {
+      "path": "skills/kotlin-specialist/references/multiplatform-kmp.md",
+      "sha256": "e5e08ba67511c8e9953b1110ee7ca0759d205f2b86e53c8a97c6b78fe9471db7",
+      "git_blob_sha1": "9cf9b5191486851da448f92cdead92e64a5194a5"
+    },
+    {
+      "path": "skills/kubernetes-specialist/SKILL.md",
+      "sha256": "4fa03569789141e52e6cd4d42922c84c7ef2dc299de5fc3aea4ceed506140d56",
+      "git_blob_sha1": "21ffb27300187a809628dff7517070339b083ab5"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/configuration.md",
+      "sha256": "f77b184c9b5bd25a9c2b3329e47fc8fa75a22c764cf5d0e8d18a947204324c77",
+      "git_blob_sha1": "0fd1a09ae84801bb5bc42fe60ec7b6fd40fec62c"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/cost-optimization.md",
+      "sha256": "f157166518e0cd6ef3a03b18ad49f8e65923808ec7429ab534a06be77a45139e",
+      "git_blob_sha1": "090fdfbd64cc9cad0110de42499a126b62a16c6e"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/custom-operators.md",
+      "sha256": "381e5cdc26f12cb0ba47039075027d2f167166de2ac15cfb485704f4677162e5",
+      "git_blob_sha1": "1dc30e91dba7d8d9045d14ab89906f06bf50009d"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/gitops.md",
+      "sha256": "74ae0f8ef62749e6e22bfe50e6ad07eb53d3bc8b46498275d528651a842fd71e",
+      "git_blob_sha1": "d7f86838b2fa5abb333cc203787496f5a941afbb"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/helm-charts.md",
+      "sha256": "e0c6bb2aa8921db22fdc465ec10c0719e6248fe38c1376658a2ec482eb9bc03b",
+      "git_blob_sha1": "d771498827d9daaefa8b4aa648db634063ee82ac"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/multi-cluster.md",
+      "sha256": "d4ff900981af1c394ab237c9deedbc37788e26a57132fd42a80335ba303a88ba",
+      "git_blob_sha1": "7723ecafb1bbd845c863c26fb5c7c606386d61ad"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/networking.md",
+      "sha256": "12ff07c3364397775f56ee42666050c9a18493004a46bbb7bf66356b8a6ef675",
+      "git_blob_sha1": "5e1a8f81c185e1b3fc3fa7dee0abdcdc05ce5307"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/service-mesh.md",
+      "sha256": "cbacae822f338e9cf3c7cc0bc7b80c9ea66af8e5621534c5adb79f9f98c5be22",
+      "git_blob_sha1": "038dcdece562f448c1a5aa444467e558bd829301"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/storage.md",
+      "sha256": "6d93a1f63bc7101eb98647d68143161b21d9e4a640d38086adb55871dae0d90d",
+      "git_blob_sha1": "e8ea4ac55906ae94b938abb6ff5d9a79c766974a"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/troubleshooting.md",
+      "sha256": "148f204d9a494ad41f3edd5e2ee2e7c27e5d44fc80e5f27c254649b9355dc225",
+      "git_blob_sha1": "b88e4d494626b802ee79467c0bca97f0dae35fbc"
+    },
+    {
+      "path": "skills/kubernetes-specialist/references/workloads.md",
+      "sha256": "46e70a6ced471246dff79551bcdb9b30c61750112705192cdb740c9ea9bba9b5",
+      "git_blob_sha1": "b5aa3efcfbf4dcecb952e0bfe3d866ad7256ced1"
+    },
+    {
+      "path": "skills/laravel-specialist/SKILL.md",
+      "sha256": "8743cc41a2a1d130ad527aad7b22eb27492adc8cd5b522297c5ce6706bf22318",
+      "git_blob_sha1": "1ba00fac6b14ecedbdcade950d135d00bb55d05f"
+    },
+    {
+      "path": "skills/laravel-specialist/references/eloquent.md",
+      "sha256": "2b38872ceacd35e607d577dc26d58a7b8f5c740c4488c68c70b7e71e0be60b2b",
+      "git_blob_sha1": "72b879e3fd47b3a2c9b8ff52d2191b6167436aa2"
+    },
+    {
+      "path": "skills/laravel-specialist/references/livewire.md",
+      "sha256": "940d3fff5da545ed9f27027c80e1ec03109d6956dd85421d7d7b6ca50563b10c",
+      "git_blob_sha1": "3d502d153e32f434df4741e3883d549a59851cf9"
+    },
+    {
+      "path": "skills/laravel-specialist/references/queues.md",
+      "sha256": "2d949cc5d3a37a8ce8582186c7defc6afa1c9288ab96eb150dc77db720cfd134",
+      "git_blob_sha1": "243dce19e8187b827b46f9e71093281f49a0dd16"
+    },
+    {
+      "path": "skills/laravel-specialist/references/routing.md",
+      "sha256": "108ebc7524de46262914bbfe3a754252858d5029dcc0b91be980fc15329986e1",
+      "git_blob_sha1": "684ecbd1b64b46b29b65df9e8694b68a04ec5b90"
+    },
+    {
+      "path": "skills/laravel-specialist/references/testing.md",
+      "sha256": "ae6bb2b11e4a44146dbaaea437eeb91a3aa28e304139ad0308d5bfcc424d32da",
+      "git_blob_sha1": "bc6e31f1a1c18a90ad7943037b5eafc89f6a6534"
+    },
+    {
+      "path": "skills/legacy-modernizer/SKILL.md",
+      "sha256": "3214e018c4aeedb5a4710f24979fef8f959a799ebb8888288e80dbe6bd2f7a1f",
+      "git_blob_sha1": "01ee2972d797217776f51023d121d95c37ed7aca"
+    },
+    {
+      "path": "skills/legacy-modernizer/references/legacy-testing.md",
+      "sha256": "da01c4b6240ad43b1994bae819e1de0cf9c9a44db8522f5f674c9cb27d7bcfd0",
+      "git_blob_sha1": "38837d876baa7ee9806dbd8981df9271e1a75c2e"
+    },
+    {
+      "path": "skills/legacy-modernizer/references/migration-strategies.md",
+      "sha256": "a1387efa79f4970a0ad608e8b4bb38e02a201538cff90dfe3199249ebd884b9c",
+      "git_blob_sha1": "5ab12b6ffe989fad96fbe92800a0d009240dcea7"
+    },
+    {
+      "path": "skills/legacy-modernizer/references/refactoring-patterns.md",
+      "sha256": "a2ad7703cc259c9965525ae0db32254bf2a592ef6a6e006bad692f2f398a8e13",
+      "git_blob_sha1": "018ac0374e2a707628acfb37ddecf399e7ab8b21"
+    },
+    {
+      "path": "skills/legacy-modernizer/references/strangler-fig-pattern.md",
+      "sha256": "a802264c2520793e4ba3b567d1450de7056e24b20a632d4b070ae2cc76e984b1",
+      "git_blob_sha1": "bfd34ea4d71be3e97adcc9835ec8180b1e2f6f9b"
+    },
+    {
+      "path": "skills/legacy-modernizer/references/system-assessment.md",
+      "sha256": "652749f4378e43d2eae0c57ce136aae6384d29671afb5b0bd160630c1b390ec4",
+      "git_blob_sha1": "1b6546f0259103c65ae85bee78555a34372d0a63"
+    },
+    {
+      "path": "skills/mcp-developer/SKILL.md",
+      "sha256": "d2f1ddf1ce82567c04468d041745b3c3a33d3b39ddad21de9612000c09932f3e",
+      "git_blob_sha1": "431d345d4fa3cab8587ced996d000eed329df140"
+    },
+    {
+      "path": "skills/mcp-developer/references/protocol.md",
+      "sha256": "967f215e0ec324ddfcf95f3c98e8ccaa791484618431971b3d1d2ba994955ba9",
+      "git_blob_sha1": "410ab3b45bda4a96aad8ba7075728cc40e7b68a4"
+    },
+    {
+      "path": "skills/mcp-developer/references/python-sdk.md",
+      "sha256": "395b3fce55012361c9397cac7b6ab51477789756524b9ace0a7f3626946a3c9d",
+      "git_blob_sha1": "4a37383269faf447b226f4782912815fb9743c22"
+    },
+    {
+      "path": "skills/mcp-developer/references/resources.md",
+      "sha256": "c32f64a706515ea0a782c574a71024c97b43342f077f06825573e551168dd7c8",
+      "git_blob_sha1": "2df3ced4018993b9e33d58acc72690730cb6b409"
+    },
+    {
+      "path": "skills/mcp-developer/references/tools.md",
+      "sha256": "f261f11d0fcaa49f12b527ce64832b65c2d35ad96b913e6b476b54b06410f0f2",
+      "git_blob_sha1": "25129bbf8246d552800cf70059c6764addf474b8"
+    },
+    {
+      "path": "skills/mcp-developer/references/typescript-sdk.md",
+      "sha256": "cc7b746f2fafac7669d9fd8f076d82181ab2177a5fe7887e054f31b59bc3eee6",
+      "git_blob_sha1": "bfdd067017796c90880578bdb209d6877ea0acf0"
+    },
+    {
+      "path": "skills/microservices-architect/SKILL.md",
+      "sha256": "66305b25acce73f3634377f2823afa1b1c7fe9104dccb242acb4613d76e26ff2",
+      "git_blob_sha1": "72c8475c2acd7af15465d546eb13b8105f6152bd"
+    },
+    {
+      "path": "skills/microservices-architect/references/communication.md",
+      "sha256": "ca2045d42651ac976bc1647adecbd8e5251e62db2f3a8b8113847d3375024b95",
+      "git_blob_sha1": "a68f3989688c6b1f76b18a9e56ee7565ff492134"
+    },
+    {
+      "path": "skills/microservices-architect/references/data.md",
+      "sha256": "41d754181a8c2b8df3cff9fddb8d53c098fd8bc8b7b5e1e0840c6f1b9f3784b6",
+      "git_blob_sha1": "94181f7911a72874167425100b16593fbd411af6"
+    },
+    {
+      "path": "skills/microservices-architect/references/decomposition.md",
+      "sha256": "176e233a770dd2605f70f773bedffde7862573238c571bd5edcd102c92623ba0",
+      "git_blob_sha1": "9f321bf5dfed5721479362d5f97e5ec0a2360e59"
+    },
+    {
+      "path": "skills/microservices-architect/references/observability.md",
+      "sha256": "67fdf013294369de39c4742c5782bc9e6590e7e73e6ca3cb520d43a54d7f6a43",
+      "git_blob_sha1": "0bd9ac95c5b51b6a05763128b0add83d8fee3f9f"
+    },
+    {
+      "path": "skills/microservices-architect/references/patterns.md",
+      "sha256": "7ff849bd85c6eff82ab94c25d0fe5683c16480cefa3a8e441b4041f7c0e9a85f",
+      "git_blob_sha1": "a36e57117b072b745072a453241615e45729fb22"
+    },
+    {
+      "path": "skills/ml-pipeline/SKILL.md",
+      "sha256": "f32d20c5fbaade8e7e43fcf756dec9543dd17f38b184f5d100b50bf34dae06a6",
+      "git_blob_sha1": "efd8710246a504461ddac785157cadfd82db2c6d"
+    },
+    {
+      "path": "skills/ml-pipeline/references/experiment-tracking.md",
+      "sha256": "87044c7d09de361758e02611447587b56d722a171c9102185836634129dbc8ae",
+      "git_blob_sha1": "df42d26cc195724f1cbd2495d968c0b0a909f761"
+    },
+    {
+      "path": "skills/ml-pipeline/references/feature-engineering.md",
+      "sha256": "726dc77f466bb89f466f25035d81a9204228b7928bedae2df20b31db1bcb82de",
+      "git_blob_sha1": "de0295deefd9e4a049ef7958252a8e77a4a5715c"
+    },
+    {
+      "path": "skills/ml-pipeline/references/model-validation.md",
+      "sha256": "1b0d23554a9e3430ff2b2e61957d9a312ad38500ab42f0d7e3ef9df05b71bea1",
+      "git_blob_sha1": "c555998dc650c46136227e4d65bfa0f6801b03aa"
+    },
+    {
+      "path": "skills/ml-pipeline/references/pipeline-orchestration.md",
+      "sha256": "ad97d5e631c7988b2a68240b006985c93b9026ff78f0424b6ec983ae54e27375",
+      "git_blob_sha1": "aafeda2c7747bbd42231b227f2cf282532c684e8"
+    },
+    {
+      "path": "skills/ml-pipeline/references/training-pipelines.md",
+      "sha256": "2922a663eb368f56f3e9e546e7f6cc5bdc1b1cc9bbc37cc5c5a5b4f5339a0345",
+      "git_blob_sha1": "2586c46378c4dada9ec9d432f495eabd5eef05a4"
+    },
+    {
+      "path": "skills/monitoring-expert/SKILL.md",
+      "sha256": "61eab180fba644e69a66868d5b261e2dc4f97094e3c06baa968a9dfea8215eb9",
+      "git_blob_sha1": "a8fe5cf5a4b2d13f2c3b0b32ec32894265234cba"
+    },
+    {
+      "path": "skills/monitoring-expert/references/alerting-rules.md",
+      "sha256": "9be1fa760e8cf548b4844d6c955b5ae1a3d64afb9e6db0f39d138f79e93bfb16",
+      "git_blob_sha1": "969566d6154f084c6593827e616df6d5e1ca40c5"
+    },
+    {
+      "path": "skills/monitoring-expert/references/application-profiling.md",
+      "sha256": "db873957f8268ca329e86bdc216de556be68ff231d8b4147b65168333af5a51f",
+      "git_blob_sha1": "0019005343861153815c26ca7d77e6b9dd6bd84c"
+    },
+    {
+      "path": "skills/monitoring-expert/references/capacity-planning.md",
+      "sha256": "8f9cdd499931ab20fffbc89f7325ba3b1336463fbfacaf6d7bb754fc40a9c716",
+      "git_blob_sha1": "ff338e96f0409c7cf31244183c5f0d0f44999bb4"
+    },
+    {
+      "path": "skills/monitoring-expert/references/dashboards.md",
+      "sha256": "283607d4b1b94c4abdb8d1ed09668442ea048620f741127367ae52c9cacbcc9c",
+      "git_blob_sha1": "5063a8e398b102e661c7b3fe308d351483a2e6ba"
+    },
+    {
+      "path": "skills/monitoring-expert/references/opentelemetry.md",
+      "sha256": "2f2cf89ca63ed14f9db16a64865e31114134de10e5f9e45ea598a51acaf4623c",
+      "git_blob_sha1": "5bba3ab37dac813d8f8bfe97b3b74becef559174"
+    },
+    {
+      "path": "skills/monitoring-expert/references/performance-testing.md",
+      "sha256": "06c91c245bef33e6ba3a567b34bb7f3e14e1a4cdb7695adff5de80392386ed0a",
+      "git_blob_sha1": "d5cf99bade70f4c6022c515b34572a43e08a5a0f"
+    },
+    {
+      "path": "skills/monitoring-expert/references/prometheus-metrics.md",
+      "sha256": "f1c5d9271a599d5e34ac5e06ee2efddd20d08fc327f08a44722da1e51563321e",
+      "git_blob_sha1": "00970105bae9029e19dbadaead9b07d7090620e9"
+    },
+    {
+      "path": "skills/monitoring-expert/references/structured-logging.md",
+      "sha256": "2d17ee1782d39cd07add6961dcba3ee24bd8a6fc0d88e7a8643941b433fdcf80",
+      "git_blob_sha1": "0966d97901173babccdd0cd803c6464f290f05af"
+    },
+    {
+      "path": "skills/nestjs-expert/SKILL.md",
+      "sha256": "a4b7c8f62b50565afaf44310964311be2f8dc4ede1fc513b884d2bf9b0e78941",
+      "git_blob_sha1": "974008382cbf58c6989fac61602641126662b694"
+    },
+    {
+      "path": "skills/nestjs-expert/references/authentication.md",
+      "sha256": "7bdd11ae675c17f25e2e59726459cd565ff403b475ba97c9f1ff9470eecbe2cc",
+      "git_blob_sha1": "e173c5ed4cfc9083af6c8ac0ea8eca6a64cddc61"
+    },
+    {
+      "path": "skills/nestjs-expert/references/controllers-routing.md",
+      "sha256": "6a26d34c4348c7ad849774003f22d1959d95305ac39dae92e778dfc4b0911825",
+      "git_blob_sha1": "1644ffc841811cb1a710b8b576f96361c1feb881"
+    },
+    {
+      "path": "skills/nestjs-expert/references/dtos-validation.md",
+      "sha256": "e42823044324f5927de8c7e0e65eb05f10b6659ee4296dc48ad44197b4ea832f",
+      "git_blob_sha1": "662f7093eda1d9645543535c167a0710e01d0a33"
+    },
+    {
+      "path": "skills/nestjs-expert/references/migration-from-express.md",
+      "sha256": "1f50801d6d4b2ac4f3385521807ec38f3c9b6b7a9b2a6a448cfd9c26a4791685",
+      "git_blob_sha1": "131642834b7699ec507a720b7e493db926768c48"
+    },
+    {
+      "path": "skills/nestjs-expert/references/services-di.md",
+      "sha256": "9e55a6b147bb3e29bc1ee45fbbccb3200ee2514082952c16e91c356432176f6a",
+      "git_blob_sha1": "394d274476a882bf3f3cd29eca39807f10f473eb"
+    },
+    {
+      "path": "skills/nestjs-expert/references/testing-patterns.md",
+      "sha256": "452eacdb08282c17b4c34185355913ff4c63f8bbe77d32dfd1d90e0478952123",
+      "git_blob_sha1": "b7a3522d317b02efaac2fe16c6188726e635d29a"
+    },
+    {
+      "path": "skills/nextjs-developer/SKILL.md",
+      "sha256": "cbe6b04b18fa956f2a6563d996dde44a4c14e13862f58fdbe9eb891e65acf562",
+      "git_blob_sha1": "d76a7c9a73940a91c1e574ee2c077a3654241667"
+    },
+    {
+      "path": "skills/nextjs-developer/references/app-router.md",
+      "sha256": "6ad5dcb2db0c98b13e87846936670c861da27346edebe75bf096cb08b78f6330",
+      "git_blob_sha1": "e0a4f69960c2efe935cf476ba0817c4f202c7e55"
+    },
+    {
+      "path": "skills/nextjs-developer/references/data-fetching.md",
+      "sha256": "abbea7c3351c7ad77ca820e48e6f27cd68f29638b82e39dc65560a75f5151255",
+      "git_blob_sha1": "df9ac2f43b667fb54cb1eca9cd4f8cb034990561"
+    },
+    {
+      "path": "skills/nextjs-developer/references/deployment.md",
+      "sha256": "7a57d67d37a83825404ecc13fa24833432bafb547002530a189e20fa9086bf70",
+      "git_blob_sha1": "d00ce41981f9506d91d95b324da56659e2174de7"
+    },
+    {
+      "path": "skills/nextjs-developer/references/server-actions.md",
+      "sha256": "c708b825296d525744e517d630402d7d73fb64df7db02882f0107a1abc4cb549",
+      "git_blob_sha1": "6d1f08a0265b238d47b6485bcdb462a28030b789"
+    },
+    {
+      "path": "skills/nextjs-developer/references/server-components.md",
+      "sha256": "c03e919c56f4588840cd4141e015f900fa6993567d3720d4736e3a3063663cc9",
+      "git_blob_sha1": "7d681a17953d087dc79cfd77c44bc69ff706baf0"
+    },
+    {
+      "path": "skills/pandas-pro/SKILL.md",
+      "sha256": "56191905164612548aa61b3434b5543bb3256bf38577d48dfca4f7a7497f9f6c",
+      "git_blob_sha1": "c4113a5b0273f4858adf891fa0fb6a24480c5709"
+    },
+    {
+      "path": "skills/pandas-pro/references/aggregation-groupby.md",
+      "sha256": "d71f9e011ebbcc62e4b695932c8e526cfe45b37ec05088bf2995a6f49f26a68d",
+      "git_blob_sha1": "84670bffcf3a1a98d03dffd1023b34921efcbeeb"
+    },
+    {
+      "path": "skills/pandas-pro/references/data-cleaning.md",
+      "sha256": "99468b768f3bfe7a6efb24999462d80791292861c3037ca46b8073d2828490f4",
+      "git_blob_sha1": "08aeebf457e153535c2e7ea97150b632ec86fa53"
+    },
+    {
+      "path": "skills/pandas-pro/references/dataframe-operations.md",
+      "sha256": "ea3807160696538f33abda69d557f2810bdff7e746f01673e94f1a349dca3e3e",
+      "git_blob_sha1": "723b5d733be6a98ac5cf323d7aeca00fafdd892c"
+    },
+    {
+      "path": "skills/pandas-pro/references/merging-joining.md",
+      "sha256": "f51f06377908a6aaa9ed498a673d993826bd6d642e3d6af2c26878dd9c80bb87",
+      "git_blob_sha1": "e29385654f4f175d3817dba8e7ca8a1f25a4afff"
+    },
+    {
+      "path": "skills/pandas-pro/references/performance-optimization.md",
+      "sha256": "a34ad5df2cba5465ceea51ed61191b0eaf9adf38c65bc2ef18aacd21ca5ecb48",
+      "git_blob_sha1": "6eba550dbb36eee3739d0f0feabcf71eff0b0604"
+    },
+    {
+      "path": "skills/php-pro/SKILL.md",
+      "sha256": "8eeb931a5a643cbac0a9a419d856d65cb00bee118360a875e1e18a4e7cac3cdf",
+      "git_blob_sha1": "d35de633f16f29ab076732e9e14f3b6f2192e06f"
+    },
+    {
+      "path": "skills/php-pro/references/async-patterns.md",
+      "sha256": "ae85c25da67eab1a8391dbd2c1a6a6f6b6629bb413c7068ae55f48e08e2ce924",
+      "git_blob_sha1": "dfd7917c2bd4245f09dea0da2408f8e92c74ec4e"
+    },
+    {
+      "path": "skills/php-pro/references/laravel-patterns.md",
+      "sha256": "39c4e9e9e564a0fcbc1d6bf34dce0fd2e3568f5fca75d40921e7f2eacf6f3a39",
+      "git_blob_sha1": "f316f4836595faac608d994d40e283e3f3dadb82"
+    },
+    {
+      "path": "skills/php-pro/references/modern-php-features.md",
+      "sha256": "04a6a64dad160622eb1f8465e842681aad8c97261f39383195566aac59fae159",
+      "git_blob_sha1": "28ee4a12e88c02c802b9ce04d5903780b4057d2b"
+    },
+    {
+      "path": "skills/php-pro/references/symfony-patterns.md",
+      "sha256": "fa9f01da37e3f0d1981e5ec3af3ea51edf20d4f1ea6e3f85f436ca73ee5a2ba2",
+      "git_blob_sha1": "08e8053b25b0cb1309e24e4b8cce4d2d7ad2176f"
+    },
+    {
+      "path": "skills/php-pro/references/testing-quality.md",
+      "sha256": "37feca97514374256905a968bc35a217b462d842c3da761220ac69be26611f54",
+      "git_blob_sha1": "d95b1c2d17fe3b38d66624ce4626ff4543fe6063"
+    },
+    {
+      "path": "skills/playwright-expert/SKILL.md",
+      "sha256": "d84e24b9d20e910e519a763e4dc7f0744e81497ffcc6b29cf7806dc0c07cca12",
+      "git_blob_sha1": "5266b803d8dde0493646bbf34e51d790310c0563"
+    },
+    {
+      "path": "skills/playwright-expert/references/api-mocking.md",
+      "sha256": "e4f788c6355a79c9baa21b232f55788cc80620d735d29d43dea62667120fde45",
+      "git_blob_sha1": "0e89c62cee3a1c3276024700aff04723dba40108"
+    },
+    {
+      "path": "skills/playwright-expert/references/configuration.md",
+      "sha256": "f65f5eb5a91d3a13dafb845026ee07f41353e3b82bbb6def4fc7054e55b6f2aa",
+      "git_blob_sha1": "88ab05bd3944be7f5ddf5de208faaf57fec0b7f9"
+    },
+    {
+      "path": "skills/playwright-expert/references/debugging-flaky.md",
+      "sha256": "e559423dad74e5c384ba3de0a1c0db8d7f7723bd1a19cdc46f25b0f7622d5627",
+      "git_blob_sha1": "383c588c5333e3d4710d72734b1b177d65909a68"
+    },
+    {
+      "path": "skills/playwright-expert/references/page-object-model.md",
+      "sha256": "256aa9f89ed8ef2a8ca0126007f44fa1324414197130455a48455b1184ab7226",
+      "git_blob_sha1": "da79d2b10a6b685f1f53d031519e302895b01add"
+    },
+    {
+      "path": "skills/playwright-expert/references/selectors-locators.md",
+      "sha256": "659941eebd0f53ecde7dba938ec035d76673b6b0bb7cba06441a06e46922e134",
+      "git_blob_sha1": "4537b9f37f28dcda72bafd54c8821c93f972bf4d"
+    },
+    {
+      "path": "skills/postgres-pro/SKILL.md",
+      "sha256": "aa3bf7c9a5a7af779095ef7e1a1afd0939880edfb7853719bfd54fe80fc74bbe",
+      "git_blob_sha1": "3c0a347b662f1b89f71a128c1d913bf3d032b8ca"
+    },
+    {
+      "path": "skills/postgres-pro/references/extensions.md",
+      "sha256": "a5e67a41cd616629322203dc64932c4151109bbeb1e836589746a628b9fd19f1",
+      "git_blob_sha1": "abb6d7e4980e6def546510ba03d94caf8964047e"
+    },
+    {
+      "path": "skills/postgres-pro/references/jsonb.md",
+      "sha256": "8ad7086e676f86f23305a5127714566898e4c500593e1a4679194a32c7f530f2",
+      "git_blob_sha1": "127b38cfe05013a81de6aeb0ca7a2d627ef84ae5"
+    },
+    {
+      "path": "skills/postgres-pro/references/maintenance.md",
+      "sha256": "a9915cf08759fb92ccfbcfd2b811f36ac7c02ad0bffff2dc7f59aca9e670203c",
+      "git_blob_sha1": "5534adbfe694300a3090ace383253df3d20536d1"
+    },
+    {
+      "path": "skills/postgres-pro/references/performance.md",
+      "sha256": "b137e04782ab4c5387184862cb689d7657d5cbb13c3c41d61980a2edf7c2c8d4",
+      "git_blob_sha1": "0bb3ad7c57ac5823cc9de41bb8209c39978407fe"
+    },
+    {
+      "path": "skills/postgres-pro/references/replication.md",
+      "sha256": "1a42f7cb39aae4c3afc42addfc37ba3fff31b473d1eb82878adecb1e2390cfd5",
+      "git_blob_sha1": "7209bd1a9c432ca8fdc4ba343e8019a64f458a5f"
+    },
+    {
+      "path": "skills/prompt-engineer/SKILL.md",
+      "sha256": "3b3f4fd1cc1498584194adb584920b3ec7637dd90285939e13695f3f84c6e785",
+      "git_blob_sha1": "2f87d9f44ca137ceb0f74293873034845e8f099c"
+    },
+    {
+      "path": "skills/prompt-engineer/references/context-management.md",
+      "sha256": "7baceb0abd3cbac9e911fa48bfbc97965f122fe53b93e9967c002bfbdcd1b66b",
+      "git_blob_sha1": "4701ff45c71b3800e8802d1d03e20100140b405d"
+    },
+    {
+      "path": "skills/prompt-engineer/references/evaluation-frameworks.md",
+      "sha256": "0eff6ae070d12c0d62f2c9ce952e7e5225e5ec4197fcb8a717cd359c189b9d22",
+      "git_blob_sha1": "d5053d09b8da5cc254a3aa91ec74f8fcf33edf0c"
+    },
+    {
+      "path": "skills/prompt-engineer/references/prompt-optimization.md",
+      "sha256": "ccc38e0e5816f1afd9e62dda4b7e0f14b8b57f5d79fea2f84d4f574ee4ec3bee",
+      "git_blob_sha1": "0ca7be3a28ec0cac90cb24c345fbb88be6c78e73"
+    },
+    {
+      "path": "skills/prompt-engineer/references/prompt-patterns.md",
+      "sha256": "b749ede7feb361c9f7ac0c729c19bce11c5d733c3a0e93d72b6f3e99f7b7f0cb",
+      "git_blob_sha1": "9d09972c7b90134ec7bc884bedd52a213f70d9e8"
+    },
+    {
+      "path": "skills/prompt-engineer/references/structured-outputs.md",
+      "sha256": "aa01c577ff3a23f281cc9385475293e9d46ded5ac99c712e318941fd5f4b9969",
+      "git_blob_sha1": "d2aa77ce39634db8972558b3d3c1261596b58570"
+    },
+    {
+      "path": "skills/prompt-engineer/references/system-prompts.md",
+      "sha256": "18a3054c96edbc7f5cbbeba338898fc49fbfe56b3f07b004285da292acd22513",
+      "git_blob_sha1": "f3b72667fe1621a0ec6cb42bc67a6cfa2dadd8ea"
+    },
+    {
+      "path": "skills/python-pro/SKILL.md",
+      "sha256": "b94b59450d7372ac0cf47c7313a189796a5a7b0470552b2fe9e9581ec6c3de04",
+      "git_blob_sha1": "c1910a2a4732243a09ccc6b290d794a41cb4ee6b"
+    },
+    {
+      "path": "skills/python-pro/references/async-patterns.md",
+      "sha256": "b7986eb185a4858de3edcb27f537a38d351d3017fdbcac3ba2d905d30ba1cb64",
+      "git_blob_sha1": "3b155cb062b57d1e1ddd00c0e9f8054c28451cdf"
+    },
+    {
+      "path": "skills/python-pro/references/packaging.md",
+      "sha256": "483d0a257907d2e17ce1cf2e3e7b8b2af88f9eb17fa3a9c4bcc04aa60e930ae3",
+      "git_blob_sha1": "aa1d0f61622806e73e60ec758506e3767f1ec4d1"
+    },
+    {
+      "path": "skills/python-pro/references/standard-library.md",
+      "sha256": "d2997c8f9a491561947c95a182e09b2d584d828d26cb04eb42a194fa4393c6ce",
+      "git_blob_sha1": "f70edddcb49940f03e2b27fc13ae921f950184f3"
+    },
+    {
+      "path": "skills/python-pro/references/testing.md",
+      "sha256": "81c8bc148eaf7d32e51171c997016c7deda140b71d6253b15b63b10f038f3c28",
+      "git_blob_sha1": "7a8798e8e63636b9c82a0a4d287954bcf223ac0d"
+    },
+    {
+      "path": "skills/python-pro/references/type-system.md",
+      "sha256": "62c4474c4ed29a18fd64002a356cba0239785f68c8530109c74c5bb3162b021b",
+      "git_blob_sha1": "8ef495bf6b9b8abbb3da0c8e68f255a3d93f61f8"
+    },
+    {
+      "path": "skills/rag-architect/SKILL.md",
+      "sha256": "36e21290e5df36ed3eaf007d0e91781c7453dc46c6dedd6d31c1c382b28cf137",
+      "git_blob_sha1": "4c4a9b9c1dfd1c4746ead35e34f47b1101e24781"
+    },
+    {
+      "path": "skills/rag-architect/references/chunking-strategies.md",
+      "sha256": "1b732310ebf7b5e64c5abef46b13a11614f1c3dc331c214389f2643504a9a809",
+      "git_blob_sha1": "c71df9b751a1dfecb16b0fe09b540d07cf6ae0ec"
+    },
+    {
+      "path": "skills/rag-architect/references/embedding-models.md",
+      "sha256": "d6916896df46601bf32eacc51e21358296195b4bec979c3ec74ede28a12e01d8",
+      "git_blob_sha1": "480d79f733c3c6f65726a25e65db94f1f56c543c"
+    },
+    {
+      "path": "skills/rag-architect/references/rag-evaluation.md",
+      "sha256": "de20bdaa8180b00bdd931dd79870926f747de4dafc1c0a66a64609293a8131e0",
+      "git_blob_sha1": "1915c227bcf2687878a092f542d318c614dfd749"
+    },
+    {
+      "path": "skills/rag-architect/references/retrieval-optimization.md",
+      "sha256": "3a5b7181bd0991be743b2761a792f5371d93b38747d78393606f5ce75247c90c",
+      "git_blob_sha1": "63c78224b5e6d83e0cdc30240d2152d36db32863"
+    },
+    {
+      "path": "skills/rag-architect/references/vector-databases.md",
+      "sha256": "faddfb37db3207e346c83298c8a972442501927ec73b278e6f4d1cded13ac115",
+      "git_blob_sha1": "9fa65df86b843d8e15503e87cc65cea0e8a59403"
+    },
+    {
+      "path": "skills/rails-expert/SKILL.md",
+      "sha256": "3419a1bf94fbca5b6a6693e06e188217757e7f7dda2fce06ed2dd605d59c3b1b",
+      "git_blob_sha1": "58fff87f66b753b8d89528d109b34bb8c9bfa692"
+    },
+    {
+      "path": "skills/rails-expert/references/active-record.md",
+      "sha256": "b64643ce265c70962c21ed1886b96e995c65286d2f76cc3bebac4fdd93fff26a",
+      "git_blob_sha1": "110e38d17351afc0b8f27dbb2bd61ddde1ced2f8"
+    },
+    {
+      "path": "skills/rails-expert/references/api-development.md",
+      "sha256": "d926702ddb8d605fe8bb312ad5a3899dd71eba992e99bdfba1384908f052ab6d",
+      "git_blob_sha1": "e516bbb4247392a89998819521900034d60b97d5"
+    },
+    {
+      "path": "skills/rails-expert/references/background-jobs.md",
+      "sha256": "55d64ad68649a6ad573c06738142eeb5595827daab2f056adbcbd1526b4f0b27",
+      "git_blob_sha1": "6935207f72fbf1417113621858386575137a4f83"
+    },
+    {
+      "path": "skills/rails-expert/references/hotwire-turbo.md",
+      "sha256": "43cb0b5c58d6747667a9dd0bfd306228c6c9b042884766da1772715ae3172145",
+      "git_blob_sha1": "26edd90d3eddf0561297564992dd7532e02397fd"
+    },
+    {
+      "path": "skills/rails-expert/references/rspec-testing.md",
+      "sha256": "3b086c376e9fb91aee0bbfb63c95bb2b52de440eb98a72a5af2174ca9ee24c52",
+      "git_blob_sha1": "27f0392836e00dce2df054b375727221d11c4245"
+    },
+    {
+      "path": "skills/react-expert/SKILL.md",
+      "sha256": "d513fbf10bff343c9d641145e06876edb5f924fca0de4878ce685d3518b41010",
+      "git_blob_sha1": "a374a534507005d0cb252c5da465d192de1af465"
+    },
+    {
+      "path": "skills/react-expert/references/hooks-patterns.md",
+      "sha256": "1b812584ea3f94a51e30b014f986781ea57e4f3812927d23f2a65847b0bb01cd",
+      "git_blob_sha1": "7877b85c0bed459b5d049594be379445ad1aed30"
+    },
+    {
+      "path": "skills/react-expert/references/migration-class-to-modern.md",
+      "sha256": "a1c165c95deba74d49429d2ccbeb51adaac314c1f4b7cd70dd73b8472defaf7b",
+      "git_blob_sha1": "023dacf20338d37d9a7da9c1c4ca22af51070528"
+    },
+    {
+      "path": "skills/react-expert/references/performance.md",
+      "sha256": "49cc1262ff7163cfdab606f8842def3109bba5a3c3472181515e7098514a587f",
+      "git_blob_sha1": "139d4fbe4c1a41d255d56cf13c225b8c07f5e4f7"
+    },
+    {
+      "path": "skills/react-expert/references/react-19-features.md",
+      "sha256": "15b179809f620c2a703765aa23eedfa93a0aabc3d7a8b030e4b8552c0517bbbb",
+      "git_blob_sha1": "fb20527455c56661424d9942cf1b16634543936a"
+    },
+    {
+      "path": "skills/react-expert/references/server-components.md",
+      "sha256": "f5a1c727e772e341bee46706fe94878207b1f5e92c2b2893b62e8a1bfef2ff90",
+      "git_blob_sha1": "70c171bd891fd3c993d9ac825119e21d331835cf"
+    },
+    {
+      "path": "skills/react-expert/references/state-management.md",
+      "sha256": "df7bb47ff8efa87970fe32c1726f723ffa53e74c25aff3b13764a2ab63f8bcee",
+      "git_blob_sha1": "99dd14c91f54ef28793bd94d6683b45600e2aea4"
+    },
+    {
+      "path": "skills/react-expert/references/testing-react.md",
+      "sha256": "5c648e0ca79f2326be24d95f0dbb4c47968251dad1f295152326b5ba4b606a08",
+      "git_blob_sha1": "344c20868e44ad7ea0d818b143d43526316f5fa0"
+    },
+    {
+      "path": "skills/react-native-expert/SKILL.md",
+      "sha256": "80bdb65a37af9233eb4859501d4fa4ddc0f9cd715b6a636c35a8f8b67944c6bb",
+      "git_blob_sha1": "a20bb697b6cc558b587b058321d866776a59a11e"
+    },
+    {
+      "path": "skills/react-native-expert/references/expo-router.md",
+      "sha256": "a62b3f4eaef6cef9bf7a6670682656a59dc9b54df02de93915da8528c19f6fe9",
+      "git_blob_sha1": "4849a9f47b76d76aed56b378dc20147af83f16a1"
+    },
+    {
+      "path": "skills/react-native-expert/references/list-optimization.md",
+      "sha256": "7b9908e812829870acaaae10dfbc0e59bfdb18c1360f94cfa018636d15e6040f",
+      "git_blob_sha1": "0dacb6d6426da7edf500613b140c717b87b10d7d"
+    },
+    {
+      "path": "skills/react-native-expert/references/platform-handling.md",
+      "sha256": "4fdafd628dea19bad3927c9a7db4fa00bdf612502df51e14e830705e492805f3",
+      "git_blob_sha1": "03e0e99e7b7f73fa3b9dcf8bd10be2bc338541a8"
+    },
+    {
+      "path": "skills/react-native-expert/references/project-structure.md",
+      "sha256": "0b5292d49a6bfdf87d625decfe0d2ce53831b67b333dae27fa20de8446d168ed",
+      "git_blob_sha1": "a95870b45de9f4e6ac9503d81fc2e19720f03782"
+    },
+    {
+      "path": "skills/react-native-expert/references/storage-hooks.md",
+      "sha256": "65b969a610b5214470287fb0b34cafe41ead85f65de9b544bb49d78297261af4",
+      "git_blob_sha1": "b67a7ecfa864120011bb598442fa237788e25158"
+    },
+    {
+      "path": "skills/rust-engineer/SKILL.md",
+      "sha256": "bc50c5df721ff7a7e2ff9f643905c184fab33f103e5640f9ad26344aaf33ecfc",
+      "git_blob_sha1": "570dc03ea7218135c91606737b400a7962cc40c0"
+    },
+    {
+      "path": "skills/rust-engineer/references/async.md",
+      "sha256": "c573ca7d98cf21467b77cebd4dae079cde58e7af5836dbe9cb6427eff4136508",
+      "git_blob_sha1": "34fd97ab3c716e9bcbe241d0ae5367e9d69792df"
+    },
+    {
+      "path": "skills/rust-engineer/references/error-handling.md",
+      "sha256": "1425a501e3201760a4d9cd16c2b3152bb457fe490181447b63e7ee4b7c154721",
+      "git_blob_sha1": "8f49b741ede9f930f244feda2f23c7f84ddfcff9"
+    },
+    {
+      "path": "skills/rust-engineer/references/ownership.md",
+      "sha256": "aae951e73f8efcbf93c4f6eae2346e7217c6040c785b03eb741341ced3c3c0c7",
+      "git_blob_sha1": "ac82d7bb86bb35e43f862258090a51630872e20e"
+    },
+    {
+      "path": "skills/rust-engineer/references/testing.md",
+      "sha256": "26b76a29f510cf8a401d63a1b24c54a1c221054d31dfcead31c0c81767eecdb1",
+      "git_blob_sha1": "6e6e198ac4ca5300c49e1c51e50d7931f172da0b"
+    },
+    {
+      "path": "skills/rust-engineer/references/traits.md",
+      "sha256": "b896a5056149c200f0dd31abb53011acd518d232c4af48e024dcfeaa697d34ff",
+      "git_blob_sha1": "21f112e3776bbcf19153b365d880e2750ef2da7f"
+    },
+    {
+      "path": "skills/salesforce-developer/SKILL.md",
+      "sha256": "04a793eaaf3493a5a681f0009c09e97706f67906bdc976e12e868e31f5437356",
+      "git_blob_sha1": "9a1b7071e7abea05a3e950eb2f2c4b393e7fcd09"
+    },
+    {
+      "path": "skills/salesforce-developer/references/apex-development.md",
+      "sha256": "b948446a06ef78f28314987e921cb24b55c320f0603f236910343ef2494f4efe",
+      "git_blob_sha1": "778adb9ed73e045ef04b2fb10bdb21d2d86f7b6a"
+    },
+    {
+      "path": "skills/salesforce-developer/references/deployment-devops.md",
+      "sha256": "39f9f4bea148eaff9dc66fc2ddb59aec6c1a06ad452dbd0cff7670fa3897239a",
+      "git_blob_sha1": "7c983f004c92f941a8199fe9be7f4744d354667d"
+    },
+    {
+      "path": "skills/salesforce-developer/references/integration-patterns.md",
+      "sha256": "7c4a711b23a7a3eb2c7305ef7d9d13293d19106dd85d583547ed4f511ef67e49",
+      "git_blob_sha1": "f02d889de0c55b0571225c696d3998cbb21857e5"
+    },
+    {
+      "path": "skills/salesforce-developer/references/lightning-web-components.md",
+      "sha256": "180edf8dd336657c05cecf6df156a4dca1382439f1f340c8d597a2e81d1a6f37",
+      "git_blob_sha1": "82dab761cdc010ba7b0136ac7274eef20d27f3a9"
+    },
+    {
+      "path": "skills/salesforce-developer/references/soql-sosl.md",
+      "sha256": "3f357e9a104cd4927ad7cf28d49bdd381fbdbacf15fde6772f671784bf0a85a2",
+      "git_blob_sha1": "d28806b513aee05c4c9b78d05b105c169bed7aa6"
+    },
+    {
+      "path": "skills/secure-code-guardian/SKILL.md",
+      "sha256": "47715fd6db1e0507041a6674a3096f1fd65b086e23453cb7d77a202bbe15fb56",
+      "git_blob_sha1": "8bdd2cef5d5e10a99982b5786b2c78eb0d627dfa"
+    },
+    {
+      "path": "skills/secure-code-guardian/references/authentication.md",
+      "sha256": "4d680ac47602955de09a4bb248346a91b96158d0b7e23de4fe20ecfda2ff8ac2",
+      "git_blob_sha1": "b05088d689588d9d3426aa1fff25fcb842882741"
+    },
+    {
+      "path": "skills/secure-code-guardian/references/input-validation.md",
+      "sha256": "2f227b437b0d1184ad557c3ba48bf6e0db4df43c8949c9c0fc923c69847a040a",
+      "git_blob_sha1": "7a47cdc4ac21b90c9fa33e52b989904c0e9df186"
+    },
+    {
+      "path": "skills/secure-code-guardian/references/owasp-prevention.md",
+      "sha256": "4baed17eeefd365c1b46cf54e0915e99ce85666b345faf40dd9c6bf9e33372b1",
+      "git_blob_sha1": "5322d8ded34d3e5c6b5137be3e900b45844d3be0"
+    },
+    {
+      "path": "skills/secure-code-guardian/references/security-headers.md",
+      "sha256": "59333cf6d3a13b8675d98afd0888e224a1e6b644f755b08a46ebcef3fb6be281",
+      "git_blob_sha1": "f434be8e0e1e1eb88f5a9691aeb8717c957852fb"
+    },
+    {
+      "path": "skills/secure-code-guardian/references/xss-csrf.md",
+      "sha256": "4d9976faed6ff05ce2677cdccee1df0be2980375fcdc6151ea59553fce5ca470",
+      "git_blob_sha1": "119fdf54566afd3cc8f11e9c9cad69d41e4bb882"
+    },
+    {
+      "path": "skills/security-reviewer/SKILL.md",
+      "sha256": "2fdefe00c34ef28671f72562cfe9f1707aff62443e549b0ebba645336f5969dc",
+      "git_blob_sha1": "d2828ade1b2a1c35fd6b64b42fbe3b667b4fabe8"
+    },
+    {
+      "path": "skills/security-reviewer/references/infrastructure-security.md",
+      "sha256": "5bf4916b3f7172ddac0d86be7071b96ad11fc0de6544cd244ce6f75790732ef9",
+      "git_blob_sha1": "115b58aaa813a1296c31cad6e5196a586a0f3bf6"
+    },
+    {
+      "path": "skills/security-reviewer/references/penetration-testing.md",
+      "sha256": "30d15ef551d41e14399ddd80e74292e4275ce96e60520595a503e072b553c01a",
+      "git_blob_sha1": "e6fdcdd347ebcf50bc8d1d4e4f0446cb1ebccca8"
+    },
+    {
+      "path": "skills/security-reviewer/references/report-template.md",
+      "sha256": "047be06a70bf44f47ae2c124318702f185200f43c122ebf26bcbc47d8f53f18a",
+      "git_blob_sha1": "836ed1b21a82272ebebe66919385d8124b678d76"
+    },
+    {
+      "path": "skills/security-reviewer/references/sast-tools.md",
+      "sha256": "37b32c0dd34ee34dba396382d8a5a9c6eb170ceee333736a97e3750a34272055",
+      "git_blob_sha1": "84b2e49640702f9d9285a56cd4ac52c7cea6515f"
+    },
+    {
+      "path": "skills/security-reviewer/references/secret-scanning.md",
+      "sha256": "e8b378a5ebe0cfc707acb468fb565331a5729401bacaa9029a4eb007ae55dedb",
+      "git_blob_sha1": "a71982fcc6b2d7f44b8f824ee091eb0a3211ffa1"
+    },
+    {
+      "path": "skills/security-reviewer/references/vulnerability-patterns.md",
+      "sha256": "cfa6dc7e7d3d181a5936e0d4a3672138ba764b85b208dd9e6fec83f29cef21ec",
+      "git_blob_sha1": "c5b001ba650d11474e70e64f12f80f18bbf94191"
+    },
+    {
+      "path": "skills/shopify-expert/SKILL.md",
+      "sha256": "0f3028f75de59c5055b6a7390afe0a6df172aea8830b803348fb44ee22be069b",
+      "git_blob_sha1": "e6ba2b67c18beb3049f51d19e84426c47412ccb7"
+    },
+    {
+      "path": "skills/shopify-expert/references/app-development.md",
+      "sha256": "e5dd3bf6555237647bf18ae139b8f14b15a40ff6ba2fb245f1bc31b4c5a7bb64",
+      "git_blob_sha1": "e952328cd06c1725aee2342f29d07577ad19d76f"
+    },
+    {
+      "path": "skills/shopify-expert/references/checkout-customization.md",
+      "sha256": "d4fb955ba1c50e1f453e50766282d6007f83e1de76bfc738f7a43a5b4235382b",
+      "git_blob_sha1": "ca20a2c2060e74ab2f95c879e4354b629cab4f1d"
+    },
+    {
+      "path": "skills/shopify-expert/references/liquid-templating.md",
+      "sha256": "acc6405068917007a6e950cdb9d5b780e7812c0ca00a456589d12196132dd079",
+      "git_blob_sha1": "ec2865e41b346e418eb474fa993dd3425380fee8"
+    },
+    {
+      "path": "skills/shopify-expert/references/performance-optimization.md",
+      "sha256": "79fb15b01908def4b7c341e5c91d55fd661cb63e9ea11db5677d7ce6e0d32fea",
+      "git_blob_sha1": "b41016c224f0c3cbbc64ece76309f977ac66a12c"
+    },
+    {
+      "path": "skills/shopify-expert/references/storefront-api.md",
+      "sha256": "e9d7385186e7fe8d32d51f91ac45caa7fae3b5a39ea2787012fc7739618d9837",
+      "git_blob_sha1": "16d2b12c7e67cec3d331fc5b8985b337b33036b0"
+    },
+    {
+      "path": "skills/spark-engineer/SKILL.md",
+      "sha256": "95c0810537a96b90668b6c152106bbae81b7a8243f3b3ebf2db3a5f95b5e75dd",
+      "git_blob_sha1": "b1573599bbc5237f24d9a2aed6b0df9be1387e9c"
+    },
+    {
+      "path": "skills/spark-engineer/references/partitioning-caching.md",
+      "sha256": "55a57098b912f8af6bfb24bcb0eb869c182e30cffa0761c11da191599ccab5a3",
+      "git_blob_sha1": "bef9a8275430e5d8c590b811cce682db9b8544a0"
+    },
+    {
+      "path": "skills/spark-engineer/references/performance-tuning.md",
+      "sha256": "7210f8a93f660077a4a47dccb783afab1dab462136d8b1c2652367f7237951b4",
+      "git_blob_sha1": "35c470cd4ef9e34832521b6bae3a3ba8735ae61a"
+    },
+    {
+      "path": "skills/spark-engineer/references/rdd-operations.md",
+      "sha256": "e70e84f356d99255c64db824c5808afb4413c84547cc5be3e09a59728f8eef83",
+      "git_blob_sha1": "7b87eca656b03ed8f425a449736c7792221f0e59"
+    },
+    {
+      "path": "skills/spark-engineer/references/spark-sql-dataframes.md",
+      "sha256": "f72122900b89ca1ffa720623ccd6455c6959aceafd8a070c86dcb600a727162d",
+      "git_blob_sha1": "d4b0f37c9bfc6bb9eca53744f47fc75ec6a24c80"
+    },
+    {
+      "path": "skills/spark-engineer/references/streaming-patterns.md",
+      "sha256": "01dae205d19bf158718358fbf670d2fb7272c72014ca00c7292faafb2d42968c",
+      "git_blob_sha1": "53d466e1947bea47850be3e12d065a942a9ec712"
+    },
+    {
+      "path": "skills/spec-miner/SKILL.md",
+      "sha256": "f872d71096237de2e131c3ecf0baef8daee60703a5b847a366563840f250b244",
+      "git_blob_sha1": "5bb4ce51bfcbe51ce28cd6653a99c59b1e7b2ae4"
+    },
+    {
+      "path": "skills/spec-miner/references/analysis-checklist.md",
+      "sha256": "8334f60727e76fc84f969e061a274442db4ca1a1de7615c73ee3c53ca8ed6c14",
+      "git_blob_sha1": "2986b3416f4300563c54be4bb08a394168c990d6"
+    },
+    {
+      "path": "skills/spec-miner/references/analysis-process.md",
+      "sha256": "6581c95ad9fbb044647c442b3882b241a00c49cf3bb93ca5fc4afff82f06ff84",
+      "git_blob_sha1": "d918aba1a9e9dc1f4e1f7e6e264fb5a9965c3f4c"
+    },
+    {
+      "path": "skills/spec-miner/references/ears-format.md",
+      "sha256": "5b16a62c5435fac00d582bb727f18b1cad6b5984e1b47d8dfad2da2e22ecc7ed",
+      "git_blob_sha1": "6de8a9eac500eaf104fe206f20b281a013ce5fd1"
+    },
+    {
+      "path": "skills/spec-miner/references/specification-template.md",
+      "sha256": "143b0dd19d3ed37122ce0f0b9612b85de89df05e06130027b4a0b4860090f73b",
+      "git_blob_sha1": "f25007430198d09d0ceaac029285d462db50e6a4"
+    },
+    {
+      "path": "skills/spring-boot-engineer/SKILL.md",
+      "sha256": "05ae6815d8677bc13d6859f540939123d6dc3993ea7268dcb3c2167524a0959b",
+      "git_blob_sha1": "ede16a92ca175bb823b3bfa40509babeb9cfa098"
+    },
+    {
+      "path": "skills/spring-boot-engineer/references/cloud.md",
+      "sha256": "d2ae703cf2c9723d6e249b5dc149d825683e68b50aa5ba3343f4ac2a84976f51",
+      "git_blob_sha1": "7be0b169d44e9d91780d5927e89bd5c5398fcf7a"
+    },
+    {
+      "path": "skills/spring-boot-engineer/references/data.md",
+      "sha256": "87bb091f484121d76bd25bef5e5b63c17a781c071f2498345af9b75c40ca9cdc",
+      "git_blob_sha1": "f7643b2210a1c44439bf32c3b64ec6a439caae34"
+    },
+    {
+      "path": "skills/spring-boot-engineer/references/security.md",
+      "sha256": "aae4cf3e8f7e99298dc9f7b156dac97c6f656f89329ffdad8ba0bf5d3dfa684e",
+      "git_blob_sha1": "9a4bfa320823b1ad39c002dec0a416b98b663fab"
+    },
+    {
+      "path": "skills/spring-boot-engineer/references/testing.md",
+      "sha256": "ecc9d3b122f25e924df31c7b0740de0c75783fa50c5c56a3c9dbb7731ffadf34",
+      "git_blob_sha1": "16bba3d08838c9e192ba3c1096b89ecf6c329ac3"
+    },
+    {
+      "path": "skills/spring-boot-engineer/references/web.md",
+      "sha256": "670edd1b9e7807e0481b90f7df814b2bc3aa1b5f53b5b80908805dcd248fa844",
+      "git_blob_sha1": "2eabbbb10f9f9b81106af6a4434d55cd88c226ce"
+    },
+    {
+      "path": "skills/sql-pro/SKILL.md",
+      "sha256": "c2916129aa5624e1d0d56dde8722bfe05bcf4a0d49df308ebf1ede5b53676feb",
+      "git_blob_sha1": "ea64f51f11701f86afe3236652ec5b86b9f8827f"
+    },
+    {
+      "path": "skills/sql-pro/references/database-design.md",
+      "sha256": "b8d0676ac91213999c28e03dae2a7685d78dda05b6abe3f6b34690d2ae19d0f6",
+      "git_blob_sha1": "fa4af7216868509e4d4ad05fbd761ac1e5d48af8"
+    },
+    {
+      "path": "skills/sql-pro/references/dialect-differences.md",
+      "sha256": "5eac1a75d44e65dab3877353bf9e5963fa95dd990b5b1d853b17f744761f9586",
+      "git_blob_sha1": "96114ff7cc6928fcf92f4e045167df8b2d961068"
+    },
+    {
+      "path": "skills/sql-pro/references/optimization.md",
+      "sha256": "dd197a02491cda9e1d26e2f0fdff4a5a90f4a54ccf4f6d57e5041a62c06be9a6",
+      "git_blob_sha1": "bc0dd3df99ad0bc6cbb0d62a182de6b398d72d74"
+    },
+    {
+      "path": "skills/sql-pro/references/query-patterns.md",
+      "sha256": "19c3b2e803336b5de9edb9fb663d2942f010459bf50f0d2961d5b0c1da6e3a8f",
+      "git_blob_sha1": "9fb23cee47d0996e8d09b37ecf210daa10e5d0bb"
+    },
+    {
+      "path": "skills/sql-pro/references/window-functions.md",
+      "sha256": "23f1987aa8223d256502f9ef1504b5aff35999ad6917d85a62c6df4ede7b1769",
+      "git_blob_sha1": "25c2aca70803150421620e0a16c360dc599ade2e"
+    },
+    {
+      "path": "skills/sre-engineer/SKILL.md",
+      "sha256": "5d70892569c206c6756d709a1e595c79852d2a9de23aa1a63aeb6d5057417514",
+      "git_blob_sha1": "dac699bbd0e74867ba2562c34ecdd69984f2f7c8"
+    },
+    {
+      "path": "skills/sre-engineer/references/automation-toil.md",
+      "sha256": "6e93b916b246a739e28583f70565abcfee18285141900734ef1587329858272f",
+      "git_blob_sha1": "444e775ea435e48c0f9c4f1181363d4ce1ac5ef8"
+    },
+    {
+      "path": "skills/sre-engineer/references/error-budget-policy.md",
+      "sha256": "ab1eb5849bcb1345b57ed5a34d8836dc853e30968b998601195bfc65f803c0cd",
+      "git_blob_sha1": "aa4a90eb80d2fad7e41b113eea9e47ca24369de2"
+    },
+    {
+      "path": "skills/sre-engineer/references/incident-chaos.md",
+      "sha256": "063058f0f36d2c420f33dd158f6e96b24328b47043a59ea8523f0391717dfdac",
+      "git_blob_sha1": "f455451aaeb02aa715196e0b29867638cb40be10"
+    },
+    {
+      "path": "skills/sre-engineer/references/monitoring-alerting.md",
+      "sha256": "22479c9718b70d889baf43fa7c6cbbe7015f3ba7d710f627c7da68286ca0adf1",
+      "git_blob_sha1": "bdfd635147b41e680a712ae5b7de812c0456cfe4"
+    },
+    {
+      "path": "skills/sre-engineer/references/slo-sli-management.md",
+      "sha256": "9f56a471eaf30474906deea6009b800eae972097828560ab950d104525b900d2",
+      "git_blob_sha1": "a5090e1e496f67654b385e37e062bccf875a6cdf"
+    },
+    {
+      "path": "skills/swift-expert/SKILL.md",
+      "sha256": "4b7193e3d560185c0b1b780b5b0b0867acdba536748235efc21bad2b9272e056",
+      "git_blob_sha1": "04f87cb799ed2905e6829272827049be933e1255"
+    },
+    {
+      "path": "skills/swift-expert/references/async-concurrency.md",
+      "sha256": "7555824cab883df018120a81c944cec624172479e43761dd0d4920d98dbdca9c",
+      "git_blob_sha1": "ee973d970c0e2cc1f81df0611edd87ee14621633"
+    },
+    {
+      "path": "skills/swift-expert/references/memory-performance.md",
+      "sha256": "1b7c985aa18642af98f348d836e78d85acf4493bebe6d669b6e2171710377ddc",
+      "git_blob_sha1": "48faaf4f73108505718319d1bbcb44a4939927d4"
+    },
+    {
+      "path": "skills/swift-expert/references/protocol-oriented.md",
+      "sha256": "f8be1afddc5669b0a9f4490cfc4f970e0f0f88e7de9688acc65fbbc6a1b2d1dc",
+      "git_blob_sha1": "2953a82b613b5f237b5d322c16578ab123c276ef"
+    },
+    {
+      "path": "skills/swift-expert/references/swiftui-patterns.md",
+      "sha256": "0bb827a095bb753ab50c0be9c2ed08b274dbfd2797af447133cd1d2b8bb0b431",
+      "git_blob_sha1": "e9b60ce83b76f2cc6395cf59622197613c198675"
+    },
+    {
+      "path": "skills/swift-expert/references/testing-patterns.md",
+      "sha256": "03edcd25d41fc3fffff0765181399bf34973129c76e59c4b503904e0df7921ee",
+      "git_blob_sha1": "51053362923203231b21afbb4b300e280767994c"
+    },
+    {
+      "path": "skills/terraform-engineer/SKILL.md",
+      "sha256": "781ae1b0168136f17e1ea31258f734b3ca4f0fc43d080c8c04a4a428c77db8b9",
+      "git_blob_sha1": "9f3ed183612d5d593a2be9bcd88336bcb045eeb6"
+    },
+    {
+      "path": "skills/terraform-engineer/references/best-practices.md",
+      "sha256": "46d75e1cbfd595834dd9d9d4065073c0aa3a8509d8f11f7cc87662c68de55d99",
+      "git_blob_sha1": "dc6b67e6bbb2990af879586a631dd9bdb328bfe5"
+    },
+    {
+      "path": "skills/terraform-engineer/references/module-patterns.md",
+      "sha256": "8bbad929701c35c881cd776839b7c322c4cc1506b4a1cb34355217696892eb8a",
+      "git_blob_sha1": "8f6ecf6d7f2a5254c01f404106cd694ab49fd532"
+    },
+    {
+      "path": "skills/terraform-engineer/references/providers.md",
+      "sha256": "0eff7b26b2d91ac9dc9ed24d5dae9f2e2e3cc7fc4e350294748ddca6d4509029",
+      "git_blob_sha1": "4fe0a3c5302343f4abe3279a17803e370e53f83e"
+    },
+    {
+      "path": "skills/terraform-engineer/references/state-management.md",
+      "sha256": "9a904926d847c67f463357dffc369657d80bad0b731f95bb5678c3f5f8b1f16c",
+      "git_blob_sha1": "d3ef09650c007c81c7c7a7cfb4e32f34c181d75d"
+    },
+    {
+      "path": "skills/terraform-engineer/references/testing.md",
+      "sha256": "c1704e29ce5907d58c6a6c3e2d8aa2967ef011f5c2c4263a189a785c0c9acf80",
+      "git_blob_sha1": "461a30423147aed2fcf3817ccc4721544b3a4721"
+    },
+    {
+      "path": "skills/test-master/SKILL.md",
+      "sha256": "93c3710547afb31d51962b090dbc282d10d7f35528967ca307f135771460bb41",
+      "git_blob_sha1": "27436802cf16aea3588a950085d942371d5972a5"
+    },
+    {
+      "path": "skills/test-master/references/automation-frameworks.md",
+      "sha256": "1ad32a08a6295656b19c88c24e0d2e7f0416822306172c49de170dd195b003f2",
+      "git_blob_sha1": "2b219bcabe9a2a8c10d086ecee0968ae7493e6e6"
+    },
+    {
+      "path": "skills/test-master/references/e2e-testing.md",
+      "sha256": "26d85ec0572ece9556a15eb681f5f4a3200d08f1faf81a41e631f617081050e0",
+      "git_blob_sha1": "032533533f6b8d1be5bc772c9f0b8ffdcc071bfc"
+    },
+    {
+      "path": "skills/test-master/references/integration-testing.md",
+      "sha256": "1f59967cdbb6419e7ac3be2818d8fa44f874cd7ed78edb5507ec6e01387ef629",
+      "git_blob_sha1": "8ccbeecdb140a9496e4ef2dbb830773d7eeeee30"
+    },
+    {
+      "path": "skills/test-master/references/performance-testing.md",
+      "sha256": "f0928064fccc35bbe67174f8218f2eef34afe69facc0c85476806f596ae4f432",
+      "git_blob_sha1": "bca55b5db50a86cc7bfa7e5c2f357e092218cfb2"
+    },
+    {
+      "path": "skills/test-master/references/qa-methodology.md",
+      "sha256": "9277588309c80929241df3302150cae1c966cb83dd1dc2be3125a943fa4d4477",
+      "git_blob_sha1": "d9283cac9e1a2c64c5e39015c04b725a5e51a24a"
+    },
+    {
+      "path": "skills/test-master/references/security-testing.md",
+      "sha256": "e899eedc05127c7bd7081ccbdf3067167b4308b783181923f30749dab18217ce",
+      "git_blob_sha1": "ddbce45574f1f391f2de6ed2bbcdd2921c9a4753"
+    },
+    {
+      "path": "skills/test-master/references/tdd-iron-laws.md",
+      "sha256": "1f719ea75af92dac32762b9e27d7f1bd6dfd7be9d71c8b8db7b1c8842b34bed1",
+      "git_blob_sha1": "9616e441841096372427f98be11e26d250c72b19"
+    },
+    {
+      "path": "skills/test-master/references/test-reports.md",
+      "sha256": "9202c94244a2da9981fec66042634244478bf8d762061856f71d202e0e4744cf",
+      "git_blob_sha1": "2ab2f3dad334268cd110dc82757d38116dbb9aaf"
+    },
+    {
+      "path": "skills/test-master/references/testing-anti-patterns.md",
+      "sha256": "ae653194178f04a7fe7662d256e2d11da763d6d2e04fcd091f7b374d70b28945",
+      "git_blob_sha1": "718df7ff22a7beaf17117119adf83bca2ff533c7"
+    },
+    {
+      "path": "skills/test-master/references/unit-testing.md",
+      "sha256": "6165c82a10c79295ce45329fa16895128888ffd874269ee509af56061291c43a",
+      "git_blob_sha1": "f96d78234b0487a29b9ff39f89160b7d90ea2d4d"
+    },
+    {
+      "path": "skills/the-fool/SKILL.md",
+      "sha256": "8b0c715ce02673b5504ee19f8aea4be027a20bf3cae0071231f1fa802dac68ff",
+      "git_blob_sha1": "d96a097276c2f0e3331b4161049eaae4df3375e1"
+    },
+    {
+      "path": "skills/the-fool/references/dialectic-synthesis.md",
+      "sha256": "9c28a1ed00432e8a217f7a4d05c7cf0a649c4c137d2c99d1bac7276569f47e5a",
+      "git_blob_sha1": "dcfb91c7a02d9f15091527a1bfc14186730b5c53"
+    },
+    {
+      "path": "skills/the-fool/references/evidence-audit.md",
+      "sha256": "9e39b8c7f09c099ab0eda536524dee0d4091f57b9d9aeb35576645a84f3e0728",
+      "git_blob_sha1": "e3190c982f0d1b3fa081fb6841e4f0a0a46d9151"
+    },
+    {
+      "path": "skills/the-fool/references/mode-selection-guide.md",
+      "sha256": "e578e48d97a91b4032d254746c5857d9442d077dc12d929fd564815d6f138c26",
+      "git_blob_sha1": "4040ea8306814d1c8c24c3080aed0c2162d659be"
+    },
+    {
+      "path": "skills/the-fool/references/pre-mortem-analysis.md",
+      "sha256": "298c2db8f93deb8fb586f89583ecd563d3ec5ac8836d3e25790952f86e8717de",
+      "git_blob_sha1": "48b896d0ff18b27ae175c609f8f66d2d52e0e187"
+    },
+    {
+      "path": "skills/the-fool/references/red-team-adversarial.md",
+      "sha256": "bc9a3ebf335b56b64207bc9ca2e672c409f3cab32d9373e4f6375ad59e677fb2",
+      "git_blob_sha1": "9ac0a3ed2599f4d993aab8800015db826d978555"
+    },
+    {
+      "path": "skills/the-fool/references/socratic-questioning.md",
+      "sha256": "88b0567e0cee8a7356adcdb312e5e76a39792add097298131be079161980ae3f",
+      "git_blob_sha1": "f0b77152d9a439b599fff9fe28fd7c092549c951"
+    },
+    {
+      "path": "skills/typescript-pro/SKILL.md",
+      "sha256": "1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350",
+      "git_blob_sha1": "c38d542a870150f133b930e5e44fe5fa4a26064e"
+    },
+    {
+      "path": "skills/typescript-pro/references/advanced-types.md",
+      "sha256": "273042ee8dba7fe809085856cea8e71eaa363d2cd19d2ba021d852d971777f20",
+      "git_blob_sha1": "c7f8cc47c66a3f688fc75fb2f9c895081a8c1564"
+    },
+    {
+      "path": "skills/typescript-pro/references/configuration.md",
+      "sha256": "4ba4a37687c20a4936b4db872fea1cbeac31ec6ee19c9b959c9d475d255f0b5b",
+      "git_blob_sha1": "87574fbd44e67521164555eb01d00df48dc9fc94"
+    },
+    {
+      "path": "skills/typescript-pro/references/patterns.md",
+      "sha256": "1a3cec402f39c71b8fe6004b98b85c134d09bbed8141c82b86b9109b238e8ddd",
+      "git_blob_sha1": "d88258d8b84a7f9fd3d2a56ce9d20fd18058947d"
+    },
+    {
+      "path": "skills/typescript-pro/references/type-guards.md",
+      "sha256": "4d6c898d2a7dc2d4d3e762969c9a01d158301147153a6692c84e76db37d714b3",
+      "git_blob_sha1": "f45469f9cee01dd0297adf476ea1d3241c8cfa34"
+    },
+    {
+      "path": "skills/typescript-pro/references/utility-types.md",
+      "sha256": "10e11832c61564f63ee240fa8cca40c1dc32f9a27cde09c750077b0ec248efba",
+      "git_blob_sha1": "5c59c8c989eb5b79b48faaa2322864f73121e980"
+    },
+    {
+      "path": "skills/vue-expert-js/SKILL.md",
+      "sha256": "11c011340f0e9bd5818f95a723c5c387bb1f33c883d097f03b43566a2baa554f",
+      "git_blob_sha1": "357db0a078f40cc4b294745da978c23ab54f3159"
+    },
+    {
+      "path": "skills/vue-expert-js/references/component-architecture.md",
+      "sha256": "57088271a634f2b5e13b6c92e82b42100f2fde8ee8d4f818c2a0472ec7e53f49",
+      "git_blob_sha1": "d3b0445d6cb108df558fca2465324aca5fb22ec9"
+    },
+    {
+      "path": "skills/vue-expert-js/references/composables-patterns.md",
+      "sha256": "7d9dcf0e5c81c67911c7462e1cdecf6999369115af341cb02012020809c96928",
+      "git_blob_sha1": "42d42d7397443a3d3ff7e4eb0ac566119a3b7280"
+    },
+    {
+      "path": "skills/vue-expert-js/references/jsdoc-typing.md",
+      "sha256": "4b9e16791cc6becc57cab383767ef20e6c9be461716221d10232420389011a35",
+      "git_blob_sha1": "799c3d81b8c19065c148065c5f98974359e216bc"
+    },
+    {
+      "path": "skills/vue-expert-js/references/state-management.md",
+      "sha256": "55882ac7f23183116d5ba427355c8b13a6718c63b64155a6819d9973ae85323c",
+      "git_blob_sha1": "759ef81a5fffce2783bb7e5b788beed9faff9b83"
+    },
+    {
+      "path": "skills/vue-expert-js/references/testing-patterns.md",
+      "sha256": "e27d4c5964528258ae8a45efea96aec096e88435139fe0f45ba3e138d0e06c72",
+      "git_blob_sha1": "29c089124fc074331b14ba07a00ef82472c1c241"
+    },
+    {
+      "path": "skills/vue-expert/SKILL.md",
+      "sha256": "d95e3b1ee42f2d6a0f7a435536d147a35e31b1b3046dfe7937364d834e238136",
+      "git_blob_sha1": "e2346ea7440be23c212a743fbd328d1d0c65242c"
+    },
+    {
+      "path": "skills/vue-expert/references/build-tooling.md",
+      "sha256": "2ed1ea8bd073a0e35ae6115d9daf817d79794b86876f6793b9cd677e82ea30ab",
+      "git_blob_sha1": "74f1304b5df280f0f7ad75a744b327769dd8a0d6"
+    },
+    {
+      "path": "skills/vue-expert/references/components.md",
+      "sha256": "91388a4bccdf4ecefa09ad2e26db08334ddd95e102b07172bbb0b80a4d94ed61",
+      "git_blob_sha1": "afd341e4eb1fb9d3f9ffc31e2a66fb60ab6e617b"
+    },
+    {
+      "path": "skills/vue-expert/references/composition-api.md",
+      "sha256": "16acb852252e81ad3bc02d8aa02a4b7827ac166cdcd8c59682d7d0bfeca759af",
+      "git_blob_sha1": "3d16877652895493b38a7c0e85270d421ed6db76"
+    },
+    {
+      "path": "skills/vue-expert/references/mobile-hybrid.md",
+      "sha256": "086f468531c596656e12ca26786fd2b7a4d7d136453954aba99e5873516a3637",
+      "git_blob_sha1": "2a75c744737a88c78539f5b97f07f4fcdaf1b4ac"
+    },
+    {
+      "path": "skills/vue-expert/references/nuxt.md",
+      "sha256": "1207f3960c9c5e2bea336db8c470b154a28c32c97a802a166f31c4505f0a8964",
+      "git_blob_sha1": "9895907b32335639b6e497b35f9fd94169bc7a56"
+    },
+    {
+      "path": "skills/vue-expert/references/state-management.md",
+      "sha256": "2995dde34b8ffe877fa50e02fbab73cf70bb2c080ca44281df657423b0e521fb",
+      "git_blob_sha1": "c8f71f44d83fbc1a64ac45779a59f4d066ef6e30"
+    },
+    {
+      "path": "skills/vue-expert/references/typescript.md",
+      "sha256": "b179e0c40b05287fd8c8e5794a9044a00c652d4ce4bbd59dacf1f356b98bf42a",
+      "git_blob_sha1": "0cf69dd7908ae1edd23a6142b13c42e65b3ddced"
+    },
+    {
+      "path": "skills/websocket-engineer/SKILL.md",
+      "sha256": "91c6c1fa1775c3608e55644a34a78f5a8e5ebc28d15f484be361cd50a9405847",
+      "git_blob_sha1": "8967b920eacd5603ab28b573ad89fbf8d0d12dd2"
+    },
+    {
+      "path": "skills/websocket-engineer/references/alternatives.md",
+      "sha256": "a8f9f15bec130ebb9746fc7dbcecaea5e146cc5ab37d1ab3bcef89d250dabfab",
+      "git_blob_sha1": "175e10b568cfb708b3c256953b81b475a151678a"
+    },
+    {
+      "path": "skills/websocket-engineer/references/patterns.md",
+      "sha256": "38efb8f1e82863f196003648d9d41b03adf5f914976adced2199b6aeebf121ad",
+      "git_blob_sha1": "943c6c3f1b364dfeaede4c9f1087883f398357d6"
+    },
+    {
+      "path": "skills/websocket-engineer/references/protocol.md",
+      "sha256": "877c9cf4af1ca39efcac27528f7ee036162bfa683d99165592e562ada575f77f",
+      "git_blob_sha1": "f91f60c222e1a8166e78c7936eeab0c94fddd857"
+    },
+    {
+      "path": "skills/websocket-engineer/references/scaling.md",
+      "sha256": "669ac9ebb537af309007248b4fc42e83419ed16adcccab01524676919cc98029",
+      "git_blob_sha1": "f5f08c3cc2a20d088bea0adffc88855209008646"
+    },
+    {
+      "path": "skills/websocket-engineer/references/security.md",
+      "sha256": "dbb3414d149fa46d16b4f5e664121176e7430e4d374a09ea6e3c054eae06c6c8",
+      "git_blob_sha1": "7af108a8382e798deed491d812632ba5a49e6eab"
+    },
+    {
+      "path": "skills/wordpress-pro/SKILL.md",
+      "sha256": "27348882ea7a551426ec9a871306710ba16069abf53204afdbb5df6f0acc71a3",
+      "git_blob_sha1": "fc9d7fe2af3cc78dc48001f1565535ecd659b323"
+    },
+    {
+      "path": "skills/wordpress-pro/references/gutenberg-blocks.md",
+      "sha256": "ac5ce4b71ff66de85a352c1b829667a8ba0a6f2d7717d91be3f40cf046eec8b3",
+      "git_blob_sha1": "319033db617c1df70bf36a02c40a8c74434446b5"
+    },
+    {
+      "path": "skills/wordpress-pro/references/hooks-filters.md",
+      "sha256": "8aa512bb5ffb23a90fb4293190dfe227137d6785f42246e3565c543d95080905",
+      "git_blob_sha1": "ea3d6df31e9178822b271def5757daa44300da85"
+    },
+    {
+      "path": "skills/wordpress-pro/references/performance-security.md",
+      "sha256": "991fc8fa170c94476a68aa0d6c53647b62a831ea06a118e84d4a12197976062f",
+      "git_blob_sha1": "d7281b047b63a4d88569fbbc4068758affe9ce52"
+    },
+    {
+      "path": "skills/wordpress-pro/references/plugin-architecture.md",
+      "sha256": "ef663e0c1b4b60e84d5035968dfb301b88de932bce17c8192dd3ef66eecef38a",
+      "git_blob_sha1": "db302e3b1d59e235f32ab7432ad08b8d969a6857"
+    },
+    {
+      "path": "skills/wordpress-pro/references/theme-development.md",
+      "sha256": "540a9669e2618487683d2a640c1a8b98dd255620d63a18c1032ed7cae8d28dbc",
+      "git_blob_sha1": "219c13fa23f11fdae5a7de1d775b253e99ea8948"
+    }
+  ]
+}

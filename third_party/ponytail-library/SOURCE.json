@@ -1,0 +1,143 @@
+{
+  "repository": "DietrichGebert/ponytail",
+  "ref": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "fb1bc6909ac3ef82d5c22106e32ef682b0cff66788fa915fb9b53b15c9d2f3ab",
+      "git_blob_sha1": "715d483338cea4365f0d91a27799cf61226d6bcf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9608191c42ef942138857c44b54037fff7606cfda205d7320f4a3c82a7d8d41e",
+      "git_blob_sha1": "ff6a92573ef6412495055d979cff1d7464e1fa65"
+    },
+    {
+      "path": "benchmarks/results/2026-06-12-caveman-vs-ponytail.md",
+      "sha256": "ce2e88d119f89d6f815349d60c48750c99f58b3df0a0b29adca60b07d1a9b319",
+      "git_blob_sha1": "b3dd3815c2d785dc13e44fb3d67ea23ea8eb696d"
+    },
+    {
+      "path": "benchmarks/results/2026-06-12-v4-hardening-vs-caveman.md",
+      "sha256": "d7792afb3d61ae7ca33113782263a208095895af8e2e9499031a2647a031cd22",
+      "git_blob_sha1": "49f8d8ec8fa304336c569397e9c6c7634f41fbc8"
+    },
+    {
+      "path": "benchmarks/results/2026-06-15-llama3.2-local.md",
+      "sha256": "6cc3cef8ae70d148063b3cae4e7cf2c46624037c291ff4d6011ef1125e3edbe5",
+      "git_blob_sha1": "db7e8e15c8c723b7d85ffb79af13286294516a9f"
+    },
+    {
+      "path": "benchmarks/results/2026-06-16-correctness-gate-fix.md",
+      "sha256": "9631b5096186db625f0146df14f7b0383e389407dca7c11dd326c3627c539c5f",
+      "git_blob_sha1": "d6b7caef3c3540288942f883f303ec44fc347e82"
+    },
+    {
+      "path": "benchmarks/results/2026-06-16-robustness-audit.md",
+      "sha256": "32436f8323a2fb89246a436d07ed9fc6eab780ca0eb93c3937a08747c57f2dd3",
+      "git_blob_sha1": "3983dbc712766dd632d7da467378361d3b840305"
+    },
+    {
+      "path": "benchmarks/results/2026-06-17-agentic-safety.md",
+      "sha256": "57006a1f5ead7a2fb1c4c8edc83c6ec38ae20dbd9616fb9d4ac4f1515d24d920",
+      "git_blob_sha1": "4a48681b2280843279e4ff3618479a1f56af1e51"
+    },
+    {
+      "path": "benchmarks/results/2026-06-17-cost-verification.md",
+      "sha256": "bb32d42e5879bd0eace8169136814fe1fed0cbfb517698e6c845cb22229b0c21",
+      "git_blob_sha1": "859455b6ce0ee3fcf2123e88282a5488bacf75e7"
+    },
+    {
+      "path": "benchmarks/results/2026-06-18-agentic.md",
+      "sha256": "fe274964a4f2b9801e67ba956eef3a029c472aa5693b7e0643c83bd406f9ee6f",
+      "git_blob_sha1": "1a602f7e49369841cef39d5b764e1247f78d2bb9"
+    },
+    {
+      "path": "benchmarks/results/2026-06-22-issue-245-217-comprehension.md",
+      "sha256": "0ae799564d9a63576701e1b875682b482d8644c2eb713e8ff68602d99d55e86f",
+      "git_blob_sha1": "17e09e8653c9a8d35da5deb9d6ad2ba69b6bb6ac"
+    },
+    {
+      "path": "benchmarks/results/2026-10-07-agentic.md",
+      "sha256": "a985555ce1835e82c17aa425f2d3743e0373345c8e73ad761923a700dcc341e0",
+      "git_blob_sha1": "d016bbf73fd7e49906ff2ff2b3f2e7f4023b7ea1"
+    },
+    {
+      "path": "docs/agent-portability.md",
+      "sha256": "e75c14482302710bba6a2cf96afe4e2a10710d031a64648866c94c40bb35b6dc",
+      "git_blob_sha1": "8437f1cc4d7fecba8d0de7bde73f55906b4b591b"
+    },
+    {
+      "path": "docs/cursor-hooks.md",
+      "sha256": "5c7f2e225570fedcf3f9be166aaea9035eec495d2183f3d65dbc40638c276a10",
+      "git_blob_sha1": "6b9c2857b5ea091c1fcb8fa82710ec4e3bb74f52"
+    },
+    {
+      "path": "scripts/build-openclaw-skills.js",
+      "sha256": "6994885fff48c6750c9f847396e14879dd00274718bde257940458af3e3f24f0",
+      "git_blob_sha1": "55f2abc1b24c6e840cd3768c55c0dbbaef2e07fb"
+    },
+    {
+      "path": "scripts/check-rule-copies.js",
+      "sha256": "84306caf05b728b1522d1e1458317efc6b7e44b18987aee042399e3f6de79318",
+      "git_blob_sha1": "cf9d1712c5be4a92b7bb0b6309a379850d57e3af"
+    },
+    {
+      "path": "scripts/check-versions.js",
+      "sha256": "fa0ff2383e56a2b29d3840f45f0254d6fc6421e2b9c0f1c17f9d8502ce87ee8d",
+      "git_blob_sha1": "3cbf1b184b7eb475d4887f1ddb25565546f87c3f"
+    },
+    {
+      "path": "scripts/cursor-hooks.js",
+      "sha256": "ade308717d81efc266f7f0972955febd0b631345b1b68789e4b9b3990afc79f6",
+      "git_blob_sha1": "0fc026e3beebb96eb082ce742fdfd86ec243f686"
+    },
+    {
+      "path": "scripts/publish-openclaw-skills.js",
+      "sha256": "f2b7a2afd46bccb91ad0511f5ef8df7702dd7ef1306f2975fed6a97a2b0a6769",
+      "git_blob_sha1": "1df9d1df48b3883f66b24e784f15b28488f97a45"
+    },
+    {
+      "path": "scripts/uninstall.js",
+      "sha256": "21b0893da341f891a4e9238d8dcf1114eea0378835d725f8eb8347c6497821e9",
+      "git_blob_sha1": "8bb93d6986a6dee06ee24c7f6ee32aa71213a442"
+    },
+    {
+      "path": "skills/plugin.json",
+      "sha256": "b1db7be1404a84ebf992a2fb7a5a9296adb17b0fc63a14856e2028f0d1d16051",
+      "git_blob_sha1": "caa13e7a606251db6c7c0808c85b6a399d1c55fc"
+    },
+    {
+      "path": "skills/ponytail-audit/SKILL.md",
+      "sha256": "2b3223a02c386d1263e1b08343cb8eb3a53e444cdafb1d79e26c8ec2a8fcad28",
+      "git_blob_sha1": "ff9a95480700600fe2664d2d0906a4d750b2da0b"
+    },
+    {
+      "path": "skills/ponytail-debt/SKILL.md",
+      "sha256": "b5ec2762f6ba8c4af9ea7173aa6c9f91b88655a25e43f9de0264f6ce8722b25f",
+      "git_blob_sha1": "3124f520a65d2a4fa75a2f5db6225c38ebdb8620"
+    },
+    {
+      "path": "skills/ponytail-gain/SKILL.md",
+      "sha256": "231034a896d6762e4b5c8468287083422c56b499119976ec9f76821f7d083090",
+      "git_blob_sha1": "1edff0e461fad6b671733ea6796aea9e417e266b"
+    },
+    {
+      "path": "skills/ponytail-help/SKILL.md",
+      "sha256": "86ab0ce0af70cbeeeef499d5c884873b393f87f86401dcc45553662ce2c1eff9",
+      "git_blob_sha1": "34fccb3ff542b3b8d4d131e6120a1812c9c4617a"
+    },
+    {
+      "path": "skills/ponytail-review/SKILL.md",
+      "sha256": "33fe4ebe22a460924e5d4a261e223df22e409cc94ab76182bee9fb91a3ef022e",
+      "git_blob_sha1": "a50e3ac6ded6fccc9edae34ce37877bbce11e3fa"
+    },
+    {
+      "path": "skills/ponytail/SKILL.md",
+      "sha256": "9badd22a32e19cb884e46dfa8d3aae82bb81dfa5484105b8b4f0262df823a509",
+      "git_blob_sha1": "d64edd32265ba21cbf5270158f04e97d96925f27"
+    }
+  ]
+}

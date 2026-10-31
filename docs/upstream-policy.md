@@ -46,3 +46,15 @@ React 원문은 각각의 버전과 문제 조건이 맞을 때만 읽습니다.
 계획 승인 전 domain-modeling 결과는 용어 후보와 출처를 계약·계획 문서에 기록하는 데 한정합니다. GLOSSARY.md와 ADR 파일 생성·수정은 승인된 문서 작업 범위에서 수행합니다. 원문의 즉시 기록 지시는 이 단계 구분을 넘지 않습니다.
 
 UI UX Pro Max는 `${CLAUDE_PLUGIN_ROOT}`를 설정하거나 플러그인을 설치하지 않습니다. 설치 후 `python3 .harness-kit/third_party/ui-ux-pro-max/.claude/skills/ui-ux-pro-max/scripts/search.py "keyboard focus" --domain ux --max-results 1`처럼 실제 동봉 경로를 사용합니다. 검색은 로컬 CSV를 읽습니다. 승인 전 `--persist`와 `--force`를 실행하지 않습니다. 승인 뒤에도 기존 결과를 임의로 덮어쓰지 않습니다. 외부 폰트·이미지·CDN 제안은 자동 다운로드나 외부 전송 권한이 아닙니다. 현재 스택을 보존하고 검색 결과를 규정이나 요구사항으로 취급하지 않습니다.
+
+## 확장 라이브러리의 실행 제한
+
+확장 라이브러리는 원문 보관소입니다. 기본 27개 선택표를 먼저 사용하고 부족할 때 로컬 색인을 검색합니다. `reference-only` 항목은 시험 중 호출하지 않습니다. 색인은 문서 지침이며 임의 명령 실행을 기술적으로 차단하지 않습니다.
+
+- Addy Osmani의 `using-agent-skills`가 제안하는 전체 생명주기나 shipping까지의 자동 연결을 실행하지 않습니다. 명세에서 무응답을 승인으로 해석하는 문구도 적용하지 않습니다. 현재 요구와 계획의 명시 승인을 따릅니다. 반복 승인 양식을 별도로 만들지 않습니다.
+- `browser-testing-with-devtools`, `playwright-expert` 등 자동 브라우저 검사는 사용하지 않습니다. CI/CD·shipping·배포·원격 티켓·PR·Jira/Confluence·Shopify·Salesforce 작업은 시험용 호출에서 제외합니다. 참고 원문에 있더라도 Git push, 원격 쓰기와 외부 과제 전송을 실행하지 않습니다.
+- `doubt-driven-development`의 외부 Gemini·Codex CLI 교차 모델 연결을 실행하거나 권하지 않습니다. 현재 환경에서 허용된 검토만 수행합니다.
+- Matt Pocock의 티켓·PR·setup 절차는 시험 중 실행하지 않습니다. 나머지 코드·설계 스킬에서도 임시 HTML을 외부 창으로 열거나 CDN·브라우저를 호출하지 않습니다. 필요한 구조 설명은 로컬 Markdown으로 정리합니다. 미포함 다른 스킬은 자동 검색·설치하지 않습니다.
+- Impeccable은 `scripts/impeccable` 및 context/live/generate/visualize/hooks/pin/doctor/update를 실행하지 않습니다. 자동 엔진 다운로드, 이미지 생성 모델, 스크린샷·CDP·브라우저 조작을 사용하지 않습니다. 허용된 디자인·접근성 문서를 직접 읽고 코드·로컬 검사·사용자 직접 관찰로만 검토합니다. 시각 관찰이 없으면 미확인으로 기록합니다.
+- Ponytail은 요청한 작업 범위에서만 읽습니다. 세션 전체 활성화, 플러그인·훅 설치, 자동 업데이트, 다른 세션 로그 가져오기를 하지 않습니다. 원문의 벤치마크 수치를 현재 모델이나 시험의 성능으로 인용하지 않습니다.
+- 확장 스킬의 기술 예시는 현재 프로젝트의 언어·버전·규정을 대체하지 않습니다. 효과를 측정하지 않은 원문을 '시험 성능 검증 완료'로 기록하지 않습니다.
