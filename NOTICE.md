@@ -33,3 +33,13 @@
 `proyecto26/system-design-skills`의 고정 커밋 `a70772efb956e8c9b78ef5b7538dee00cc3b9263`에서 requirements-scoping과 api-design 및 동봉 참조를 포함했습니다. [MIT LICENSE](third_party/system-design-skills/LICENSE)와 [원본 해시](third_party/system-design-skills/SOURCE.json)를 보존했습니다. 전체 플러그인과 미포함 스킬은 설치하지 않습니다.
 
 React 상태 처리에는 `github/awesome-copilot`의 커밋 `5269f7ea2d6c3a9bfda5ed878b6726cf509121fd`에서 react19-concurrent-patterns와 react18-batching-patterns 및 참조 5개를 포함했습니다. [MIT LICENSE](third_party/react-guidance/LICENSE)와 [원본 해시](third_party/react-guidance/SOURCE.json)를 보존했습니다.
+
+## 추가 개발 자료
+
+Superpowers의 기존 고정 커밋에서 추가한 7개 스킬과 동반 자료에도 동봉 MIT 고지를 적용합니다. system-design-skills의 설계·책임 분리·저장 스킬에도 기존 MIT 고지를 유지합니다. 정확한 파일은 각 SOURCE.json에 기록했습니다.
+
+OpenAI의 PDF와 Jupyter Notebook은 [원본 출처](third_party/openai-task-skills/SOURCE.json)와 각 스킬 폴더의 LICENSE.txt를 포함하며 Apache-2.0 조건을 유지합니다. Trail of Bits의 property-based-testing은 [출처](third_party/data-quality-extra/SOURCE.json)와 [CC BY-SA 4.0 고지](third_party/data-quality-extra/LICENSE)를 보존한 미수정 원문입니다. 이 제3자 자료에 루트 MIT 라이선스를 덮어씌우지 않습니다.
+
+Matt Pocock의 domain-modeling은 [MIT LICENSE](third_party/mattpocock-domain/LICENSE)와 두 동봉 서식을 포함합니다. 고정 판본과 미수정 원본 해시는 [SOURCE.json](third_party/mattpocock-domain/SOURCE.json)에 있습니다.
+
+UI UX Pro Max의 검색 스킬과 Python 스크립트, CSV 및 참조 문서는 [MIT LICENSE](third_party/ui-ux-pro-max/LICENSE)를 유지합니다. 원본 커밋과 파일별 해시는 [SOURCE.json](third_party/ui-ux-pro-max/SOURCE.json)에 있습니다. 전체 플러그인이나 갤러리를 설치한 것은 아닙니다.

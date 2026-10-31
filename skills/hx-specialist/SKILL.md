@@ -27,3 +27,5 @@ description: 실제 과제의 API 설계, 웹 화면, 보안, SQL과 테스트 �
 - 실제 React 18 클래스 컴포넌트에서 자동 배칭 때문에 상태를 즉시 읽는 코드가 실패할 때는 `.harness-kit/third_party/react-guidance/skills/react18-batching-patterns/SKILL.md`와 필요한 참조를 읽습니다. 모든 React 앱의 일반 설계 지침으로 사용하지 않습니다.
 
 코드와 허용된 CLI 검사로 확인하고 화면의 실제 조작은 사용자에게 맡깁니다. 디자인 선택은 기존 frontend-design과 업무 원문을 따릅니다. 버전 변경이나 사용자 동작 변경이 필요하면 hx-plan으로 돌아갑니다.
+
+실제 UI의 접근성·폼·레이아웃을 설계하거나 검토하면 `.harness-kit/docs/upstream-policy.md`의 경로 규칙을 먼저 확인하고 `.harness-kit/third_party/ui-ux-pro-max/.claude/skills/ui-ux-pro-max/SKILL.md`를 읽습니다. 필요한 주제만 로컬 검색합니다.

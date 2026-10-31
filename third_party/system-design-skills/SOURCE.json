@@ -41,6 +41,36 @@
       "git_blob_sha1": "35001b47addff1323e15ea438f82a84eb8162471"
     },
     {
+      "path": "skills/data-storage/SKILL.md",
+      "sha256": "3b39d7629f6fd91ad9fc8a41a602cbf0794cdcdf93b0f7f216b166b2b1dfb72c",
+      "git_blob_sha1": "3870322739414b7e02d487088d24b4b35eb074e5"
+    },
+    {
+      "path": "skills/data-storage/references/deep-dive.md",
+      "sha256": "b511191b742fa5c8edbdceda899020794877b53b9e1926a526f299c1c52fce58",
+      "git_blob_sha1": "7061d082de2a35a7bb4a8fcc47dd520e9f6fe884"
+    },
+    {
+      "path": "skills/data-storage/references/providers/aws.md",
+      "sha256": "58d13dedfc0c21e67436341261028fe997386f551758c68e307b976b969a30c7",
+      "git_blob_sha1": "7150446344befb40f01e69ca6568019927824a72"
+    },
+    {
+      "path": "skills/data-storage/references/providers/azure.md",
+      "sha256": "3e54fb6f49949a321e6c5c4c2482d732e2452400642cc6536a43212ccd739347",
+      "git_blob_sha1": "880c5e15e13fb353b315738ddd55b36c5c9fc614"
+    },
+    {
+      "path": "skills/data-storage/references/providers/gcp.md",
+      "sha256": "6a4b61f894606882fe2df1e8eef9cfdd23ab41c6111e75aa9dfef2df2725246e",
+      "git_blob_sha1": "978213d480059cd6958de4f41d9148127681c057"
+    },
+    {
+      "path": "skills/data-storage/references/providers/generic.md",
+      "sha256": "b00e42ea28fb9147be1bf5c91ae5de311ea77a75e3cdbf5adfe4961bb1cb0e0c",
+      "git_blob_sha1": "b381fbcecaa025cffd9cb118de4b09ba2c2fda55"
+    },
+    {
       "path": "skills/requirements-scoping/SKILL.md",
       "sha256": "3858ef3f1d5d609fdfa15f6fa380451fe4800061012d1bfeaf39787f287fb930",
       "git_blob_sha1": "7c000e2ee38c0120bd0c9e3c3c7de043e335484c"
@@ -49,6 +79,86 @@
       "path": "skills/requirements-scoping/references/clarifying-question-catalog.md",
       "sha256": "9d5264355a7dcf156f47efcea11c33391330380e6362174fc02eac06dda4e879",
       "git_blob_sha1": "9dd8bbbad144623ec838feaa0b03da7810c2c9fb"
+    },
+    {
+      "path": "skills/service-decomposition/SKILL.md",
+      "sha256": "d0d387dd5e3fb2171f7b74b4c7cbc1d8676522fc424967f299855cbec564f6fe",
+      "git_blob_sha1": "2b2c125a20011f4ac1f38fe630a17e81d2413250"
+    },
+    {
+      "path": "skills/service-decomposition/references/deep-dive.md",
+      "sha256": "c4092323cc4e4a64e3ebeeb6fb36973d83ed85b16fb94047588056b3cce8d9b4",
+      "git_blob_sha1": "4d0d78c698c7a331a463928ce4dcd32d050abc6f"
+    },
+    {
+      "path": "skills/service-decomposition/references/providers/aws.md",
+      "sha256": "0a4b1d7b6efec47c3be4952c1f5025e5d0be0c3d99ea274bb100b73e64f7eec9",
+      "git_blob_sha1": "1a0487ea89252e0415211ea87ab80fecdab39773"
+    },
+    {
+      "path": "skills/service-decomposition/references/providers/azure.md",
+      "sha256": "05964bd486c6802c8c4e64751bf12d6e3ef0050f7b2534b97823cdfde721c00b",
+      "git_blob_sha1": "b332becd39fdcc5c27c201a9457335e611cb3c91"
+    },
+    {
+      "path": "skills/service-decomposition/references/providers/gcp.md",
+      "sha256": "4645d1601301adae8b239ecd93e42df4e36e31d4d897eb8615c3fc8ce7048662",
+      "git_blob_sha1": "26dc91c9ce6059b236e37b834703d6b780dcd41d"
+    },
+    {
+      "path": "skills/service-decomposition/references/providers/generic.md",
+      "sha256": "6bda316534602c08d1815dd5f2db53b221a2ef16cc705d295c3c6acf652174c5",
+      "git_blob_sha1": "e015fdad84f901fca7089b660cd6ac7cc274206e"
+    },
+    {
+      "path": "skills/system-design/SKILL.md",
+      "sha256": "a667c60759accdcaab17828f99ff24a19bc0559e80ea71adc4766c3e6e94567e",
+      "git_blob_sha1": "8e9a14ee1a7810c53c87d78ccb19830da9bc89b7"
+    },
+    {
+      "path": "skills/system-design/assets/design-doc-template.md",
+      "sha256": "dd3ee3205d818a87c9a10595c240b64ce47f0d9a45779d904b46a16b56ba9de0",
+      "git_blob_sha1": "e12e588747096b940ae739ae4248ae5887324470"
+    },
+    {
+      "path": "skills/system-design/assets/requirements-template.md",
+      "sha256": "461e9e85e1c85d316e29ae84f5c937662ce9d59b01af9947bb8cb921837f0e21",
+      "git_blob_sha1": "24523fabb36adf59d72d8c886c8ab6a0ed8a7b13"
+    },
+    {
+      "path": "skills/system-design/references/building-blocks-index.md",
+      "sha256": "324e89aefed812e37a0d518b1a18d24fbc88cb7a391d6781014e6fe09b414fe5",
+      "git_blob_sha1": "ada018d18d5feafe66fa4579b19d742a7b5707ed"
+    },
+    {
+      "path": "skills/system-design/references/collaboration-playbook.md",
+      "sha256": "b1b9dad40e096b5d45103341ae9ac50e40ff82a9c6d03485f1b1797ce8edce85",
+      "git_blob_sha1": "fdab7a943d8194209f5ed6d55aacb67b19e4aea1"
+    },
+    {
+      "path": "skills/system-design/references/diagramming.md",
+      "sha256": "849218df79924238e90edbb52cc67a646e8fc418491cba15e8c2659642d53854",
+      "git_blob_sha1": "7b0987dc877e5f1ce0f0d657e8aea314ba9103c1"
+    },
+    {
+      "path": "skills/system-design/references/failure-modes.md",
+      "sha256": "fb39592e7fe09c0b2f4aaaab213def0372b04b9f095eb3221ff3571214452ca0",
+      "git_blob_sha1": "bc427c43aea5bc745b897829ebee8ade3e2eff38"
+    },
+    {
+      "path": "skills/system-design/references/reasoning-loop.md",
+      "sha256": "435a82b88bb8d52118866e21fc866a1f1b8aa2a09ba920f2e9a9d85d8d676084",
+      "git_blob_sha1": "b0709b0561e664dd9c5dcfb4991c797ce1bbdf45"
+    },
+    {
+      "path": "skills/system-design/references/tradeoff-framework.md",
+      "sha256": "50af340a16b7f74a1eca27fa2511028e6e9c182423351fcd625ac9ef4fc7a3e4",
+      "git_blob_sha1": "e29b2d83129201026158bc0853482c941a75ab3a"
+    },
+    {
+      "path": "skills/system-design/references/worked-example-news-feed.md",
+      "sha256": "baba4b1f2b1555095bb736140cd7529d288561c1699bdc40c0bb522e0219ed48",
+      "git_blob_sha1": "3905c8169e17c8a0b00cd791500b2116ed344130"
     }
   ]
 }

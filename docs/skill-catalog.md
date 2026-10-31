@@ -1,6 +1,6 @@
 # 실제 포함된 스킬과 적용 경로
 
-이 패키지는 자체 스킬 11개와 외부 스킬 원문 12개를 포함합니다. 한국어 작성을 위한 fluent-korean의 코딩용·비코딩용 원문도 함께 포함합니다. 외부 원문은 `third_party/`에 있고, 자체 스킬이 필요한 때 그 경로를 명시적으로 읽도록 연결합니다. 전체 플러그인이나 자동 훅을 설치한 것은 아닙니다.
+이 패키지는 자체 스킬 11개와 외부 스킬 원문 27개를 포함합니다. 한국어 작성을 위한 fluent-korean의 코딩용·비코딩용 원문도 함께 포함합니다. 외부 원문은 `third_party/`에 있고, 자체 스킬이 필요한 때 그 경로를 명시적으로 읽도록 연결합니다. 전체 플러그인이나 자동 훅을 설치한 것은 아닙니다.
 
 ## 자체 스킬
 
@@ -42,10 +42,9 @@ Superpowers는 [MIT LICENSE](../third_party/obra-superpowers/LICENSE)와 [SOURCE
 
 [외부 원문 적용 규칙](upstream-policy.md)은 사용자 승인, 실행 인계, 테스트 범위, Git 정책과 한국어 메타데이터 처리를 명시합니다. 원문의 미포함 실행기 스킬을 자동 호출하지 않습니다. 원문 파일을 그대로 보존한 것과 원문의 모든 실행 절차를 사용한 것은 구분합니다. 실제로 읽거나 실행한 범위만 프로젝트 handoff에 기록합니다.
 
-다음 두 도구는 참고 링크이며 **이번 패키지에는 포함하지 않았습니다**. 현재 계획·구현·검증에 필요한 의존성으로 채택하지 않았습니다.
+다음 도구는 참고 링크이며 **이번 패키지에는 포함하지 않았습니다**. 현재 계획·구현·검증에 필요한 의존성으로 채택하지 않았습니다.
 
 - [Ponytail의 단일 SKILL.md](https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail/SKILL.md): 작업 범위를 작게 유지하는 참고 자료입니다.
-- [UI UX Pro Max의 SKILL.md](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/28b3b8dee8c976df4fa3e94aed4e092ad43fcb03/.claude/skills/ui-ux-pro-max/SKILL.md): UI 검색이 별도로 필요한 경우 검토합니다. SKILL.md 외 검색 스크립트와 데이터가 필요하므로 한 파일만 복사해 실행 가능하다고 표시하지 않습니다.
 
 ## 요구 구체화와 API 계약
 
@@ -64,3 +63,9 @@ Superpowers는 [MIT LICENSE](../third_party/obra-superpowers/LICENSE)와 [SOURCE
 | react18-batching-patterns | [동봉 원문](../third_party/react-guidance/skills/react18-batching-patterns/SKILL.md), [고정 공개 원본](https://github.com/github/awesome-copilot/blob/5269f7ea2d6c3a9bfda5ed878b6726cf509121fd/skills/react18-batching-patterns/SKILL.md) | 실제 React 18 클래스 컴포넌트의 자동 배칭 회귀에서만 선택합니다. |
 
 [MIT 고지](../third_party/react-guidance/LICENSE)와 원문 참조 5개, [파일 해시](../third_party/react-guidance/SOURCE.json)를 보존했습니다. React를 쓰지 않는 과제에는 적용하지 않습니다. 두 스킬이 모든 프런트엔드 작업을 대체하는 것은 아닙니다.
+
+## 추가된 공통 개발 기능
+
+[외부 스킬 선택표](external-routing.md)는 총 27개 원문의 경로와 적용 조건을 제공합니다. 추가한 항목은 Superpowers의 설계 탐색·계획 실행·리뷰·병렬 작업 7개, system-design-skills의 설계·책임 분리·저장 구조 3개, OpenAI의 PDF·Notebook 2개, Trail of Bits의 속성 기반 테스트 1개입니다. 기존 스킬을 대체하거나 사용자 승인을 생략하지 않습니다.
+
+Matt Pocock의 domain-modeling과 UI UX Pro Max도 [선택표](external-routing.md)에 연결했습니다. UI UX Pro Max는 원문뿐 아니라 검색 코드와 CSV 자료를 포함하며 플러그인 전역 경로 대신 동봉 경로를 사용합니다.

@@ -1,0 +1,28 @@
+{
+  "repository": "mattpocock/skills",
+  "ref": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
+  "license": "MIT",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "git_blob_sha1": "f1dd2c09108dde1a5f56097cee8461b3ea834499"
+    },
+    {
+      "path": "skills/engineering/domain-modeling/SKILL.md",
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "git_blob_sha1": "a4438c6879c517d1a08e2b5fbca049b632688dfe"
+    },
+    {
+      "path": "skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "git_blob_sha1": "9c0b4c7a2e8507c23cbb5e0baa66d81699321cc6"
+    },
+    {
+      "path": "skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "git_blob_sha1": "d7e61f30a9fd8ca70d9ee68f019c2a9ebf2d13f7"
+    }
+  ]
+}

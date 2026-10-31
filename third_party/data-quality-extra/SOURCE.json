@@ -1,0 +1,44 @@
+{
+  "repository": "trailofbits/skills",
+  "repository_url": "https://github.com/trailofbits/skills",
+  "ref": "2be6433b39e009cd2b6fd3be1895f6b1faa5af9a",
+  "license": "CC-BY-SA-4.0",
+  "license_path": "LICENSE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "git_blob_sha1": "3b7b82d0da2db857eda1a798dbd908ea136f07b5"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+      "git_blob_sha1": "1cc39d8d8cba5955bf9c8d7c9a2aef348722a55e"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/references/generating.md",
+      "sha256": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+      "git_blob_sha1": "0133ccd27580a6f68d662807832de67cb1d91514"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/references/interpreting-failures.md",
+      "sha256": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+      "git_blob_sha1": "10aeac48d239da352206b8c49f72ee776e5ca5be"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/references/libraries.md",
+      "sha256": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+      "git_blob_sha1": "6b9964a46c014f5ecee78cd356fb0bdc4cbcd830"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/references/refactoring.md",
+      "sha256": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+      "git_blob_sha1": "d4be7fb1fd4f00e53fde109254dd6dc937248011"
+    },
+    {
+      "path": "plugins/property-based-testing/skills/property-based-testing/references/reviewing.md",
+      "sha256": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774",
+      "git_blob_sha1": "a2ca783a7dabaece9e383f0ace972bb4fe2f7881"
+    }
+  ]
+}

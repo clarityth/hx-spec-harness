@@ -1,0 +1,93 @@
+{
+  "repository": "openai/skills",
+  "repository_url": "https://github.com/openai/skills",
+  "ref": "49f948faa9258a0c61caceaf225e179651397431",
+  "license": "Apache-2.0",
+  "license_path": "skills/.curated/pdf/LICENSE.txt",
+  "license_paths": [
+    "skills/.curated/pdf/LICENSE.txt",
+    "skills/.curated/jupyter-notebook/LICENSE.txt"
+  ],
+  "files": [
+    {
+      "path": "skills/.curated/pdf/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352"
+    },
+    {
+      "path": "skills/.curated/pdf/SKILL.md",
+      "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "git_blob_sha1": "fd5d56058f10202e4f50a30bc2906f39696024a1"
+    },
+    {
+      "path": "skills/.curated/pdf/agents/openai.yaml",
+      "sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887",
+      "git_blob_sha1": "fe2876a68ad5cdbf6d045396e18fba9b8919e1bf"
+    },
+    {
+      "path": "skills/.curated/pdf/assets/pdf.png",
+      "sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "git_blob_sha1": "dd16ba283f6056cfe99cc3d36612d3b8cd79e00d"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/SKILL.md",
+      "sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+      "git_blob_sha1": "e1d1748cac9e9313c8229763751714628d1f6853"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/agents/openai.yaml",
+      "sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c",
+      "git_blob_sha1": "8832dea0a6e64f173f09e77f690dada6a5f73074"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/assets/experiment-template.ipynb",
+      "sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300",
+      "git_blob_sha1": "a4a0323e567a772456395aee29494b1babee622c"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/assets/jupyter-small.svg",
+      "sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250",
+      "git_blob_sha1": "472d07fdfca9a558325cc8eaf91e861a44843b3e"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/assets/jupyter.png",
+      "sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb",
+      "git_blob_sha1": "51cdf7d3bba730eda85a26a87d1ee65c14da97f0"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/assets/tutorial-template.ipynb",
+      "sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765",
+      "git_blob_sha1": "7001309593a8c10fa34d68870c3a558348f76216"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/references/experiment-patterns.md",
+      "sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91",
+      "git_blob_sha1": "2d5093b256f328dabb89de16822286c5f2f4dda4"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/references/notebook-structure.md",
+      "sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06",
+      "git_blob_sha1": "681d36f53d55cb089b1d815bacaac9b363f76fa4"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/references/quality-checklist.md",
+      "sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136",
+      "git_blob_sha1": "5482f282845271ac1614a33135000e18f54d95aa"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/references/tutorial-patterns.md",
+      "sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659",
+      "git_blob_sha1": "2a360b089b904299f463f88b5cdae0ea9bdb1123"
+    },
+    {
+      "path": "skills/.curated/jupyter-notebook/scripts/new_notebook.py",
+      "sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+      "git_blob_sha1": "0aba209a63c9744e7eeca5a59a12135b387e5229"
+    }
+  ]
+}

@@ -12,3 +12,5 @@ process의 종료 0과 behavior의 기대값 충족은 구분합니다. 실행 0
 manual 요구는 사용자가 실제 관찰했다고 보고했을 때만 observe에 남깁니다. 이 기록은 인증되지 않은 자기보고입니다. 자동 검사, 사용자 관찰과 미확인을 구분합니다. handoff.md의 명령, 파일 링크와 결과 설명을 실제 근거에 대조합니다. 문체만 다듬고 사실 확인을 생략하지 않습니다.
 
 웹 화면, SQL, 명시적인 보안 요청 또는 기존 코드의 테스트 공백이 있으면 `.agents/skills/hx-specialist/SKILL.md`에서 해당 항목만 선택해 읽습니다.
+
+리뷰가 필요한 변경은 `.harness-kit/docs/external-routing.md`의 리뷰 원문을 읽습니다. 파싱·변환의 불변조건이 있으면 property-based-testing 적용을 검토합니다.

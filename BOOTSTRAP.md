@@ -26,6 +26,8 @@ python3 "TOOLKIT/hx.py" --root "PROJECT" install
 
 프로젝트 폴더에서 `python3 .harness-kit/hx.py --root . doctor`를 실행합니다. `.harness`가 있으면 `status`와 `plan`으로 이어갑니다. 새 작업에서만 공식 안내로 확인한 남은 구현 시간을 넣어 `init --minutes N`을 실행합니다. 로컬 타이머를 공식 타이머와 혼동하지 않습니다.
 
+[과제별 선택 안내](docs/task-routing.md)에서 실제 입력과 기술에 맞는 절차만 선택합니다.
+
 원문의 목표, 현재 확보한 근거, 결과를 바꾸는 미확인과 다음 행동을 짧게 보고합니다. 질문 채널이 제공되면 [질문 양식](templates/stakeholder-questions.md)을 사용해 사용자에게 전달할 질문을 고릅니다. 담당자 답변과 사용자 승인을 만들어 기록하지 않습니다.
 
 Codex가 계약과 계획을 작성하고 사용자에게 읽기 쉬운 계획을 제시합니다. 실제 계획의 명시적 승인 뒤 구현을 시작합니다. [운영 순서](docs/session-playbook.md)에 따라 구현, 관련 검사, 설명과 인계를 진행합니다.
